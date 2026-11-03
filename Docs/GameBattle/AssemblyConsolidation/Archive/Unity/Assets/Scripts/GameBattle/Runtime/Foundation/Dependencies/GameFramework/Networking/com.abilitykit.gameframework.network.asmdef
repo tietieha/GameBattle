@@ -1,0 +1,17 @@
+{
+  "name": "AbilityKit.GameFramework.Network",
+  "rootNamespace": "AbilityKit.GameFramework.Network",
+  "references": [
+    "AbilityKit.GameFramework",
+    "AbilityKit.Network.Runtime"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": true
+}

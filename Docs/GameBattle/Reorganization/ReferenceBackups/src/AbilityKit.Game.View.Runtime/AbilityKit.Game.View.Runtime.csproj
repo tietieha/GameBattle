@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>AbilityKit.Game.View</RootNamespace>
+    <AssemblyName>AbilityKit.Game.View.Runtime</AssemblyName>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);CS1591</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Presentation/Client/Flow/PhaseActionCatalog.cs;../../Unity/Assets/Scripts/GameBattle/Presentation/Client/Flow/PhaseContracts.cs;../../Unity/Assets/Scripts/GameBattle/Presentation/Client/Flow/PhaseFeatureCatalog.cs;../../Unity/Assets/Scripts/GameBattle/Presentation/Client/Flow/PhaseFeatureHost.cs;../../Unity/Assets/Scripts/GameBattle/Presentation/Client/Flow/PhaseFeaturePlan.cs;../../Unity/Assets/Scripts/GameBattle/Presentation/Client/Flow/PhaseStateFeatureBinding.cs;../../Unity/Assets/Scripts/GameBattle/Presentation/Client/Flow/PhaseStateFeatureBindingFactory.cs;../../Unity/Assets/Scripts/GameBattle/Presentation/Client/Flow/PhaseStateFeatureRegistry.cs;../../Unity/Assets/Scripts/GameBattle/Presentation/Client/Flow/PhaseStateFeatureSpec.cs;../../Unity/Assets/Scripts/GameBattle/Presentation/Client/Flow/PhaseStateFeatureValidator.cs;../../Unity/Assets/Scripts/GameBattle/Presentation/Client/Flow/PhaseStateMachineSpec.cs;../../Unity/Assets/Scripts/GameBattle/Presentation/Client/Flow/PhaseStateMachineValidator.cs;../../Unity/Assets/Scripts/GameBattle/Presentation/Client/Flow/PhaseSwitchFlowCatalog.cs;../../Unity/Assets/Scripts/GameBattle/Presentation/Client/Foundation/PooledList.cs;../../Unity/Assets/Scripts/GameBattle/Presentation/Client/Foundation/SubscriptionGroup.cs;../../Unity/Assets/Scripts/GameBattle/Presentation/Client/Foundation/ViewFrameworkPools.cs;../../Unity/Assets/Scripts/GameBattle/Presentation/Client/Loading/ClientLoadingPipeline.cs;../../Unity/Assets/Scripts/GameBattle/Presentation/Client/Modules/FeatureModuleContext.cs;../../Unity/Assets/Scripts/GameBattle/Presentation/Client/Modules/IGameModule.cs;../../Unity/Assets/Scripts/GameBattle/Presentation/Client/Modules/ModuleHost.cs;../../Unity/Assets/Scripts/GameBattle/Presentation/Client/Presentation/PresentationFacade.cs;../../Unity/Assets/Scripts/GameBattle/Presentation/Client/Presentation/ViewAdapterContracts.cs;../../Unity/Assets/Scripts/GameBattle/Presentation/Client/Presentation/ViewContracts.cs;../../Unity/Assets/Scripts/GameBattle/Presentation/Client/Presentation/ViewRenderBackends.cs;../../Unity/Assets/Scripts/GameBattle/Presentation/Client/Presentation/ViewStatePrimitives.cs;../../Unity/Assets/Scripts/GameBattle/Presentation/Client/Loading/Assets/BattleAssetLease.cs;../../Unity/Assets/Scripts/GameBattle/Presentation/Client/Loading/Assets/BattleAssetLoadService.cs;../../Unity/Assets/Scripts/GameBattle/Presentation/Client/Loading/Assets/BattleAssetManifest.cs;../../Unity/Assets/Scripts/GameBattle/Presentation/Client/Loading/Assets/IBattleAssetLease.cs;../../Unity/Assets/Scripts/GameBattle/Presentation/Client/Loading/Assets/IBattleAssetLoadService.cs"/>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AbilityKit.Core\AbilityKit.Core.csproj"/>
+  </ItemGroup>
+</Project>

@@ -10,7 +10,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="../../Unity/Packages/com.abilitykit.continuous/Runtime/**/*.cs"
-             Exclude="../../Unity/Packages/com.abilitykit.continuous/Runtime/**/*.asmdef" />
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Runtime/Effect/Continuous/ContinuousEndReason.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Effect/Continuous/ContinuousPolicies.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Effect/Continuous/ContinuousState.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Effect/Continuous/DefaultContinuousManager.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Effect/Continuous/IContinuous.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Effect/Continuous/IContinuousConfig.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Effect/Continuous/IContinuousManager.cs"/>
   </ItemGroup>
 </Project>

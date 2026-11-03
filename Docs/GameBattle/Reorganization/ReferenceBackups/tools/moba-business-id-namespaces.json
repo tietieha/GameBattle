@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "authorityRoot": "Unity/Assets/Scripts/GameBattle/Examples/Moba/Resources",
+  "legacyIdMax": 9999999,
+  "namespaces": [
+    {
+      "name": "skill-family",
+      "description": "Skills and their intentionally aligned flow, effect, buff, parameter, passive, continuous-tag, and skill-trigger IDs.",
+      "min": 10000000,
+      "max": 19999999,
+      "allowSameIdAcrossSources": true,
+      "sources": [
+        { "path": "luban/moba/skills.json", "shape": "array", "idProperty": "Id" },
+        { "path": "moba/skill_flows.json", "shape": "array", "idProperty": "Id" },
+        { "path": "luban/moba/buffs.json", "shape": "array", "idProperty": "Id" },
+        { "path": "luban/moba/passive_skills.json", "shape": "array", "idProperty": "Id" },
+        { "path": "luban/moba/skill_level_tables.json", "shape": "array", "idProperty": "Id" },
+        { "path": "luban/moba/continuous_processes.json", "shape": "array", "idProperty": "Id" },
+        { "path": "luban/moba/continuous_tag_templates.json", "shape": "array", "idProperty": "Id" },
+        { "path": "ability/ability_trigger_plans.json", "shape": "trigger-aggregate", "idProperty": "TriggerId" }
+      ]
+    },
+    {
+      "name": "projectile",
+      "description": "Projectile definitions.",
+      "min": 30000000,
+      "max": 30999999,
+      "allowSameIdAcrossSources": false,
+      "sources": [
+        { "path": "luban/moba/projectiles.json", "shape": "array", "idProperty": "Id" }
+      ]
+    },
+    {
+      "name": "projectile-launcher",
+      "description": "Projectile launcher definitions.",
+      "min": 31000000,
+      "max": 31999999,
+      "allowSameIdAcrossSources": false,
+      "sources": [
+        { "path": "luban/moba/projectile_launchers.json", "shape": "array", "idProperty": "Id" }
+      ]
+    },
+    {
+      "name": "aoe",
+      "description": "Area-of-effect definitions.",
+      "min": 40000000,
+      "max": 49999999,
+      "allowSameIdAcrossSources": false,
+      "sources": [
+        { "path": "luban/moba/aoes.json", "shape": "array", "idProperty": "Id" }
+      ]
+    },
+    {
+      "name": "search-query",
+      "description": "Target search query templates.",
+      "min": 50000000,
+      "max": 59999999,
+      "allowSameIdAcrossSources": false,
+      "sources": [
+        { "path": "luban/moba/search_query_templates.json", "shape": "array", "idProperty": "Id" }
+      ]
+    },
+    {
+      "name": "presentation",
+      "description": "Presentation and VFX-facing templates, excluding reserved preview models.",
+      "min": 90001000,
+      "max": 90009999,
+      "allowSameIdAcrossSources": false,
+      "sources": [
+        { "path": "luban/moba/presentation_templates.json", "shape": "array", "idProperty": "Id" }
+      ]
+    },
+    {
+      "name": "preview-model",
+      "description": "Package-owned preview model resources.",
+      "min": 90000100,
+      "max": 90000199,
+      "allowSameIdAcrossSources": false,
+      "sources": [
+        { "path": "luban/moba/models.json", "shape": "array", "idProperty": "Id" }
+      ]
+    }
+  ]
+}

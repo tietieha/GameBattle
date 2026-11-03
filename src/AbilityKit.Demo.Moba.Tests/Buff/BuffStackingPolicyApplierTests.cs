@@ -1,5 +1,6 @@
 using AbilityKit.Demo.Moba.Components;
 using AbilityKit.Demo.Moba.Config.BattleDemo.MO;
+using BuffStackingApplyOutcome = AbilityKit.Buffs.BuffStackingApplyOutcome;
 using AbilityKit.Demo.Moba.Services.Buffs.Core;
 using AbilityKit.Demo.Moba.Share.Config;
 using Xunit;

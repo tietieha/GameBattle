@@ -11,13 +11,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="../../Unity/Packages/com.abilitykit.world.svelto/Runtime/**/*.cs"
-             Exclude="../../Unity/Packages/com.abilitykit.world.svelto/Runtime/**/*.asmdef" />
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Unity/Entity/Adapters/Svelto/Svelto/ISveltoWorldContext.cs;../../Unity/Assets/Scripts/GameBattle/Unity/Entity/Adapters/Svelto/Svelto/SveltoWorldContext.cs;../../Unity/Assets/Scripts/GameBattle/Unity/Entity/Adapters/Svelto/Svelto/SveltoWorldModule.cs"/>
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="../../src/AbilityKit.World.DI/AbilityKit.World.DI.csproj" />
-    <ProjectReference Include="../../src/AbilityKit.ThirdParty.Svelto/AbilityKit.ThirdParty.Svelto.csproj" />
+    <ProjectReference Include="../../src/AbilityKit.World.DI/AbilityKit.World.DI.csproj"/>
+    <ProjectReference Include="../../src/AbilityKit.ThirdParty.Svelto/AbilityKit.ThirdParty.Svelto.csproj"/>
   </ItemGroup>
 
 </Project>

@@ -3,7 +3,7 @@ param(
     [string]$ProjectPath = "Unity\AbilityKit.Demo.Moba.Runtime.csproj",
 
     [Parameter(Mandatory = $false)]
-    [string]$SourceRoot = "Unity\Packages\com.abilitykit.demo.moba.runtime\Runtime",
+    [string]$SourceRoot = "Unity\Assets\Scripts\GameBattle\Example\Moba\Runtime",
 
     [Parameter(Mandatory = $false)]
     [switch]$Apply

@@ -88,12 +88,12 @@
         {
           "name": "Build framework analyzers",
           "kind": "dotnet-build",
-          "project": "Unity/Packages/com.abilitykit.analyzer/DotNet~/AbilityKit.Analyzer/AbilityKit.Analyzer.csproj"
+          "project": "Unity/Assets/Scripts/GameBattle/Runtime/Battle/Diagnostics/Analysis/DotNet~/AbilityKit.Analyzer/AbilityKit.Analyzer.csproj"
         },
         {
           "name": "Build MOBA source generators and analyzers",
           "kind": "dotnet-build",
-          "project": "Unity/Packages/com.abilitykit.demo.moba.codegen/DotNet~/AbilityKit.Demo.Moba.CodeGen/AbilityKit.Demo.Moba.CodeGen.csproj"
+          "project": "Unity/Assets/Scripts/GameBattle/Example/Moba/Editor/CodeGen/DotNet~/AbilityKit.Demo.Moba.CodeGen/AbilityKit.Demo.Moba.CodeGen.csproj"
         },
         {
           "name": "Validate MOBA CodeGen package ownership",

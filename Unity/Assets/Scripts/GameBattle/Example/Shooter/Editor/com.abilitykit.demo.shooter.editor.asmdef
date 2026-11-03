@@ -1,0 +1,24 @@
+{
+  "name": "AbilityKit.Demo.Shooter.Editor",
+  "rootNamespace": "AbilityKit.Demo.Shooter.Editor",
+  "references": [
+    "AbilityKit.Demo.Shooter.Runtime",
+    "AbilityKit.Demo.Shooter.View.Runtime",
+    "AbilityKit.Demo.Shooter.Share",
+    "AbilityKit.Demo.Common",
+    "GameBattle.Runtime",
+    "AbilityKit.Protocol.Shooter",
+    "GameBattle.Unity"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

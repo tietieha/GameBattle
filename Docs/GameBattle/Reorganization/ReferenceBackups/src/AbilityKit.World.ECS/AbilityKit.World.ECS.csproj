@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>AbilityKit</RootNamespace>
+    <AssemblyName>AbilityKit.World.ECS</AssemblyName>
+    <LangVersion>latest</LangVersion>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <!-- 引用 Packages 目录下的源码 (排除 EntityWorld.cs 和 asmdef) -->
+  <ItemGroup>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Battle/Core/EntityStorage/AbilityKit.World.ECS/Builder/EntityWorldBuilder.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Core/EntityStorage/AbilityKit.World.ECS/Compatibility/ECSCompat.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Core/EntityStorage/AbilityKit.World.ECS/Core/EntityQuery.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Core/EntityStorage/AbilityKit.World.ECS/Core/IComponentRegistry.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Core/EntityStorage/AbilityKit.World.ECS/Core/IECWorld.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Core/EntityStorage/AbilityKit.World.ECS/Core/IEntity.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Core/EntityStorage/AbilityKit.World.ECS/Core/IEntityId.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Core/EntityStorage/AbilityKit.World.ECS/Core/IWorldEventBus.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Core/EntityStorage/AbilityKit.World.ECS/Events/WorldEvents.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Core/EntityStorage/AbilityKit.World.ECS/Impl/ComponentRegistry.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Core/EntityStorage/AbilityKit.World.ECS/Impl/EntityWorld.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Core/EntityStorage/AbilityKit.World.ECS/Impl/WorldEventBus.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Core/EntityStorage/AbilityKit.World.ECS/Internal/Pool.cs"/>
+  </ItemGroup>
+
+  <!-- 本地 .NET 版本文件 -->
+  <ItemGroup>
+    <Compile Include="Impl/EntityWorld.cs"/>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../../src/AbilityKit.Core/AbilityKit.Core.csproj"/>
+    <ProjectReference Include="../../src/AbilityKit.Diagnostics/AbilityKit.Diagnostics.csproj"/>
+  </ItemGroup>
+
+</Project>

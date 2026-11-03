@@ -1,0 +1,279 @@
+{
+  "date": "2026-10-26",
+  "state": "implemented",
+  "routes": [
+    {
+      "from": "Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Effect/Services/Combat/CombatNumberValue.cs",
+      "to": "Unity/Assets/Scripts/GameBattle/Runtime/Effect/Calculation/CombatNumberValue.cs"
+    },
+    {
+      "from": "Unity/Assets/Scripts/GameBattle/Example/Moba/Unity/Presentation/Core/PresentationCueReconciliationController.cs",
+      "to": "Unity/Assets/Scripts/GameBattle/Runtime/Battle/Presentation/PresentationCueReconciliationController.cs"
+    },
+    {
+      "from": "Unity/Assets/Scripts/GameBattle/Example/Moba/Unity/Presentation/Core/PresentationCueViewRegistry.cs",
+      "to": "Unity/Assets/Scripts/GameBattle/Unity/Presentation/Cues/PresentationCueViewRegistry.cs"
+    },
+    {
+      "from": "Unity/Assets/Scripts/GameBattle/Example/Moba/Unity/Presentation/Core/PresentationLifetimePolicy.cs",
+      "to": "Unity/Assets/Scripts/GameBattle/Unity/Presentation/Cues/PresentationLifetimePolicy.cs"
+    },
+    {
+      "from": "Unity/Assets/Scripts/GameBattle/Example/Moba/Unity/Presentation/Core/SessionTickLoopController.cs",
+      "to": "Unity/Assets/Scripts/GameBattle/Unity/Foundation/Driving/SessionTickLoopController.cs"
+    },
+    {
+      "from": "Unity/Assets/Scripts/GameBattle/Example/Moba/Unity/Presentation/Core/BattleSessionTickProjection.cs",
+      "to": "Unity/Assets/Scripts/GameBattle/Unity/Foundation/Driving/BattleSessionTickProjection.cs"
+    }
+  ],
+  "files": [
+    {
+      "from": "Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Effect/Services/Combat/CombatNumberValue.cs",
+      "to": "Unity/Assets/Scripts/GameBattle/Runtime/Effect/Calculation/CombatNumberValue.cs",
+      "sha256": "0b801d844b265ccf15af14cf95f3ea222c344c2b9746a8353adfd8394445ee4c"
+    },
+    {
+      "from": "Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Effect/Services/Combat/CombatNumberValue.cs.meta",
+      "to": "Unity/Assets/Scripts/GameBattle/Runtime/Effect/Calculation/CombatNumberValue.cs.meta",
+      "sha256": "8bd5bdc537bae4a03736f04038a945a8082712ad70b023416b6fe5ba3244f070"
+    },
+    {
+      "from": "Unity/Assets/Scripts/GameBattle/Example/Moba/Unity/Presentation/Core/PresentationCueReconciliationController.cs",
+      "to": "Unity/Assets/Scripts/GameBattle/Runtime/Battle/Presentation/PresentationCueReconciliationController.cs",
+      "sha256": "c64820132f240bbc2bbe9a70e4858802bced52d27ef54617b134f7862bdb6cf4"
+    },
+    {
+      "from": "Unity/Assets/Scripts/GameBattle/Example/Moba/Unity/Presentation/Core/PresentationCueReconciliationController.cs.meta",
+      "to": "Unity/Assets/Scripts/GameBattle/Runtime/Battle/Presentation/PresentationCueReconciliationController.cs.meta",
+      "sha256": "c5b2989928c74fa2d8746f419e6b7e48509371761ea66e0e9a26a0355d6e4800"
+    },
+    {
+      "from": "Unity/Assets/Scripts/GameBattle/Example/Moba/Unity/Presentation/Core/PresentationCueViewRegistry.cs",
+      "to": "Unity/Assets/Scripts/GameBattle/Unity/Presentation/Cues/PresentationCueViewRegistry.cs",
+      "sha256": "a1b4d563ffb30bc5d0809381b28c2b3716239798d7abdfa963354ba8fa5b1ec1"
+    },
+    {
+      "from": "Unity/Assets/Scripts/GameBattle/Example/Moba/Unity/Presentation/Core/PresentationCueViewRegistry.cs.meta",
+      "to": "Unity/Assets/Scripts/GameBattle/Unity/Presentation/Cues/PresentationCueViewRegistry.cs.meta",
+      "sha256": "8be892e3dde058a476d1f36db25ea529f6d3a5f149f803e743df6417a70c3031"
+    },
+    {
+      "from": "Unity/Assets/Scripts/GameBattle/Example/Moba/Unity/Presentation/Core/PresentationLifetimePolicy.cs",
+      "to": "Unity/Assets/Scripts/GameBattle/Unity/Presentation/Cues/PresentationLifetimePolicy.cs",
+      "sha256": "4936f055c30f062c72409121b7674271d7570117397601aab893f3231b8e3010"
+    },
+    {
+      "from": "Unity/Assets/Scripts/GameBattle/Example/Moba/Unity/Presentation/Core/PresentationLifetimePolicy.cs.meta",
+      "to": "Unity/Assets/Scripts/GameBattle/Unity/Presentation/Cues/PresentationLifetimePolicy.cs.meta",
+      "sha256": "b988fd62a25c5e80597c428f27c321c3b938f10465af4ca665752d92b76f6b90"
+    },
+    {
+      "from": "Unity/Assets/Scripts/GameBattle/Example/Moba/Unity/Presentation/Core/SessionTickLoopController.cs",
+      "to": "Unity/Assets/Scripts/GameBattle/Unity/Foundation/Driving/SessionTickLoopController.cs",
+      "sha256": "800ac2d62279ce5f33768317c7f7c47fee4bdf2f62902bd637d92d00b6b1a36a"
+    },
+    {
+      "from": "Unity/Assets/Scripts/GameBattle/Example/Moba/Unity/Presentation/Core/SessionTickLoopController.cs.meta",
+      "to": "Unity/Assets/Scripts/GameBattle/Unity/Foundation/Driving/SessionTickLoopController.cs.meta",
+      "sha256": "7916dedceca9083822759bfc3c554c4915ea0fe0dfdd1aa8e2d35e35f2b9cb29"
+    },
+    {
+      "from": "Unity/Assets/Scripts/GameBattle/Example/Moba/Unity/Presentation/Core/BattleSessionTickProjection.cs",
+      "to": "Unity/Assets/Scripts/GameBattle/Unity/Foundation/Driving/BattleSessionTickProjection.cs",
+      "sha256": "75a5270dcb6a52b2b1e8a1ffed66d18a5fe7fbc1003d087532ccf25b35394e2f"
+    },
+    {
+      "from": "Unity/Assets/Scripts/GameBattle/Example/Moba/Unity/Presentation/Core/BattleSessionTickProjection.cs.meta",
+      "to": "Unity/Assets/Scripts/GameBattle/Unity/Foundation/Driving/BattleSessionTickProjection.cs.meta",
+      "sha256": "c154ff7ec474337834f24783160ce345cebba6e2e4aeb0d84c881cfa3e2c3fc3"
+    },
+    {
+      "from": "Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Buff/State/BuffComponent.cs",
+      "to": "Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Buff/State/BuffComponent.cs",
+      "sha256": "31a75063e01d07beeec02e91648e7aad2ae9d5b99175f89189b6b38d0fd48f66"
+    },
+    {
+      "from": "Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Buff/Services/Buffs/Core/BuffStackingPolicyApplier.cs",
+      "to": "Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Buff/Services/Buffs/Core/BuffStackingPolicyApplier.cs",
+      "sha256": "2e4dd66b7d79038e16b4f4408069ec7798439886ad8c7140d62a04783ac3ff2e"
+    },
+    {
+      "from": "Unity/Assets/Scripts/GameBattle/Example/Foundation/Abstractions/IResourceProvider.cs",
+      "to": "Unity/Assets/Scripts/GameBattle/Example/Foundation/Abstractions/IResourceProvider.cs",
+      "sha256": "b5de1999df86b54e4093637c7d95ec0492a8acded0610573f0653a129560c454"
+    },
+    {
+      "from": "Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Battle/Services/Triggering/PlanActions/Skill/AdjustDamageNumberSchema.cs",
+      "to": "Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Battle/Services/Triggering/PlanActions/Skill/AdjustDamageNumberSchema.cs",
+      "sha256": "e05bed1241831edb1de9329d3db1e9892cbdac439d0b0a26aa2b543a98fa78df"
+    },
+    {
+      "from": "Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Battle/Services/Triggering/PlanActions/Skill/AdjustDamageNumberArgs.cs",
+      "to": "Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Battle/Services/Triggering/PlanActions/Skill/AdjustDamageNumberArgs.cs",
+      "sha256": "d26760fb11fd09a5946fa17ee879bbf5e3330e5e3aa884526669253478f34971"
+    },
+    {
+      "from": "Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Battle/Services/Triggering/PlanActions/Skill/AdjustDamageNumberPlanActionModule.cs",
+      "to": "Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Battle/Services/Triggering/PlanActions/Skill/AdjustDamageNumberPlanActionModule.cs",
+      "sha256": "f7e6a2a97d9a232d1e453af7cdf74c7cb9aaffb9e43f761f77f29490280d7661"
+    },
+    {
+      "from": "Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Effect/Services/Combat/Damage/DamagePipelineModels.cs",
+      "to": "Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Effect/Services/Combat/Damage/DamagePipelineModels.cs",
+      "sha256": "6653751a82a619663bee04687c8d4db5d557006c1336f091136be095e407bc9d"
+    },
+    {
+      "from": "Unity/Assets/Scripts/GameBattle/Example/Moba/Unity/Presentation/Core/AbilityKit.Demo.Moba.Presentation.Core.asmdef",
+      "to": "Unity/Assets/Scripts/GameBattle/Example/Moba/Unity/Presentation/Core/AbilityKit.Demo.Moba.Presentation.Core.asmdef",
+      "sha256": "2bf5058b37c882f4940d1f36d382dc6b5f835912afd12e2a89efeeae6fc57221"
+    },
+    {
+      "from": "src/AbilityKit.Demo.Moba.Tests/CombatNumberValueTests.cs",
+      "to": "src/AbilityKit.Demo.Moba.Tests/CombatNumberValueTests.cs",
+      "sha256": "e40957491444f3efb9b1ff26a4321a0d7a7b96d357d4297d0923be7d18081bf2"
+    },
+    {
+      "from": "src/AbilityKit.Demo.Moba.Tests/Buff/BuffStackingPolicyApplierTests.cs",
+      "to": "src/AbilityKit.Demo.Moba.Tests/Buff/BuffStackingPolicyApplierTests.cs",
+      "sha256": "787c0a1a508f0fd18c2de952cb1936ec9f27f1585b9c41da363232260b2494ca"
+    },
+    {
+      "from": "Unity/Assets/Scripts/GameBattle/Runtime/Battle/Hosting/Extensions/Server/BattleHost/BattleInputBuffer.cs",
+      "to": "Unity/Assets/Scripts/GameBattle/Runtime/Battle/Hosting/Extensions/Server/BattleHost/BattleInputBuffer.cs",
+      "sha256": "132751ee2af4d89ff27819a505b68671cbd6f3d193b153aa2b7add03e004d028"
+    },
+    {
+      "from": "Unity/Assets/Scripts/GameBattle/Example/Moba/Unity/Presentation/Adapter/AbilityKit.Demo.Moba.Presentation.Adapter.asmdef",
+      "to": "Unity/Assets/Scripts/GameBattle/Example/Moba/Unity/Presentation/Adapter/AbilityKit.Demo.Moba.Presentation.Adapter.asmdef",
+      "sha256": "35c1645c0424049cbc961c4726b372af75b9e17c18bfab08ac5710d900855086"
+    },
+    {
+      "from": "Unity/Assets/Scripts/GameBattle/Example/Foundation/Editor/AbilityKit.Samples.Editor.asmdef",
+      "to": "Unity/Assets/Scripts/GameBattle/Example/Foundation/Editor/AbilityKit.Samples.Editor.asmdef",
+      "sha256": "a02d4257b6f9648994bfebd2eea0e458c0bdc50cc40538522090c2890c35a047"
+    },
+    {
+      "from": "Unity/Assets/Scripts/GameBattle/Runtime/Movement/Navigation/Navigation/NavigationWorldFactory.cs",
+      "to": "Unity/Assets/Scripts/GameBattle/Runtime/Movement/Navigation/Navigation/NavigationWorldFactory.cs",
+      "sha256": "e5b06bc2079886380118b6faa99dd89deda4f7d267621e2bdae55973e94399fa"
+    }
+  ],
+  "added": [
+    "Unity/Assets/Scripts/GameBattle/Runtime/Buff/State/BuffState.cs",
+    "Unity/Assets/Scripts/GameBattle/Runtime/Buff/Policies/BuffStackingSettings.cs",
+    "Unity/Assets/Scripts/GameBattle/Runtime/Buff/Policies/BuffStackingPolicyApplier.cs",
+    "Unity/Assets/Scripts/GameBattle/Runtime/Battle/Commands/IBattleCommandSource.cs",
+    "Unity/Assets/Scripts/GameBattle/Runtime/Content/Resources/ITextResourceProvider.cs",
+    "Unity/Assets/Scripts/GameBattle/Unity/Content/Resources/UnityTextResourceProvider.cs"
+  ],
+  "rewritten": [
+    {
+      "file": "Unity/Assets/Scripts/GameBattle/Runtime/Effect/Calculation/CombatNumberValue.cs",
+      "beforeSha256": "0b801d844b265ccf15af14cf95f3ea222c344c2b9746a8353adfd8394445ee4c",
+      "afterSha256": "7bfb8aee71fd56f099ae6b346c6e0b78fe677bca4798bbda78c3c2b234cb1427"
+    },
+    {
+      "file": "Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Buff/State/BuffComponent.cs",
+      "beforeSha256": "31a75063e01d07beeec02e91648e7aad2ae9d5b99175f89189b6b38d0fd48f66",
+      "afterSha256": "1321562c688dce46a122fa0a3f16092cd349cb7061b8e525fbfab65397dc9d73"
+    },
+    {
+      "file": "Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Buff/Services/Buffs/Core/BuffStackingPolicyApplier.cs",
+      "beforeSha256": "2e4dd66b7d79038e16b4f4408069ec7798439886ad8c7140d62a04783ac3ff2e",
+      "afterSha256": "c77018074f89a834cddc96d95e8d3028c3880cb6a9a82ba087c137be2c453e0d"
+    },
+    {
+      "file": "Unity/Assets/Scripts/GameBattle/Example/Foundation/Abstractions/IResourceProvider.cs",
+      "beforeSha256": "b5de1999df86b54e4093637c7d95ec0492a8acded0610573f0653a129560c454",
+      "afterSha256": "b78ce356fc899f49791a93f2c680dfaa8032ac3216c8d19f9411ee1d35977790"
+    },
+    {
+      "file": "Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Battle/Services/Triggering/PlanActions/Skill/AdjustDamageNumberSchema.cs",
+      "beforeSha256": "e05bed1241831edb1de9329d3db1e9892cbdac439d0b0a26aa2b543a98fa78df",
+      "afterSha256": "2b380413b19b063430f9d238963d95eebe5d5a293565b3b3df613590e3fab706"
+    },
+    {
+      "file": "Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Battle/Services/Triggering/PlanActions/Skill/AdjustDamageNumberArgs.cs",
+      "beforeSha256": "d26760fb11fd09a5946fa17ee879bbf5e3330e5e3aa884526669253478f34971",
+      "afterSha256": "ae6619854fd2f4ccba15fc53ad747ed0c2025f839373e82f1486a352fbee656e"
+    },
+    {
+      "file": "Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Battle/Services/Triggering/PlanActions/Skill/AdjustDamageNumberPlanActionModule.cs",
+      "beforeSha256": "f7e6a2a97d9a232d1e453af7cdf74c7cb9aaffb9e43f761f77f29490280d7661",
+      "afterSha256": "d737f97633b85dae87be00b213d9a6c270c2d8c507e6363f6743185e4412e6c0"
+    },
+    {
+      "file": "Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Effect/Services/Combat/Damage/DamagePipelineModels.cs",
+      "beforeSha256": "6653751a82a619663bee04687c8d4db5d557006c1336f091136be095e407bc9d",
+      "afterSha256": "30b68f9b71e0e9d235874b9e9dfc690b52172b9041c7e1ac441dd0783ff6c006"
+    },
+    {
+      "file": "Unity/Assets/Scripts/GameBattle/Example/Moba/Unity/Presentation/Core/AbilityKit.Demo.Moba.Presentation.Core.asmdef",
+      "beforeSha256": "2bf5058b37c882f4940d1f36d382dc6b5f835912afd12e2a89efeeae6fc57221",
+      "afterSha256": "af20f1b9237eb2ebe50f98eef177b9a68eedf18f9e45a432add579aa68c88465"
+    },
+    {
+      "file": "src/AbilityKit.Demo.Moba.Tests/CombatNumberValueTests.cs",
+      "beforeSha256": "e40957491444f3efb9b1ff26a4321a0d7a7b96d357d4297d0923be7d18081bf2",
+      "afterSha256": "7b0ff5793e50d52f467d302749e34d433b919d419552630c031848293172fc33"
+    },
+    {
+      "file": "src/AbilityKit.Demo.Moba.Tests/Buff/BuffStackingPolicyApplierTests.cs",
+      "beforeSha256": "787c0a1a508f0fd18c2de952cb1936ec9f27f1585b9c41da363232260b2494ca",
+      "afterSha256": "c644b6b59f5f9bcec94649eb2c7a66db002fa76c079113d5ecb41049bdb40124"
+    },
+    {
+      "file": "Unity/Assets/Scripts/GameBattle/Runtime/Battle/Hosting/Extensions/Server/BattleHost/BattleInputBuffer.cs",
+      "beforeSha256": "132751ee2af4d89ff27819a505b68671cbd6f3d193b153aa2b7add03e004d028",
+      "afterSha256": "d475ad62fb2e88679c55e9814eaa2441911d690b866779c0d22acf874ed13a89"
+    },
+    {
+      "file": "Unity/Assets/Scripts/GameBattle/Example/Moba/Unity/Presentation/Adapter/AbilityKit.Demo.Moba.Presentation.Adapter.asmdef",
+      "beforeSha256": "35c1645c0424049cbc961c4726b372af75b9e17c18bfab08ac5710d900855086",
+      "afterSha256": "5313832c93e83caf0f3f7377cfc640615e6be688219ee067bbcbf3a50e9cf6fd"
+    },
+    {
+      "file": "Unity/Assets/Scripts/GameBattle/Example/Foundation/Editor/AbilityKit.Samples.Editor.asmdef",
+      "beforeSha256": "a02d4257b6f9648994bfebd2eea0e458c0bdc50cc40538522090c2890c35a047",
+      "afterSha256": "6d20c532e16925a33d6c6df869485637979e2351e7b577928cf5c7a2668670ef"
+    },
+    {
+      "file": "Unity/Assets/Scripts/GameBattle/Runtime/Movement/Navigation/Navigation/NavigationWorldFactory.cs",
+      "beforeSha256": "e5b06bc2079886380118b6faa99dd89deda4f7d267621e2bdae55973e94399fa",
+      "afterSha256": "85a9ce8b338f1c0408cc2e2b01c42399618d17c48359e41cde2488d7fa17f93a"
+    }
+  ],
+  "created": [
+    {
+      "file": "Unity/Assets/Scripts/GameBattle/Runtime/Buff/State/BuffState.cs",
+      "sha256": "dc1886bc6b41be914bfb1d585336100dcddfdfbe1e8984469e52de55d4f98434",
+      "metadataSha256": "d46d8d1b4c58f65b22ecd9d8964e08118b9ceb624b6f11949bdca79c71f59681"
+    },
+    {
+      "file": "Unity/Assets/Scripts/GameBattle/Runtime/Buff/Policies/BuffStackingSettings.cs",
+      "sha256": "0571a32719d5c420b1e527779f0172adcb90fcff27cf8b451bd849771c4dae85",
+      "metadataSha256": "a604152c608882a241aa86664851fdd11c5e1163258c05f1c4d73dabfc8b9e39"
+    },
+    {
+      "file": "Unity/Assets/Scripts/GameBattle/Runtime/Buff/Policies/BuffStackingPolicyApplier.cs",
+      "sha256": "b2addcb71beb052808344d9f591dfbb03de953305d35ad14940a77c1bbf6f917",
+      "metadataSha256": "ee15f307321558ee070d579cb062bf1ef45a357d85ec1718e6bc39b9fd56d9db"
+    },
+    {
+      "file": "Unity/Assets/Scripts/GameBattle/Runtime/Battle/Commands/IBattleCommandSource.cs",
+      "sha256": "e238d76c4737aa9e6a144445cf24467d2a856649560bfd85750fafe4343fe95e",
+      "metadataSha256": "31ac44b36e3ec955d28e9b20413fe4430a14eb5fc38b871b92bb06f26c558b77"
+    },
+    {
+      "file": "Unity/Assets/Scripts/GameBattle/Runtime/Content/Resources/ITextResourceProvider.cs",
+      "sha256": "82bf4a3c54033b82d872609c92cf7ed59846f77a2fb71df68408cff615247dda",
+      "metadataSha256": "af881c2f2fab0756ddce330100de16f42ba6285aef790bc742d5bcdeac4e46f0"
+    },
+    {
+      "file": "Unity/Assets/Scripts/GameBattle/Unity/Content/Resources/UnityTextResourceProvider.cs",
+      "sha256": "0b2fe9f945039aa8e5225770b6fb8d26b8324832a574ddec2a7f4991cd479486",
+      "metadataSha256": "1742d6f408c4493ed5c73f6e88d77e18cb920053857e4be0593c847830c1c90b"
+    }
+  ]
+}

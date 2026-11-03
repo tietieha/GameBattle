@@ -12,16 +12,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="../../Unity/Packages/com.abilitykit.world.snapshot/Runtime/**/*.cs" 
-             Exclude="../../Unity/Packages/com.abilitykit.world.snapshot/Runtime/**/*.asmdef" />
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Synchronization/Snapshot/SnapshotRouting/FrameSnapshotDispatcher.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Synchronization/Snapshot/SnapshotRouting/ISnapshotCmdHandlerRegistry.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Synchronization/Snapshot/SnapshotRouting/ISnapshotDecoderRegistry.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Synchronization/Snapshot/SnapshotRouting/ISnapshotDispatcher.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Synchronization/Snapshot/SnapshotRouting/ISnapshotPipelineStageRegistry.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Synchronization/Snapshot/SnapshotRouting/ISnapshotRegistry.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Synchronization/Snapshot/SnapshotRouting/SnapshotCmdHandler.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Synchronization/Snapshot/SnapshotRouting/SnapshotPipeline.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Synchronization/Snapshot/SnapshotRouting/SnapshotRegistryAttribute.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Synchronization/Snapshot/SnapshotRouting/SnapshotRegistryCatalog.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Synchronization/Snapshot/SnapshotRouting/SnapshotRoutingBuilder.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Synchronization/Snapshot/SnapshotRouting/SnapshotRoutingInstance.cs"/>
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="../../src/AbilityKit.Core/AbilityKit.Core.csproj" />
-    <ProjectReference Include="../../src/AbilityKit.Host/AbilityKit.Host.csproj" />
-    <ProjectReference Include="../../src/AbilityKit.World.DI/AbilityKit.World.DI.csproj" />
-    <ProjectReference Include="../../src/AbilityKit.World.FrameSync/AbilityKit.World.FrameSync.csproj" />
-    <ProjectReference Include="../../src/AbilityKit.World.NetworkFragments/AbilityKit.World.NetworkFragments.csproj" />
+    <ProjectReference Include="../../src/AbilityKit.Core/AbilityKit.Core.csproj"/>
+    <ProjectReference Include="../../src/AbilityKit.Host/AbilityKit.Host.csproj"/>
+    <ProjectReference Include="../../src/AbilityKit.World.DI/AbilityKit.World.DI.csproj"/>
+    <ProjectReference Include="../../src/AbilityKit.World.FrameSync/AbilityKit.World.FrameSync.csproj"/>
+    <ProjectReference Include="../../src/AbilityKit.World.NetworkFragments/AbilityKit.World.NetworkFragments.csproj"/>
   </ItemGroup>
 
 </Project>

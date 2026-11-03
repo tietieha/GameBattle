@@ -1,0 +1,20 @@
+{
+  "name": "AbilityKit.World.Snapshot",
+  "rootNamespace": "AbilityKit",
+  "references": [
+    "AbilityKit.Core",
+    "AbilityKit.Host",
+    "AbilityKit.World.DI",
+    "AbilityKit.World.FrameSync",
+    "AbilityKit.World.NetworkFragments"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": true
+}

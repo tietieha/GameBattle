@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AbilityKitStable>true</AbilityKitStable>
+    <Nullable>enable</Nullable>
+    <RootNamespace>AbilityKit.Modifiers</RootNamespace>
+    <AssemblyName>AbilityKit.Modifiers</AssemblyName>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <!-- 引用 Packages 目录下的源码 -->
+  <ItemGroup>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Battle/Actor/Modifiers/Core/ModifierKey.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Actor/Modifiers/Core/Data/CustomModifierData.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Actor/Modifiers/Core/Data/ModifierBinaryCodec.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Actor/Modifiers/Core/Data/ModifierData.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Actor/Modifiers/Core/Data/ModifierLifecycle.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Actor/Modifiers/Core/Data/ModifierResult.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Actor/Modifiers/Core/Engine/ModifierCacheAndCore.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Actor/Modifiers/Core/Engine/ModifierCalculator.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Actor/Modifiers/Core/Engine/OperatorComposer.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Actor/Modifiers/Core/Enums/ModifierComposer.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Actor/Modifiers/Core/Enums/ModifierOp.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Actor/Modifiers/Core/Examples/ModifierExamples.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Actor/Modifiers/Core/Handler/IModifierHandler.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Actor/Modifiers/Core/Handler/ModifierHandlers.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Actor/Modifiers/Core/Source/IValueSource.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Actor/Modifiers/Core/Source/MagnitudeModifier.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Actor/Modifiers/Core/Source/MagnitudeSource.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Actor/Modifiers/Core/Stacking/ModifierStacking.cs"/>
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- 衰减曲线的 exp/ln 走 DeterministicMathBridge（float 进出、定点内核） -->
+    <ProjectReference Include="../AbilityKit.Core/AbilityKit.Core.csproj"/>
+  </ItemGroup>
+</Project>

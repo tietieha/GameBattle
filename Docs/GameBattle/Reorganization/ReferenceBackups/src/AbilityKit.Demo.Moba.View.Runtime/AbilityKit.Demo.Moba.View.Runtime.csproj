@@ -1,0 +1,104 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);CS1591</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Examples/Shared/Rooms/DemoRoomDirectory.cs"/>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Gameplay/Moba/Client/AssemblyInfo.cs"/>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Gameplay/Moba/Client/Game/App/Flow/Boot/Lobby/FormalLobbyCommandCoordinator.cs"/>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Gameplay/Moba/Client/Game/App/Flow/Boot/Lobby/FormalLobbyDecision.cs"/>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Gameplay/Moba/Client/Game/App/Flow/Boot/Lobby/FormalLobbyPresentationSnapshot.cs"/>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Gameplay/Moba/Client/Game/App/Flow/Boot/Lobby/FormalLobbyScreenSnapshot.cs"/>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Gameplay/Moba/Client/Game/App/Flow/Boot/Lobby/FormalLobbyRuntime.cs"/>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Gameplay/Moba/Client/Game/App/Flow/Boot/Lobby/FormalLobbyPresenter.cs"/>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Gameplay/Moba/Client/Game/App/Flow/Boot/Lobby/LobbyAutomationPolicy.cs"/>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Gameplay/Moba/Client/Game/App/Flow/Boot/Lobby/LobbyNoticeFormatter.cs"/>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Gameplay/Moba/Client/Game/App/Flow/Core/Multiplayer/ILobbyRoomCommandPort.cs"/>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Gameplay/Moba/Client/Game/App/Flow/Core/Multiplayer/MultiplayerRoomFlowController.cs"/>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Gameplay/Moba/Client/Game/App/Flow/Core/Multiplayer/MultiplayerRoomFlowContracts.cs"/>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Gameplay/Moba/Client/Game/App/Flow/Core/Multiplayer/MultiplayerRoomStageRuntime.cs"/>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Gameplay/Moba/Client/Game/App/Flow/Core/Multiplayer/MultiplayerAssetLoadingRuntime.cs"/>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Gameplay/Moba/Client/Game/App/Flow/ClientRoomSnapshotProvider.cs"/>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Gameplay/Moba/Client/Game/App/Flow/ClientRoomPushSynchronizer.cs"/>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Gameplay/Moba/Client/Game/App/Flow/GatewayMultiplayerRoomSession.cs"/>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Gameplay/Moba/Client/Game/App/Flow/GatewayRoomMembership.cs"/>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Gameplay/Moba/Client/Game/App/Flow/GatewayRoomProtocolMapper.cs"/>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Gameplay/Moba/Client/Game/App/Flow/MobaReliableBattleEventCheckpointStore.cs"/>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Gameplay/Moba/Client/Game/App/Flow/MobaRoomGatewaySessionClient.cs"/>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Gameplay/Moba/Client/Game/App/Flow/MultiplayerBattleAssetLoader.cs"/>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Integration/Hosting/Client/Moba/Session/Features/Gateway/IGatewayRoomClient.cs"/>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Integration/Hosting/Client/Moba/Gateway/GatewayRoomClient.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Hosting/Client/Moba/Gateway/GatewayRoomClient.LoadingOperations.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Hosting/Client/Moba/Gateway/GatewayRoomClient.RoomOperations.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Hosting/Client/Moba/Gateway/GatewayRoomClient.StateSync.cs"/>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Integration/Hosting/Client/Moba/Gateway/BattleInputCommandSequence.cs"/>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Integration/Hosting/Client/Moba/Gateway/GatewayRoomResponseMapper.cs"/>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Integration/Hosting/Client/Moba/Gateway/GatewayRoomTransportAdapter.cs"/>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Integration/Hosting/Client/Moba/Gateway/GatewayRoomWireProtocolClient.cs"/>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Integration/Hosting/Client/Moba/Gateway/GatewayRoomModels.cs"/>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Integration/Hosting/Client/Moba/Gateway/NetworkTransportOptionsFactory.cs"/>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Integration/Hosting/Client/Moba/Gateway/GatewayRoomOpCodes.cs"/>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Integration/Hosting/Client/Moba/Gateway/Room/ClientRoomSnapshot.cs"/>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Integration/Hosting/Client/Moba/Gateway/Room/ClientRoomSnapshotMapper.cs"/>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Integration/Hosting/Client/Moba/Gateway/Room/ClientRoomSnapshotAssetSource.cs"/>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Integration/Hosting/Client/Moba/Gateway/Room/ClientRoomStore.cs"/>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Presentation/Shared/Context/ReferenceBindingOwner.cs"/>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Presentation/Shared/Assets/IBattleAssetManifestSource.cs"/>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Presentation/Shared/Assets/BattleAssetManifestResolver.cs"/>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Presentation/Shared/Modules/IGameModule.cs"/>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Presentation/Shared/Modules/ModuleHost.cs"/>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Presentation/Moba/View/MobaBattleViewBatch.cs"/>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Integration/Networking/Moba/Replication/MobaRemoteSnapshotSample.cs"/>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Integration/Networking/Moba/Replication/MobaSnapshotAdmission.cs"/>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Integration/Networking/Moba/Replication/MobaReliableBattleEventCursor.cs"/>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Integration/Networking/Moba/Replication/MobaSynchronizationHealthEvaluator.cs"/>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Integration/Networking/Moba/Replication/MobaRemoteInterpolationPlayback.cs"/>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Integration/Networking/Moba/Replication/MobaClientAuthoritativeInterpolationSyncController.cs"/>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Integration/Networking/Moba/Replication/MobaClientReplicationPipeline.cs"/>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Integration/Networking/Moba/Replication/MobaAuthoritativeSnapshotState.cs"/>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Integration/Networking/Moba/Replication/CharacterHfsmGatewayStateImporter.cs"/>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Integration/Hosting/Client/Moba/Session/Features/Net/BattleReplicationRuntime.cs"/>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Gameplay/Moba/Client/Game/Battle/Bootstrap/BattleModes.cs"/>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Gameplay/Moba/Client/Game/Battle/Bootstrap/BattleStartPlan.cs"/>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Gameplay/Moba/Client/Game/Battle/Bootstrap/BattleStartPlanOptions.cs"/>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Gameplay/Moba/Client/Game/Battle/Bootstrap/BattleStartPlanBuilder.cs"/>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Gameplay/Moba/Client/Game/Battle/Bootstrap/BattleStartPlanValidator.cs"/>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Integration/Hosting/Client/Moba/Session/Features/Sim/SessionSimRuntimeTuning.cs"/>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Integration/Hosting/Client/Moba/Session/Features/Controllers/SessionStartupTaskOwner.cs"/>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Gameplay/Moba/Client/Game/Battle/Debug/BattleDebugEntityId.cs"/>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Gameplay/Moba/Client/Game/Battle/Debug/InputSubmissionStatsSnapshot.cs"/>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Gameplay/Moba/Client/Game/Battle/Debug/InputSubmissionStatsProvider.cs"/>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Presentation/Moba/Features/Settlement/BattleEndSettlementCollector.cs"/>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Presentation/Moba/Hud/Skills/BattleHudSkillFailureFeed.cs"/>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Tests/Runtime/MobaClient/MobaDemoHarnessCarrier.cs"/>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Tests/Runtime/MobaClient/MobaVirtualFrameCarrier.cs"/>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Tests/Runtime/MobaClient/MobaBattleScenarioPredictionRunner.cs"/>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Tests/Runtime/MobaClient/MobaPredictionScenarioBackends.cs"/>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Integration/Hosting/Client/Moba/Replay/BattleReplayManifest.cs"/>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../AbilityKit.Demo.Moba.Presentation.Adapter/AbilityKit.Demo.Moba.Presentation.Adapter.csproj"/>
+    <ProjectReference Include="../AbilityKit.Demo.Moba.Presentation.Contracts/AbilityKit.Demo.Moba.Presentation.Contracts.csproj"/>
+    <ProjectReference Include="../AbilityKit.Demo.Moba.Presentation.Core/AbilityKit.Demo.Moba.Presentation.Core.csproj"/>
+    <ProjectReference Include="../AbilityKit.Demo.Moba.Presentation.ProtocolAdapter/AbilityKit.Demo.Moba.Presentation.ProtocolAdapter.csproj"/>
+    <ProjectReference Include="../AbilityKit.Demo.Moba.Presentation.SnapshotAdapter/AbilityKit.Demo.Moba.Presentation.SnapshotAdapter.csproj"/>
+    <ProjectReference Include="../AbilityKit.Game.View.Runtime/AbilityKit.Game.View.Runtime.csproj"/>
+    <ProjectReference Include="../AbilityKit.Demo.Moba.Environment/AbilityKit.Demo.Moba.Environment.csproj"/>
+    <ProjectReference Include="../AbilityKit.Scenario/AbilityKit.Scenario.csproj"/>
+    <ProjectReference Include="../AbilityKit.Demo.Moba.Core/AbilityKit.Demo.Moba.Core.csproj"/>
+    <ProjectReference Include="../AbilityKit.Host.Extension/AbilityKit.Host.Extension.csproj"/>
+    <ProjectReference Include="../AbilityKit.Demo.Moba.Host/AbilityKit.Demo.Moba.Host.csproj"/>
+    <ProjectReference Include="../AbilityKit.Network.Runtime/AbilityKit.Network.Runtime.csproj"/>
+    <ProjectReference Include="../AbilityKit.Demo.Common/AbilityKit.Demo.Common.csproj"/>
+    <ProjectReference Include="../AbilityKit.Network.Room/AbilityKit.Network.Room.csproj"/>
+    <ProjectReference Include="../AbilityKit.Network.Client/AbilityKit.Network.Client.csproj"/>
+    <ProjectReference Include="../AbilityKit.Network.Sdk/AbilityKit.Network.Sdk.csproj"/>
+    <ProjectReference Include="../AbilityKit.Record/AbilityKit.Record.csproj"/>
+    <ProjectReference Include="../AbilityKit.Protocol.Moba/AbilityKit.Protocol.Moba.csproj"/>
+    <ProjectReference Include="../AbilityKit.Protocol.Room/AbilityKit.Protocol.Room.csproj"/>
+    <ProjectReference Include="../AbilityKit.World.FrameSync/AbilityKit.World.FrameSync.csproj"/>
+  </ItemGroup>
+</Project>

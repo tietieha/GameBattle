@@ -11,13 +11,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="../../Unity/Packages/com.abilitykit.network.transport.websocket/Runtime/**/*.cs"
-             Exclude="../../Unity/Packages/com.abilitykit.network.transport.websocket/Runtime/**/*.asmdef" />
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Networking/Transport/WebSocket/Transport/WebSocketTransport.cs"/>
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="../AbilityKit.Core/AbilityKit.Core.csproj" />
-    <ProjectReference Include="../AbilityKit.Network.Runtime/AbilityKit.Network.Runtime.csproj" />
+    <ProjectReference Include="../AbilityKit.Core/AbilityKit.Core.csproj"/>
+    <ProjectReference Include="../AbilityKit.Network.Runtime/AbilityKit.Network.Runtime.csproj"/>
   </ItemGroup>
 
 </Project>

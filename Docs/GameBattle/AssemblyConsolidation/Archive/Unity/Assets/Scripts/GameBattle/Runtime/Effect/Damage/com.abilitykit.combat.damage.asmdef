@@ -1,0 +1,19 @@
+{
+  "name": "AbilityKit.Combat.Damage",
+  "rootNamespace": "AbilityKit.Combat",
+  "references": [
+    "AbilityKit.Core",
+    "AbilityKit.Dataflow",
+    "AbilityKit.Modifiers",
+    "AbilityKit.Attributes"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": true
+}

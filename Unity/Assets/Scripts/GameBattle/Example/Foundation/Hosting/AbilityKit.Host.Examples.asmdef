@@ -1,0 +1,16 @@
+{
+  "name": "AbilityKit.Host.Examples",
+  "rootNamespace": "AbilityKit.Ability.Host.Examples",
+  "references": [
+    "GameBattle.Runtime"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": false,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

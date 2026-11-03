@@ -1,0 +1,21 @@
+{
+  "name": "AbilityKit.Demo.Shooter.Runtime",
+  "rootNamespace": "AbilityKit.Demo.Shooter",
+  "references": [
+    "GameBattle.Runtime",
+    "GameBattle.Unity",
+    "AbilityKit.Demo.Shooter.Share",
+    "AbilityKit.Protocol.Shooter"
+  ],
+  "precompiledReferences": [
+    "Newtonsoft.Json.dll"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": true
+}

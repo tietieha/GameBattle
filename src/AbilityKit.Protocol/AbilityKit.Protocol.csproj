@@ -13,17 +13,17 @@
 
   <!-- 引用 Packages 目录下的源码 -->
   <ItemGroup>
-    <Compile Include="../../Unity/Packages/com.abilitykit.protocol/Runtime/**/*.cs" />
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Serialization/Protocol/Generated/BuiltInProtocolCatalogs.g.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Serialization/Protocol/Generated/BuiltInProtocolMetadata.g.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Serialization/Protocol/Protocol/MessageEnvelope.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Serialization/Protocol/Protocol/ProtocolOpCodeAttribute.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Serialization/Protocol/Protocol/ProtocolRegistry.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Serialization/Protocol/Protocol/ServerPushHandlerBase.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Serialization/Protocol/Protocol/ServerPushHandlerRegistry.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Serialization/Protocol/Serialization/ITextSerializer.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Serialization/Protocol/Serialization/IWireSerializer.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Serialization/Protocol/Serialization/JsonTextSerializer.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Serialization/Protocol/Serialization/JsonTextSerializerInstaller.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Serialization/Protocol/Serialization/MemoryPackWireSerializer.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Serialization/Protocol/Serialization/MemoryPackWireSerializerInstaller.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Serialization/Protocol/Serialization/WireSerializer.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Serialization/Protocol/Protocol/Catalog/ProtocolCatalogAdvertisement.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Serialization/Protocol/Protocol/Catalog/ProtocolCatalogAdvertisementNegotiation.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Serialization/Protocol/Protocol/Catalog/ProtocolCatalogModel.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Serialization/Protocol/Protocol/Catalog/ProtocolCatalogNegotiation.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Serialization/Protocol/Protocol/Catalog/ProtocolCatalogNegotiationSession.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Serialization/Protocol/Protocol/Catalog/ProtocolCatalogRegistry.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Serialization/Protocol/Protocol/Catalog/ProtocolCatalogValidation.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Serialization/Protocol/Protocol/Catalog/ProtocolMetadataRegistry.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Serialization/Protocol/Protocol/Catalog/ProtocolPayloadDecoderRegistry.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Serialization/Protocol/Protocol/Catalog/ProtocolSchemaVersionNegotiator.cs"/>
   </ItemGroup>
 
   <!-- 项目引用 -->
   <ItemGroup>
-    <ProjectReference Include="../../src/AbilityKit.Core/AbilityKit.Core.csproj" />
+    <ProjectReference Include="../../src/AbilityKit.Core/AbilityKit.Core.csproj"/>
   </ItemGroup>
 
   <!-- NuGet 依赖 -->
   <ItemGroup>
-    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3"/>
   </ItemGroup>
 
 </Project>

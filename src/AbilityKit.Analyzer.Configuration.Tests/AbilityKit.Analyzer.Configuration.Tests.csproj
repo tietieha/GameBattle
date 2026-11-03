@@ -7,15 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="../../Unity/Packages/com.abilitykit.analyzer/Runtime/AbilityKit.Analyzer/Configuration/PackageConstraints.cs"
-             Link="Configuration/PackageConstraints.cs" />
-    <Compile Include="../../Unity/Packages/com.abilitykit.analyzer/Runtime/AbilityKit.Analyzer/Core/AKDiagnosticSeverity.cs"
-             Link="Core/AKDiagnosticSeverity.cs" />
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Diagnostics/Analysis/AbilityKit.Analyzer/Configuration/PackageConstraints.cs" Link="Configuration/PackageConstraints.cs"/>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Diagnostics/Analysis/AbilityKit.Analyzer/Core/AKDiagnosticSeverity.cs" Link="Core/AKDiagnosticSeverity.cs"/>
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.12.0" />
-    <PackageReference Include="xunit" Version="2.9.2" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.12.0"/>
+    <PackageReference Include="xunit" Version="2.9.2"/>
     <PackageReference Include="xunit.runner.visualstudio" Version="2.8.2">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>

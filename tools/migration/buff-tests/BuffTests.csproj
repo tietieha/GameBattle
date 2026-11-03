@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <AssemblyName>AbilityKit.Demo.Moba.Tests</AssemblyName>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="GameBattle.Runtime"><HintPath>../../../Unity/Temp/Bin/Debug/GameBattle.Runtime/GameBattle.Runtime.dll</HintPath></Reference>
+    <Reference Include="AbilityKit.Demo.Moba.Runtime"><HintPath>../../../Unity/Temp/Bin/Debug/AbilityKit.Demo.Moba.Runtime/AbilityKit.Demo.Moba.Runtime.dll</HintPath></Reference>
+    <Reference Include="AbilityKit.Demo.Moba.Share"><HintPath>../../../Unity/Temp/Bin/Debug/AbilityKit.Demo.Moba.Share/AbilityKit.Demo.Moba.Share.dll</HintPath></Reference>
+    <Reference Include="AbilityKit.Demo.Moba.Presentation.Contracts"><HintPath>../../../Unity/Temp/Bin/Debug/AbilityKit.Demo.Moba.Presentation.Contracts/AbilityKit.Demo.Moba.Presentation.Contracts.dll</HintPath></Reference>
+    <Reference Include="AbilityKit.Demo.Moba.Presentation.ProtocolAdapter"><HintPath>../../../Unity/Temp/Bin/Debug/AbilityKit.Demo.Moba.Presentation.ProtocolAdapter/AbilityKit.Demo.Moba.Presentation.ProtocolAdapter.dll</HintPath></Reference>
+    <Reference Include="AbilityKit.Protocol.Moba"><HintPath>../../../Unity/Temp/Bin/Debug/AbilityKit.Protocol.Moba/AbilityKit.Protocol.Moba.dll</HintPath></Reference>
+    <Reference Include="AbilityKit.Host.Extensions.Moba"><HintPath>../../../Unity/Temp/Bin/Debug/AbilityKit.Host.Extensions.Moba/AbilityKit.Host.Extensions.Moba.dll</HintPath></Reference>
+    <Reference Include="AbilityKit.Demo.Moba.Diagnostics.Core"><HintPath>../../../Unity/Temp/Bin/Debug/AbilityKit.Demo.Moba.Diagnostics.Core/AbilityKit.Demo.Moba.Diagnostics.Core.dll</HintPath></Reference>
+    <Reference Include="MemoryPack"><HintPath>../../../Unity/Library/ScriptAssemblies/MemoryPack.dll</HintPath></Reference>
+    <Reference Include="Entitas"><HintPath>../../../Unity/Assets/Scripts/GameBattle/Runtime/Entity/Dependencies/Entitas/Entitas.dll</HintPath></Reference>
+    <Compile Include="../../../src/AbilityKit.Demo.Moba.Tests/Buff/BuffStackingPolicyApplierTests.cs" Link="Moba/BuffStackingPolicyApplierTests.cs" />
+    <Compile Include="../../../src/AbilityKit.Demo.Moba.Tests/StateSync/MobaBuffContextRecoveryTests.cs" Link="Moba/MobaBuffContextRecoveryTests.cs" />
+    <Compile Include="../../../src/AbilityKit.Demo.Moba.Tests/StateSync/MobaBuffTimerRollbackPreflightTests.cs" Link="Moba/MobaBuffTimerRollbackPreflightTests.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.12.0" />
+    <PackageReference Include="xunit" Version="2.9.2" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.8.2"><PrivateAssets>all</PrivateAssets></PackageReference>
+  </ItemGroup>
+</Project>

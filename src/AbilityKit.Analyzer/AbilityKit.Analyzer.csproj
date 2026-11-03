@@ -24,12 +24,12 @@
 
   <!-- 引用 Unity Packages 下的 Analyzer 源码 -->
   <ItemGroup>
-    <Compile Include="../../Unity/Packages/com.abilitykit.analyzer/DotNet~/AbilityKit.Analyzer/**/*.cs" />
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Diagnostics/Analysis/DotNet~/AbilityKit.Analyzer/Analyzer/ConfigTableDefinitionAnalyzer.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Diagnostics/Analysis/DotNet~/AbilityKit.Analyzer/Analyzer/ForbiddenNamespaceAnalyzer.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Diagnostics/Analysis/DotNet~/AbilityKit.Analyzer/Config/ConstraintJson.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Diagnostics/Analysis/DotNet~/AbilityKit.Analyzer/Config/ConstraintLoader.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Diagnostics/Analysis/DotNet~/AbilityKit.Analyzer/Config/ConstraintModels.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Diagnostics/Analysis/DotNet~/AbilityKit.Analyzer/Config/DiagnosticIds.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Diagnostics/Analysis/DotNet~/AbilityKit.Analyzer/Config/DiagnosticRules.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Diagnostics/Analysis/DotNet~/AbilityKit.Analyzer/Core/AnalyzerGlobalSetting.cs"/>
   </ItemGroup>
 
   <!-- NuGet 依赖 -->
   <ItemGroup>
-    <PackageReference Include="Microsoft.CodeAnalysis.CSharp.Workspaces" Version="4.0.1" PrivateAssets="all" />
-    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Microsoft.CodeAnalysis.CSharp.Workspaces" Version="4.0.1" PrivateAssets="all"/>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3"/>
   </ItemGroup>
 </Project>

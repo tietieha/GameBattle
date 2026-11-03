@@ -2,7 +2,7 @@
   "sourceDirectory": "tools/bt-export/authoring/moba",
   "sourceKind": "AuthoringDocument",
   "exportTargets": [
-    "Unity/Packages/com.abilitykit.demo.moba.view.runtime/Resources/moba/bt",
+    "Unity/Assets/Scripts/GameBattle/Example/Moba/Resources/moba/bt",
     "src/AbilityKit.Demo.Moba.Console/Configs/moba/bt"
   ],
   "trees": [

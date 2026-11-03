@@ -1,0 +1,19 @@
+{
+  "name": "AbilityKit.Demo.Moba.Presentation.SnapshotAdapter",
+  "rootNamespace": "AbilityKit.Demo.Moba.Share",
+  "references": [
+    "AbilityKit.Demo.Moba.Presentation.Contracts",
+    "AbilityKit.Demo.Moba.Presentation.ProtocolAdapter",
+    "GameBattle.Runtime",
+    "AbilityKit.Protocol.Moba"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": true
+}

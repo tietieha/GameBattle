@@ -159,8 +159,8 @@ try {
         -SuccessDetail 'kind=unity-playmode-test and testPlatform=PlayMode.' `
         -FailureDetail 'Unity integration must execute in PlayMode.'
 
-    $playModeTestPath = 'Unity\Packages\com.abilitykit.demo.shooter.view.runtime\Tests\PlayMode\ShooterSynchronizationPlayModeSmokeTests.cs'
-    $playModeAsmdefPath = 'Unity\Packages\com.abilitykit.demo.shooter.view.runtime\Tests\PlayMode\AbilityKit.Demo.Shooter.PlayMode.Tests.asmdef'
+    $playModeTestPath = 'Unity\Assets\Scripts\GameBattle\Example\Shooter\Tests\View\PlayMode\ShooterSynchronizationPlayModeSmokeTests.cs'
+    $playModeAsmdefPath = 'Unity\Assets\Scripts\GameBattle\Example\Shooter\Tests\View\PlayMode\AbilityKit.Demo.Shooter.PlayMode.Tests.asmdef'
     Assert-Condition -Name 'Unity PlayMode smoke source' `
         -Condition (Test-Path -LiteralPath (Resolve-RepoPath $playModeTestPath) -PathType Leaf) `
         -SuccessDetail $playModeTestPath `

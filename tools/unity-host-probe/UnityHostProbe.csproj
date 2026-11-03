@@ -26,15 +26,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="../../src/AbilityKit.Samples.Logic/AbilityKit.Samples.Logic.csproj" />
-    <ProjectReference Include="../../src/AbilityKit.Samples.Abstractions/AbilityKit.Samples.Abstractions.csproj" />
+    <ProjectReference Include="../../src/AbilityKit.Samples.Logic/AbilityKit.Samples.Logic.csproj"/>
+    <ProjectReference Include="../../src/AbilityKit.Samples.Abstractions/AbilityKit.Samples.Abstractions.csproj"/>
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Include="UnityStubs.cs" />
-    <Compile Include="PlatformStubs.cs" />
+    <Compile Include="UnityStubs.cs"/>
+    <Compile Include="PlatformStubs.cs"/>
     <!-- 被检查的 Unity 宿主代码 -->
-    <Compile Include="../../Unity/Packages/com.abilitykit.samples/Editor/*.cs" />
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Example/Foundation/Editor/SampleCatalogWindow.cs;../../Unity/Assets/Scripts/GameBattle/Example/Foundation/Editor/SampleHostEnvironment.cs;../../Unity/Assets/Scripts/GameBattle/Example/Foundation/Editor/SampleLearningRenderer.cs;../../Unity/Assets/Scripts/GameBattle/Example/Foundation/Editor/SamplePackageResourceProvider.cs;../../Unity/Assets/Scripts/GameBattle/Example/Foundation/Editor/SamplesEditorLocalization.cs;../../Unity/Assets/Scripts/GameBattle/Example/Foundation/Editor/SamplesEditorModule.cs;../../Unity/Assets/Scripts/GameBattle/Example/Foundation/Editor/SampleVisualRenderer.cs"/>
   </ItemGroup>
 
 </Project>

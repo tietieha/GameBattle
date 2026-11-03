@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>AbilityKit</RootNamespace>
+    <AssemblyName>AbilityKit.Record.MemoryPack</AssemblyName>
+    <LangVersion>latest</LangVersion>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <!-- 排除 Unity 相关文件 -->
+  <ItemGroup>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Integration/Serialization/MemoryPackRecord/FrameRecord/FrameRecordMemoryPackCodec.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Serialization/MemoryPackRecord/FrameRecord/FrameRecordMemoryPackCodecInstaller.cs"/>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../../src/AbilityKit.Core/AbilityKit.Core.csproj"/>
+    <ProjectReference Include="../../src/AbilityKit.Record/AbilityKit.Record.csproj"/>
+    <ProjectReference Include="../../src/AbilityKit.World.ECS/AbilityKit.World.ECS.csproj"/>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MemoryPack" Version="1.21.0"/>
+  </ItemGroup>
+
+</Project>

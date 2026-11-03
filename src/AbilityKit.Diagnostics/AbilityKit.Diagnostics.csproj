@@ -12,11 +12,11 @@
 
   <!-- 引用 Packages 目录下的源码 (只包含 Runtime 部分) -->
   <ItemGroup>
-    <Compile Include="../../Unity/Packages/com.abilitykit.diagnostics/Runtime/**/*.cs" />
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Diagnostics/Metrics/Analysis/AnalysisArtifact.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Diagnostics/Metrics/Analysis/AnalysisBattleDiagnosticSection.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Diagnostics/Metrics/Analysis/AnalysisProfilerBuilder.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Diagnostics/Metrics/Core/EditorProfiler.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Diagnostics/Metrics/Core/FlameData.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Diagnostics/Metrics/Core/IProfiler.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Diagnostics/Metrics/Core/NullProfiler.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Diagnostics/Metrics/Core/ProfilerHub.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Diagnostics/Metrics/DebugDraw/DebugDrawTypes.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Diagnostics/Metrics/Properties/InternalsVisibleTo.cs"/>
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="../AbilityKit.Core/AbilityKit.Core.csproj" />
+    <ProjectReference Include="../AbilityKit.Core/AbilityKit.Core.csproj"/>
   </ItemGroup>
 
 </Project>

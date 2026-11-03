@@ -12,15 +12,13 @@
 
   <!-- 排除 Unity 相关文件 -->
   <ItemGroup>
-    <Compile Include="../../Unity/Packages/com.abilitykit.hotreload/Runtime/**/*.cs" 
-             Exclude="../../Unity/Packages/com.abilitykit.hotreload/Runtime/**/*.asmdef;
-                     ../../Unity/Packages/com.abilitykit.hotreload/Runtime/HotReload/ConfigReloadDebugListener.cs" />
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Runtime/Content/HotReload/Services/HotReload/HotfixServiceOverlay.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Content/HotReload/Services/HotReload/HotfixSystemProxy.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Content/HotReload/Services/HotReload/HotReloadRuntime.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Content/HotReload/Services/HotReload/HotReloadStaticRegistry.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Content/HotReload/Services/HotReload/IHotfixEntry.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Content/HotReload/Services/HotReload/IHotfixLogger.cs"/>
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="../../src/AbilityKit.Core/AbilityKit.Core.csproj" />
-    <ProjectReference Include="../../src/AbilityKit.World.DI/AbilityKit.World.DI.csproj" />
-    <ProjectReference Include="../../src/AbilityKit.World.Entitas/AbilityKit.World.Entitas.csproj" />
+    <ProjectReference Include="../../src/AbilityKit.Core/AbilityKit.Core.csproj"/>
+    <ProjectReference Include="../../src/AbilityKit.World.DI/AbilityKit.World.DI.csproj"/>
+    <ProjectReference Include="../../src/AbilityKit.World.Entitas/AbilityKit.World.Entitas.csproj"/>
   </ItemGroup>
 
 </Project>

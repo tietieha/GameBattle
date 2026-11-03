@@ -11,11 +11,11 @@
   <!-- 只投影 DemoHarness 子目录：demo.common 的 Rooms/Gameplay 文件仍由消费方逐文件 include，
        这里只承载迁移过来的同步 DemoHarness（命名空间 AbilityKit.Demo.Harness）。 -->
   <ItemGroup>
-    <Compile Include="../../Unity/Packages/com.abilitykit.demo.common/Runtime/DemoHarness/**/*.cs" />
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Example/Shared/DemoHarness/DemoHarnessRunner.cs"/>
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\AbilityKit.Network.Runtime\AbilityKit.Network.Runtime.csproj" />
+    <ProjectReference Include="..\AbilityKit.Network.Runtime\AbilityKit.Network.Runtime.csproj"/>
   </ItemGroup>
 
 </Project>

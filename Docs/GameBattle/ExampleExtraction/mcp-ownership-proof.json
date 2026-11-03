@@ -1,0 +1,30 @@
+{
+  "jsonrpc": "2.0",
+  "id": 4,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"success\":true,\"message\":\"Code executed successfully.\",\"data\":{\"result\":{\"DataPath\":\"E:/Unity/AbilityKit/Unity/Assets\",\"Compiling\":false,\"Updating\":false,\"BuffAssembly\":\"GameBattle.Runtime\",\"NumbersAssembly\":\"GameBattle.Runtime\",\"CueDecisionAssembly\":\"GameBattle.Runtime\",\"LoopAssembly\":\"GameBattle.Unity\",\"RegistryAssembly\":\"GameBattle.Unity\"},\"compiler\":\"codedom\"}}"
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "message": "Code executed successfully.",
+      "data": {
+        "result": {
+          "DataPath": "E:/Unity/AbilityKit/Unity/Assets",
+          "Compiling": false,
+          "Updating": false,
+          "BuffAssembly": "GameBattle.Runtime",
+          "NumbersAssembly": "GameBattle.Runtime",
+          "CueDecisionAssembly": "GameBattle.Runtime",
+          "LoopAssembly": "GameBattle.Unity",
+          "RegistryAssembly": "GameBattle.Unity"
+        },
+        "compiler": "codedom"
+      }
+    },
+    "isError": false
+  }
+}

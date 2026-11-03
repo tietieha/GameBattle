@@ -6,7 +6,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="../../Unity/Packages/com.abilitykit.demo.tiny/Samples~/06-Recovery/TinyRecoveryExample.cs" Link="TinyRecoveryExample.cs" />
-    <ProjectReference Include="../AbilityKit.Demo.Tiny.ClientHarness/AbilityKit.Demo.Tiny.ClientHarness.csproj" />
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Example/Optional~/demo.tiny/06-Recovery/TinyRecoveryExample.cs" Link="TinyRecoveryExample.cs"/>
+    <ProjectReference Include="../AbilityKit.Demo.Tiny.ClientHarness/AbilityKit.Demo.Tiny.ClientHarness.csproj"/>
   </ItemGroup>
 </Project>

@@ -11,13 +11,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="../../Unity/Packages/com.abilitykit.network.transport.litenet/Runtime/**/*.cs"
-             Exclude="../../Unity/Packages/com.abilitykit.network.transport.litenet/Runtime/**/*.asmdef" />
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Networking/Transport/LiteNet/Transport/LiteNetTransport.cs"/>
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="../AbilityKit.Network.Runtime/AbilityKit.Network.Runtime.csproj" />
-    <PackageReference Include="LiteNetLib" Version="2.1.4" />
+    <ProjectReference Include="../AbilityKit.Network.Runtime/AbilityKit.Network.Runtime.csproj"/>
+    <PackageReference Include="LiteNetLib" Version="2.1.4"/>
   </ItemGroup>
 
 </Project>

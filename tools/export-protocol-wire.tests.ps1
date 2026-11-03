@@ -96,7 +96,7 @@ function Invoke-ExportScript {
 
 try {
     $fixture = New-FixtureRepo -Name 'main'
-    $exportDirectory = Join-Path $fixture 'Unity/Packages/com.abilitykit.protocol.shooter/Runtime/Generated'
+    $exportDirectory = Join-Path $fixture 'Unity/Assets/Scripts/GameBattle/Example/Shooter/Runtime/Protocol/Generated'
 
     # 1. Write mode exports the deterministic artifact set into the package folder.
     $write = Invoke-ExportScript -FixtureRoot $fixture

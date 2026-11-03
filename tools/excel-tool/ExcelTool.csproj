@@ -34,7 +34,7 @@
 
   <ItemGroup>
     <Reference Include="EPPlus">
-      <HintPath>..\..\Unity\Packages\com.abilitykit.excel-sync\Editor\Plugins\EPPlus\EPPlus.dll</HintPath>
+      <HintPath>..\..\Unity\Assets\Scripts\GameBattle\Editor\Runtime\Content\Serialization\Excel\Plugins\EPPlus\EPPlus.dll</HintPath>
     </Reference>
   </ItemGroup>
 

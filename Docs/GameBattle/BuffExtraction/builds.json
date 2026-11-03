@@ -1,0 +1,97 @@
+[
+  {
+    "name": "GameBattle.Runtime",
+    "status": 0,
+    "log": "Docs/GameBattle/BuffExtraction/BuildLogs/GameBattle.Runtime.log"
+  },
+  {
+    "name": "GameBattle.Unity",
+    "status": 0,
+    "log": "Docs/GameBattle/BuffExtraction/BuildLogs/GameBattle.Unity.log"
+  },
+  {
+    "name": "GameBattle.Editor",
+    "status": 0,
+    "log": "Docs/GameBattle/BuffExtraction/BuildLogs/GameBattle.Editor.log"
+  },
+  {
+    "name": "AbilityKit.Pipeline.Editor.Tests",
+    "status": 0,
+    "log": "Docs/GameBattle/BuffExtraction/BuildLogs/AbilityKit.Pipeline.Editor.Tests.log"
+  },
+  {
+    "name": "AbilityKit.Ability.Editor.Tests",
+    "status": 0,
+    "log": "Docs/GameBattle/BuffExtraction/BuildLogs/AbilityKit.Ability.Editor.Tests.log"
+  },
+  {
+    "name": "AbilityKit.BehaviorTree.Editor.Tests",
+    "status": 0,
+    "log": "Docs/GameBattle/BuffExtraction/BuildLogs/AbilityKit.BehaviorTree.Editor.Tests.log"
+  },
+  {
+    "name": "AbilityKit.Triggering.Tests",
+    "status": 0,
+    "log": "Docs/GameBattle/BuffExtraction/BuildLogs/AbilityKit.Triggering.Tests.log"
+  },
+  {
+    "name": "AbilityKit.Editor.Platform.Tests",
+    "status": 0,
+    "log": "Docs/GameBattle/BuffExtraction/BuildLogs/AbilityKit.Editor.Platform.Tests.log"
+  },
+  {
+    "name": "AbilityKit.Combat.Motion.Tests",
+    "status": 0,
+    "log": "Docs/GameBattle/BuffExtraction/BuildLogs/AbilityKit.Combat.Motion.Tests.log"
+  },
+  {
+    "name": "AbilityKit.Compute.UnityJobs.Tests",
+    "status": 0,
+    "log": "Docs/GameBattle/BuffExtraction/BuildLogs/AbilityKit.Compute.UnityJobs.Tests.log"
+  },
+  {
+    "name": "AbilityKit.HFSM.Tests",
+    "status": 0,
+    "log": "Docs/GameBattle/BuffExtraction/BuildLogs/AbilityKit.HFSM.Tests.log"
+  },
+  {
+    "name": "AbilityKit.Demo.Moba.View.Runtime",
+    "status": 0,
+    "log": "Docs/GameBattle/BuffExtraction/BuildLogs/AbilityKit.Demo.Moba.View.Runtime.log"
+  },
+  {
+    "name": "AbilityKit.Demo.Moba.Editor",
+    "status": 0,
+    "log": "Docs/GameBattle/BuffExtraction/BuildLogs/AbilityKit.Demo.Moba.Editor.log"
+  },
+  {
+    "name": "AbilityKit.Demo.Shooter.View.Runtime",
+    "status": 0,
+    "log": "Docs/GameBattle/BuffExtraction/BuildLogs/AbilityKit.Demo.Shooter.View.Runtime.log"
+  },
+  {
+    "name": "AbilityKit.Demo.Shooter.Jobs.Tests",
+    "status": 0,
+    "log": "Docs/GameBattle/BuffExtraction/BuildLogs/AbilityKit.Demo.Shooter.Jobs.Tests.log"
+  },
+  {
+    "name": "AbilityKit.Demo.Tiny.View",
+    "status": 0,
+    "log": "Docs/GameBattle/BuffExtraction/BuildLogs/AbilityKit.Demo.Tiny.View.log"
+  },
+  {
+    "name": "AbilityKit.Demo.Tiny.Turn.View",
+    "status": 0,
+    "log": "Docs/GameBattle/BuffExtraction/BuildLogs/AbilityKit.Demo.Tiny.Turn.View.log"
+  },
+  {
+    "name": "AbilityKit.Game.UnitTests",
+    "status": 0,
+    "log": "Docs/GameBattle/BuffExtraction/BuildLogs/AbilityKit.Game.UnitTests.log"
+  },
+  {
+    "name": "Assembly-CSharp-Editor",
+    "status": 0,
+    "log": "Docs/GameBattle/BuffExtraction/BuildLogs/Assembly-CSharp-Editor.log"
+  }
+]

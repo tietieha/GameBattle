@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AbilityKitStable>true</AbilityKitStable>
+    <RootNamespace>AbilityKit</RootNamespace>
+    <AssemblyName>AbilityKit.Combat.Motion</AssemblyName>
+    <LangVersion>latest</LangVersion>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Battle/Spatial/Motion/MotionSystem/Collision/ConfigurableMotionSolver.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Spatial/Motion/MotionSystem/Collision/IMotionCollisionWorld.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Spatial/Motion/MotionSystem/Collision/IMotionSolver.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Spatial/Motion/MotionSystem/Collision/IMotionSolverDiagnostics.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Spatial/Motion/MotionSystem/Collision/MotionHit.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Spatial/Motion/MotionSystem/Collision/MotionSolveResult.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Spatial/Motion/MotionSystem/Constraints/MotionConstraints.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Spatial/Motion/MotionSystem/Core/BaseMotionSource.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Spatial/Motion/MotionSystem/Core/FixedStepRunner.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Spatial/Motion/MotionSystem/Core/IMotionCollisionPolicySource.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Spatial/Motion/MotionSystem/Core/IMotionSnapshotSource.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Spatial/Motion/MotionSystem/Core/IMotionSource.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Spatial/Motion/MotionSystem/Core/LocomotionMotionSource.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Spatial/Motion/MotionSystem/Core/MotionFinishEvent.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Spatial/Motion/MotionSystem/Core/MotionGroups.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Spatial/Motion/MotionSystem/Core/MotionOutput.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Spatial/Motion/MotionSystem/Core/MotionPipeline.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Spatial/Motion/MotionSystem/Core/MotionPipelinePolicy.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Spatial/Motion/MotionSystem/Core/MotionPipelinePool.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Spatial/Motion/MotionSystem/Core/MotionSourceSnapshot.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Spatial/Motion/MotionSystem/Core/MotionStacking.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Spatial/Motion/MotionSystem/Core/MotionState.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Spatial/Motion/MotionSystem/Events/IMotionEventSink.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Spatial/Motion/MotionSystem/Generic/FixedDeltaMotionSource.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Spatial/Motion/MotionSystem/Generic/PathFollowerMotionSource.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Spatial/Motion/MotionSystem/Generic/ScaledMotionSource.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Spatial/Motion/MotionSystem/Generic/WaypointTrajectory3D.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Spatial/Motion/MotionSystem/Trajectory/ITrajectory3D.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Spatial/Motion/MotionSystem/Trajectory/LinearTrajectory3D.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Spatial/Motion/MotionSystem/Trajectory/TrajectoryMotionSource.cs"/>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../../src/AbilityKit.Core/AbilityKit.Core.csproj"/>
+    <ProjectReference Include="../../src/AbilityKit.Combat.Collision.Abstractions/AbilityKit.Combat.Collision.Abstractions.csproj"/>
+    <ProjectReference Include="../../src/AbilityKit.Deterministic/AbilityKit.Deterministic.csproj"/>
+  </ItemGroup>
+
+</Project>

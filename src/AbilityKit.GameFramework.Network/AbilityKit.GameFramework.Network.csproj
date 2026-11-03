@@ -12,12 +12,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="../../Unity/Packages/com.abilitykit.gameframework.network/Runtime/**/*.cs" Exclude="../../Unity/Packages/com.abilitykit.gameframework.network/Runtime/**/*.asmdef" />
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Runtime/Foundation/Dependencies/GameFramework/Networking/Network/AbilityKitGatewayNetworkChannelHelper.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Foundation/Dependencies/GameFramework/Networking/Network/AbilityKitGatewayPacket.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Foundation/Dependencies/GameFramework/Networking/Network/AbilityKitGatewayPacketHeader.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Foundation/Dependencies/GameFramework/Networking/Network/GameFrameworkGatewayConnectionFactory.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Foundation/Dependencies/GameFramework/Networking/Network/GameFrameworkNetworkChannelConnection.cs"/>
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="../AbilityKit.GameFramework/AbilityKit.GameFramework.csproj" />
-    <ProjectReference Include="../AbilityKit.Network.Runtime/AbilityKit.Network.Runtime.csproj" />
+    <ProjectReference Include="../AbilityKit.GameFramework/AbilityKit.GameFramework.csproj"/>
+    <ProjectReference Include="../AbilityKit.Network.Runtime/AbilityKit.Network.Runtime.csproj"/>
   </ItemGroup>
 
 </Project>

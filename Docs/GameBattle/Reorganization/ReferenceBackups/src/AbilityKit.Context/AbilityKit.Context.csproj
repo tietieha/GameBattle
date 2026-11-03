@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AbilityKitStable>true</AbilityKitStable>
+    <Nullable>enable</Nullable>
+    <RootNamespace>AbilityKit.Context</RootNamespace>
+    <AssemblyName>AbilityKit.Context</AssemblyName>
+    <LangVersion>latest</LangVersion>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <!-- 引用 Packages 目录下的源码 -->
+  <ItemGroup>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Battle/Core/ExecutionContext/Context/FlowContext.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Core/ExecutionContext/Events/ContextEvent.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Core/ExecutionContext/Events/ContextEventHandler.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Core/ExecutionContext/Events/ContextEventType.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Core/ExecutionContext/Events/ContextLifecycleObservation.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Core/ExecutionContext/Internal/TimeUtil.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Core/ExecutionContext/Property/IProperty.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Core/ExecutionContext/Property/PropertyType.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Core/ExecutionContext/Query/Query.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Core/ExecutionContext/Registry/ContextRegistry.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Core/ExecutionContext/Snapshot/ContextSnapshotManagement.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Core/ExecutionContext/Snapshot/IContextSnapshot.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Core/ExecutionContext/Snapshot/ISnapshotAccessor.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Core/ExecutionContext/Snapshot/SnapshotStorage.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Core/ExecutionContext/Snapshot/SnapshotStorage.Managed.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Core/ExecutionContext/Value/ContextRealtimeProviderRegistry.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Core/ExecutionContext/Value/ContextValueResolver.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Core/ExecutionContext/Value/ContextValueTypes.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Core/ExecutionContext/Value/IContextValueProvider.cs"/>
+  </ItemGroup>
+
+  <!-- 项目引用 -->
+  <ItemGroup>
+    <ProjectReference Include="../../src/AbilityKit.Core/AbilityKit.Core.csproj"/>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,27 @@
+{
+  "name": "AbilityKit.Ability.Editor.Tests",
+  "rootNamespace": "AbilityKit.Ability.Editor.Tests",
+  "references": [
+    "GameBattle.Runtime",
+    "GameBattle.Editor",
+    "UnityEngine.TestRunner",
+    "UnityEditor.TestRunner"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": true,
+  "precompiledReferences": [
+    "nunit.framework.dll",
+    "Sirenix.Serialization.dll",
+    "Newtonsoft.Json.dll"
+  ],
+  "autoReferenced": false,
+  "defineConstraints": [
+    "UNITY_INCLUDE_TESTS"
+  ],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

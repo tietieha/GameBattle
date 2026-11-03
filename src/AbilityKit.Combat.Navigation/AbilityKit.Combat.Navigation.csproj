@@ -12,12 +12,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="../../Unity/Packages/com.abilitykit.combat.navigation/Runtime/**/*.cs" />
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Runtime/Movement/Navigation/Math/INavigationService.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Movement/Navigation/Math/INavigationWorld.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Movement/Navigation/Math/NavigationGrid.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Movement/Navigation/Math/NavigationPath.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Movement/Navigation/Navigation/GridPathfinder.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Movement/Navigation/Navigation/NavigationWorld.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Movement/Navigation/Navigation/NavigationWorldFactory.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Movement/Navigation/Navigation/NavigationWorldOptions.cs"/>
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="../../src/AbilityKit.Core/AbilityKit.Core.csproj" />
-    <ProjectReference Include="../../src/AbilityKit.World.DI/AbilityKit.World.DI.csproj" />
+    <ProjectReference Include="../../src/AbilityKit.Core/AbilityKit.Core.csproj"/>
+    <ProjectReference Include="../../src/AbilityKit.World.DI/AbilityKit.World.DI.csproj"/>
   </ItemGroup>
 
 </Project>

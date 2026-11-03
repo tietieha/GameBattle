@@ -9,11 +9,10 @@
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="../../Unity/Packages/com.abilitykit.host.network/Runtime/**/*.cs"
-             Exclude="../../Unity/Packages/com.abilitykit.host.network/Runtime/**/*.asmdef" />
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Networking/HostingAdapter/HostNetworkConnectionManager.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Networking/HostingAdapter/HostNetworkServerConnection.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Networking/HostingAdapter/InProcessHostNetwork.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Networking/HostingAdapter/TcpHostNetwork.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Networking/HostingAdapter/Abstractions/IAsyncHostNetworkRequestHandler.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Networking/HostingAdapter/Abstractions/IHostClientIdResolver.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Networking/HostingAdapter/Abstractions/IHostMessageCodec.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Networking/HostingAdapter/Abstractions/IHostNetworkRequestHandler.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Networking/HostingAdapter/Abstractions/UnsupportedHostMessageCodec.cs"/>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="../AbilityKit.Host/AbilityKit.Host.csproj" />
-    <ProjectReference Include="../AbilityKit.Network.Host/AbilityKit.Network.Host.csproj" />
+    <ProjectReference Include="../AbilityKit.Host/AbilityKit.Host.csproj"/>
+    <ProjectReference Include="../AbilityKit.Network.Host/AbilityKit.Network.Host.csproj"/>
   </ItemGroup>
 </Project>

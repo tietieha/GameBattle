@@ -1,0 +1,33 @@
+{
+  "files": 15467,
+  "missing": [],
+  "changedFiles": 57,
+  "changedMetadata": [],
+  "changedAssemblies": [],
+  "scripts": 5731,
+  "unchangedScripts": 5687,
+  "scriptsWithPathChanges": 44,
+  "wrongOwners": [],
+  "projectChecks": [
+    {
+      "name": "AbilityKit.Core",
+      "count": 77,
+      "missing": []
+    },
+    {
+      "name": "AbilityKit.Ability",
+      "count": 43,
+      "missing": []
+    },
+    {
+      "name": "AbilityKit.Demo.Moba.Core",
+      "count": 1011,
+      "missing": []
+    },
+    {
+      "name": "AbilityKit.Demo.Moba.Presentation.Core",
+      "count": 16,
+      "missing": []
+    }
+  ]
+}

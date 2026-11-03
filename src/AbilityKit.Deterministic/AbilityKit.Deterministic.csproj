@@ -12,13 +12,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="../../Unity/Packages/com.abilitykit.deterministic/Runtime/**/*.cs"
-             Exclude="../../Unity/Packages/com.abilitykit.deterministic/Runtime/**/*.asmdef" />
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Runtime/Foundation/Math/Deterministic/DeterministicHash.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Foundation/Math/Deterministic/DeterministicMath.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Foundation/Math/Deterministic/DeterministicRandom.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Foundation/Math/Deterministic/Fixed64.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Foundation/Math/Deterministic/FixedVec2.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Foundation/Math/Deterministic/FixedVec3.cs"/>
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.CodeAnalysis.PublicApiAnalyzers" Version="3.3.4" PrivateAssets="all" />
-    <AdditionalFiles Include="PublicAPI.Shipped.txt" />
-    <AdditionalFiles Include="PublicAPI.Unshipped.txt" />
+    <PackageReference Include="Microsoft.CodeAnalysis.PublicApiAnalyzers" Version="3.3.4" PrivateAssets="all"/>
+    <AdditionalFiles Include="PublicAPI.Shipped.txt"/>
+    <AdditionalFiles Include="PublicAPI.Unshipped.txt"/>
   </ItemGroup>
 </Project>

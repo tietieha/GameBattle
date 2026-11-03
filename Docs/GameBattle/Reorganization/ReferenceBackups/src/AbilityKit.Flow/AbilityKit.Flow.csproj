@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AbilityKitStable>true</AbilityKitStable>
+    <Nullable>enable</Nullable>
+    <RootNamespace>AbilityKit</RootNamespace>
+    <AssemblyName>AbilityKit.Flow</AssemblyName>
+    <LangVersion>latest</LangVersion>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Foundation/Flow/Flow/FlowCompletion.cs;../../Unity/Assets/Scripts/GameBattle/Foundation/Flow/Flow/FlowContext.cs;../../Unity/Assets/Scripts/GameBattle/Foundation/Flow/Flow/FlowEventQueue.cs;../../Unity/Assets/Scripts/GameBattle/Foundation/Flow/Flow/FlowExecutionOptions.cs;../../Unity/Assets/Scripts/GameBattle/Foundation/Flow/Flow/FlowExecutionResult.cs;../../Unity/Assets/Scripts/GameBattle/Foundation/Flow/Flow/FlowGraph.cs;../../Unity/Assets/Scripts/GameBattle/Foundation/Flow/Flow/FlowHost.cs;../../Unity/Assets/Scripts/GameBattle/Foundation/Flow/Flow/FlowNodeExtensions.cs;../../Unity/Assets/Scripts/GameBattle/Foundation/Flow/Flow/FlowRunner.cs;../../Unity/Assets/Scripts/GameBattle/Foundation/Flow/Flow/FlowSession.cs;../../Unity/Assets/Scripts/GameBattle/Foundation/Flow/Flow/FlowStatus.cs;../../Unity/Assets/Scripts/GameBattle/Foundation/Flow/Flow/FlowWakeUp.cs;../../Unity/Assets/Scripts/GameBattle/Foundation/Flow/Flow/IFlowNode.cs;../../Unity/Assets/Scripts/GameBattle/Foundation/Flow/Flow/IFlowRootProvider.cs;../../Unity/Assets/Scripts/GameBattle/Foundation/Flow/Flow/StateMachineFlowRunner.cs;../../Unity/Assets/Scripts/GameBattle/Foundation/Flow/Flow/Blocks/AwaitCompletionNode.cs;../../Unity/Assets/Scripts/GameBattle/Foundation/Flow/Flow/Blocks/CreateResourceNode.cs;../../Unity/Assets/Scripts/GameBattle/Foundation/Flow/Flow/Blocks/DisposeResourceNode.cs;../../Unity/Assets/Scripts/GameBattle/Foundation/Flow/Flow/Blocks/DoNode.cs;../../Unity/Assets/Scripts/GameBattle/Foundation/Flow/Flow/Blocks/FinallyNode.cs;../../Unity/Assets/Scripts/GameBattle/Foundation/Flow/Flow/Blocks/IfNode.cs;../../Unity/Assets/Scripts/GameBattle/Foundation/Flow/Flow/Blocks/ParallelAllNode.cs;../../Unity/Assets/Scripts/GameBattle/Foundation/Flow/Flow/Blocks/RaceNode.cs;../../Unity/Assets/Scripts/GameBattle/Foundation/Flow/Flow/Blocks/RunUntilCompletionNode.cs;../../Unity/Assets/Scripts/GameBattle/Foundation/Flow/Flow/Blocks/SwitchNode.cs;../../Unity/Assets/Scripts/GameBattle/Foundation/Flow/Flow/Blocks/TickWhileNode.cs;../../Unity/Assets/Scripts/GameBattle/Foundation/Flow/Flow/Blocks/TimeoutNode.cs;../../Unity/Assets/Scripts/GameBattle/Foundation/Flow/Flow/Blocks/UseResourceNode.cs;../../Unity/Assets/Scripts/GameBattle/Foundation/Flow/Flow/Blocks/UsingResourceNode.cs;../../Unity/Assets/Scripts/GameBattle/Foundation/Flow/Flow/Nodes/ActionNode.cs;../../Unity/Assets/Scripts/GameBattle/Foundation/Flow/Flow/Nodes/AwaitCallbackNode.cs;../../Unity/Assets/Scripts/GameBattle/Foundation/Flow/Flow/Nodes/RepeatUntilNode.cs;../../Unity/Assets/Scripts/GameBattle/Foundation/Flow/Flow/Nodes/SequenceNode.cs;../../Unity/Assets/Scripts/GameBattle/Foundation/Flow/Flow/Nodes/WaitSecondsEventNode.cs;../../Unity/Assets/Scripts/GameBattle/Foundation/Flow/Flow/Nodes/WaitSecondsNode.cs;../../Unity/Assets/Scripts/GameBattle/Foundation/Flow/Flow/Nodes/WaitUntilNode.cs;../../Unity/Assets/Scripts/GameBattle/Foundation/Flow/Flow/Pooling/FlowPools.cs;../../Unity/Assets/Scripts/GameBattle/Foundation/Flow/Flow/Stages/FlowStageKey.cs;../../Unity/Assets/Scripts/GameBattle/Foundation/Flow/Flow/Stages/FlowStages.cs;../../Unity/Assets/Scripts/GameBattle/Foundation/Flow/Flow/Stages/IFlowStageContributor.cs;../../Unity/Assets/Scripts/GameBattle/Foundation/Flow/Flow/Stages/IStagedFlowProvider.cs;../../Unity/Assets/Scripts/GameBattle/Foundation/Flow/Flow/Stages/OrderedStagedFlowRootProvider.cs;../../Unity/Assets/Scripts/GameBattle/Foundation/Flow/Flow/Stages/StagedFlowRootProvider.cs"/>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../../src/AbilityKit.Core/AbilityKit.Core.csproj"/>
+    <ProjectReference Include="../../src/AbilityKit.HFSM.Core/AbilityKit.HFSM.Core.csproj"/>
+  </ItemGroup>
+
+</Project>

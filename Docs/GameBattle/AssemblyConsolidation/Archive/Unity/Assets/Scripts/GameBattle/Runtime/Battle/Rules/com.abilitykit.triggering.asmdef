@@ -1,0 +1,21 @@
+{
+  "name": "AbilityKit.Triggering",
+  "rootNamespace": "AbilityKit.Triggering",
+  "references": [
+    "AbilityKit.Core",
+    "AbilityKit.Continuous",
+    "AbilityKit.Modifiers",
+    "AbilityKit.World.DI",
+    "AbilityKit.Analyzer",
+    "com.abilitykit.triggering.abstractions"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": true
+}

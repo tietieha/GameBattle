@@ -9,11 +9,10 @@
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="../../Unity/Packages/com.abilitykit.network.host/Runtime/**/*.cs"
-             Exclude="../../Unity/Packages/com.abilitykit.network.host/Runtime/**/*.asmdef" />
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Networking/Server/NetworkHost.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Networking/Server/NetworkHostDiagnostics.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Networking/Server/NetworkHostOptions.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Networking/Server/NetworkHostSessionSnapshot.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Networking/Server/ServerNetworkSession.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Networking/Server/ServerSessionContext.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Networking/Server/Abstractions/IAsyncServerRequestHandler.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Networking/Server/Abstractions/IChannelAdmissionPolicy.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Networking/Server/Abstractions/IChannelListener.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Networking/Server/Abstractions/IMonotonicClock.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Networking/Server/Abstractions/IServerChannel.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Networking/Server/Abstractions/IServerNetworkSession.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Networking/Server/Abstractions/IServerRequestHandler.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Networking/Server/InProcess/InProcessChannelListener.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Networking/Server/Routing/AsyncServerRequestRouter.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Networking/Server/Routing/ServerRequestRouter.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Networking/Server/Tcp/TcpChannelListener.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Networking/Server/Tcp/TcpChannelListenerOptions.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Networking/Server/Tcp/TcpServerChannel.cs"/>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="../AbilityKit.Core/AbilityKit.Core.csproj" />
-    <ProjectReference Include="../AbilityKit.Network.Runtime/AbilityKit.Network.Runtime.csproj" />
+    <ProjectReference Include="../AbilityKit.Core/AbilityKit.Core.csproj"/>
+    <ProjectReference Include="../AbilityKit.Network.Runtime/AbilityKit.Network.Runtime.csproj"/>
   </ItemGroup>
 </Project>

@@ -1,0 +1,17 @@
+{
+  "name": "AbilityKit.Host.Extensions.Moba",
+  "rootNamespace": "AbilityKit",
+  "references": [
+    "GameBattle.Runtime",
+    "AbilityKit.Protocol.Moba"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": false,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

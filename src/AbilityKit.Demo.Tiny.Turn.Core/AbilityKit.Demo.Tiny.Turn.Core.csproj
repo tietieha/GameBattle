@@ -5,6 +5,6 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="../../Unity/Packages/com.abilitykit.demo.tiny.turn/Runtime/Logic/*.cs" />
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Example/Tiny/Runtime/Turn/TinyTurnBattle.cs"/>
   </ItemGroup>
 </Project>

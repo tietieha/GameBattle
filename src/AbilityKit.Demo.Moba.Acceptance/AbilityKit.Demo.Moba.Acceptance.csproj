@@ -25,13 +25,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="..\..\Unity\Packages\com.abilitykit.demo.moba.view.runtime\Runtime\Game\Test\UnitTest\Acceptance\Infrastructure\MobaAcceptanceModels.cs">
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Example/Moba/Tests/LegacyClient/UnitTest/Acceptance/Infrastructure/MobaAcceptanceModels.cs">
       <Link>Linked\MobaAcceptanceModels.cs</Link>
     </Compile>
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\AbilityKit.Scenario\AbilityKit.Scenario.csproj" />
+    <ProjectReference Include="..\AbilityKit.Scenario\AbilityKit.Scenario.csproj"/>
   </ItemGroup>
 
 </Project>

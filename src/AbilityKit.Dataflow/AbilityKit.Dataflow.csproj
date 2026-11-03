@@ -10,6 +10,6 @@
 
   <!-- 引用 Packages 目录下的源码 -->
   <ItemGroup>
-    <Compile Include="../../Unity/Packages/com.abilitykit.dataflow/Runtime/**/*.cs" />
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Runtime/Effect/Calculation/Core/Context/DataflowContext.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Effect/Calculation/Core/Context/DataflowSlots.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Effect/Calculation/Core/Context/IDataflowContext.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Effect/Calculation/Core/Pipeline/DataflowPipeline.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Effect/Calculation/Core/Pipeline/DataflowResult.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Effect/Calculation/Core/Processor/CommonProcessors.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Effect/Calculation/Core/Processor/IDataflowProcessor.cs"/>
   </ItemGroup>
 </Project>

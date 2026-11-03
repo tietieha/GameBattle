@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Examples/Tiny/Client/FrameSync/TinyBattleRollbackProvider.cs;../../Unity/Assets/Scripts/GameBattle/Examples/Tiny/Client/FrameSync/TinyFrameSyncSession.cs"/>
+    <ProjectReference Include="..\AbilityKit.Demo.Tiny.Core\AbilityKit.Demo.Tiny.Core.csproj"/>
+    <ProjectReference Include="..\AbilityKit.World.FrameSync\AbilityKit.World.FrameSync.csproj"/>
+  </ItemGroup>
+</Project>

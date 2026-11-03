@@ -11,11 +11,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="../../Unity/Packages/com.abilitykit.combat.skilllibrary/Runtime/**/*.cs" />
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Runtime/Content/Catalog/SkillLibrary/SkillLibrary/DerivedKeyedSkillIndex.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Content/Catalog/SkillLibrary/SkillLibrary/DerivedMultiKeySkillIndex.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Content/Catalog/SkillLibrary/SkillLibrary/IKeyedSkillIndex.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Content/Catalog/SkillLibrary/SkillLibrary/ISkillIndex.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Content/Catalog/SkillLibrary/SkillLibrary/SkillLibrary.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Content/Catalog/SkillLibrary/SkillLibrary/SkillLibraryExample.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Content/Catalog/SkillLibrary/SkillLibrary/SkillUpdate.cs"/>
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="../../src/AbilityKit.Core/AbilityKit.Core.csproj" />
+    <ProjectReference Include="../../src/AbilityKit.Core/AbilityKit.Core.csproj"/>
   </ItemGroup>
 
 </Project>

@@ -12,12 +12,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="../../Unity/Packages/com.abilitykit.network.sdk/Runtime/**/*.cs"
-             Exclude="../../Unity/Packages/com.abilitykit.network.sdk/Runtime/**/*.asmdef" />
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Networking/Sdk/NetworkPacketInterception.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Networking/Sdk/NetworkProtocolAgent.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Networking/Sdk/NetworkSdkBuilder.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Networking/Sdk/NetworkSdkClient.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Networking/Sdk/NetworkSdkClientHub.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Networking/Sdk/NetworkSdkDiagnosticsAggregator.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Networking/Sdk/NetworkSdkDiagnosticsMonitor.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Networking/Sdk/NetworkSyncSessionBuilder.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Networking/Sdk/NetworkTrafficBatchExporter.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Networking/Sdk/NetworkTrafficCatalogSampler.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Networking/Sdk/NetworkTrafficInspector.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Networking/Sdk/NetworkTrafficJsonExporter.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Networking/Sdk/NetworkTrafficMonitor.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Networking/Sdk/ReliableEventSessionBuilder.cs"/>
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="../AbilityKit.Network.Runtime/AbilityKit.Network.Runtime.csproj" />
-    <ProjectReference Include="../AbilityKit.Protocol/AbilityKit.Protocol.csproj" />
+    <ProjectReference Include="../AbilityKit.Network.Runtime/AbilityKit.Network.Runtime.csproj"/>
+    <ProjectReference Include="../AbilityKit.Protocol/AbilityKit.Protocol.csproj"/>
   </ItemGroup>
 </Project>

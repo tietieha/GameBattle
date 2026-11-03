@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <!-- Unity has no implicit usings; keep this matching so the .NET build is a faithful
+         proxy for the Unity compile of the same sources. -->
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>AbilityKit.Samples.Abstractions</RootNamespace>
+    <AssemblyName>AbilityKit.Samples.Abstractions</AssemblyName>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <!-- 源码权威在 Unity/Assets/Scripts/GameBattle/Example/Foundation；本工程只做投影，不再持有源码。 -->
+  <ItemGroup>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Example/Foundation/Abstractions/BufferedSampleLogger.cs;../../Unity/Assets/Scripts/GameBattle/Example/Foundation/Abstractions/IConfigProvider.cs;../../Unity/Assets/Scripts/GameBattle/Example/Foundation/Abstractions/ILogger.cs;../../Unity/Assets/Scripts/GameBattle/Example/Foundation/Abstractions/IResourceProvider.cs;../../Unity/Assets/Scripts/GameBattle/Example/Foundation/Abstractions/ISample.cs;../../Unity/Assets/Scripts/GameBattle/Example/Foundation/Abstractions/ISampleEnvironment.cs;../../Unity/Assets/Scripts/GameBattle/Example/Foundation/Abstractions/ISampleEnvironmentFactory.cs;../../Unity/Assets/Scripts/GameBattle/Example/Foundation/Abstractions/SampleBase.cs;../../Unity/Assets/Scripts/GameBattle/Example/Foundation/Abstractions/SampleCatalog.cs;../../Unity/Assets/Scripts/GameBattle/Example/Foundation/Abstractions/SampleCatalogEntry.cs;../../Unity/Assets/Scripts/GameBattle/Example/Foundation/Abstractions/SampleCategory.cs;../../Unity/Assets/Scripts/GameBattle/Example/Foundation/Abstractions/SampleCodeWalkthroughStep.cs;../../Unity/Assets/Scripts/GameBattle/Example/Foundation/Abstractions/SampleExecutionResult.cs;../../Unity/Assets/Scripts/GameBattle/Example/Foundation/Abstractions/SampleExecutionService.cs;../../Unity/Assets/Scripts/GameBattle/Example/Foundation/Abstractions/SampleGuideContent.cs;../../Unity/Assets/Scripts/GameBattle/Example/Foundation/Abstractions/SampleHostCapabilities.cs;../../Unity/Assets/Scripts/GameBattle/Example/Foundation/Abstractions/SampleHostKind.cs;../../Unity/Assets/Scripts/GameBattle/Example/Foundation/Abstractions/SampleInputField.cs;../../Unity/Assets/Scripts/GameBattle/Example/Foundation/Abstractions/SampleLearningCheckpoint.cs;../../Unity/Assets/Scripts/GameBattle/Example/Foundation/Abstractions/SampleLearningContract.cs;../../Unity/Assets/Scripts/GameBattle/Example/Foundation/Abstractions/SampleRunHandle.cs;../../Unity/Assets/Scripts/GameBattle/Example/Foundation/Abstractions/SampleRunOptions.cs;../../Unity/Assets/Scripts/GameBattle/Example/Foundation/Abstractions/SampleRunRequest.cs;../../Unity/Assets/Scripts/GameBattle/Example/Foundation/Abstractions/SampleRunSelectionKind.cs;../../Unity/Assets/Scripts/GameBattle/Example/Foundation/Abstractions/SampleRuntimeContext.cs;../../Unity/Assets/Scripts/GameBattle/Example/Foundation/Abstractions/SampleVisualFrame.cs;../../Unity/Assets/Scripts/GameBattle/Example/Foundation/Abstractions/SampleVisualModel.cs"/>
+  </ItemGroup>
+</Project>

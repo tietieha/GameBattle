@@ -1,0 +1,435 @@
+#if UNITY_EDITOR
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Reflection;
+using Newtonsoft.Json;
+using UnityEditor;
+using UnityEngine;
+
+namespace AbilityKit.Ability.Impl.BattleDemo.Moba.Editor
+{
+    public static class MobaConfigJsonFolderSync
+    {
+        private const string BaseResourcesFolder = "Assets/Scripts/GameBattle/Example/Moba/Resources/moba";
+
+        public static void ImportInto(MobaConfigTableAssetSO table)
+        {
+            if (table == null) throw new ArgumentNullException(nameof(table));
+
+            var entryType = table.EntryType;
+            var fileWithoutExt = table.FileWithoutExt;
+
+            var folder = GetFolderAssetPath(fileWithoutExt);
+            var absoluteFolder = ToAbsolutePath(folder);
+            if (!Directory.Exists(absoluteFolder))
+            {
+                Debug.LogError($"[MobaConfigJsonFolderSync] Folder not found: {folder}");
+                return;
+            }
+
+            var idGetter = CreateIdGetter(entryType);
+
+            var dict = new Dictionary<int, object>();
+            var enumerable = table.GetEntries();
+            if (enumerable != null)
+            {
+                foreach (var e in enumerable)
+                {
+                    if (e == null) continue;
+                    var id = idGetter(e);
+                    dict[id] = e;
+                }
+            }
+
+            var paths = Directory.GetFiles(absoluteFolder, "*.json", SearchOption.TopDirectoryOnly);
+            for (var i = 0; i < paths.Length; i++)
+            {
+                var p = paths[i];
+                try
+                {
+                    var json = File.ReadAllText(p);
+                    if (string.IsNullOrWhiteSpace(json)) continue;
+
+                    var obj = JsonConvert.DeserializeObject(json, entryType);
+                    if (obj == null) continue;
+
+                    var id = idGetter(obj);
+                    dict[id] = obj;
+                }
+                catch (Exception e)
+                {
+                    Debug.LogError($"[MobaConfigJsonFolderSync] Failed to read: {p}\n{e}");
+                    return;
+                }
+            }
+
+            var list = new List<object>(dict.Values);
+            list.Sort((a, b) => idGetter(a).CompareTo(idGetter(b)));
+
+            var arr = Array.CreateInstance(entryType, list.Count);
+            for (var i = 0; i < list.Count; i++) arr.SetValue(list[i], i);
+
+            if (!TrySetEntriesArray(table, entryType, arr))
+            {
+                Debug.LogError($"[MobaConfigJsonFolderSync] Failed to assign entries array. table={table.GetType().FullName} entryType={entryType.FullName}");
+                return;
+            }
+
+            EditorUtility.SetDirty(table);
+            AssetDatabase.SaveAssets();
+
+            Debug.Log($"[MobaConfigJsonFolderSync] Imported {arr.Length} entries into: {AssetDatabase.GetAssetPath(table)}");
+        }
+
+        /// <summary>
+        /// 与 ImportInto 的合并语义不同：完全以文件夹 JSON 为准重建 SO 条目（整表替换），
+        /// 文件夹中缺失的条目会从 SO 中删除。用于 headless push-json（AI 编辑面视为全量快照，
+        /// 删除一个条目文件 = 删除该条目）。
+        /// absoluteFolderOverride 用于测试注入临时目录；缺省使用 Resources/moba/{表名}。
+        /// </summary>
+        public static void ImportFolderReplacing(MobaConfigTableAssetSO table, string absoluteFolderOverride = null)
+        {
+            if (table == null) throw new ArgumentNullException(nameof(table));
+
+            var entryType = table.EntryType;
+            var fileWithoutExt = table.FileWithoutExt;
+
+            var absoluteFolder = absoluteFolderOverride ?? ToAbsolutePath(GetFolderAssetPath(fileWithoutExt));
+            if (!Directory.Exists(absoluteFolder))
+            {
+                Debug.LogError($"[MobaConfigJsonFolderSync] Folder not found: {absoluteFolder}");
+                return;
+            }
+
+            var idGetter = CreateIdGetter(entryType);
+
+            var dict = new Dictionary<int, object>();
+            var paths = Directory.GetFiles(absoluteFolder, "*.json", SearchOption.TopDirectoryOnly);
+            for (var i = 0; i < paths.Length; i++)
+            {
+                var p = paths[i];
+                try
+                {
+                    var json = File.ReadAllText(p);
+                    if (string.IsNullOrWhiteSpace(json)) continue;
+
+                    var obj = JsonConvert.DeserializeObject(json, entryType);
+                    if (obj == null) continue;
+
+                    var id = idGetter(obj);
+                    dict[id] = obj;
+                }
+                catch (Exception e)
+                {
+                    Debug.LogError($"[MobaConfigJsonFolderSync] Failed to read: {p}\n{e}");
+                    return;
+                }
+            }
+
+            var list = new List<object>(dict.Values);
+            list.Sort((a, b) => idGetter(a).CompareTo(idGetter(b)));
+
+            var arr = Array.CreateInstance(entryType, list.Count);
+            for (var i = 0; i < list.Count; i++) arr.SetValue(list[i], i);
+
+            if (!TrySetEntriesArray(table, entryType, arr))
+            {
+                Debug.LogError($"[MobaConfigJsonFolderSync] Failed to assign entries array. table={table.GetType().FullName} entryType={entryType.FullName}");
+                return;
+            }
+
+            EditorUtility.SetDirty(table);
+            AssetDatabase.SaveAssets();
+
+            Debug.Log($"[MobaConfigJsonFolderSync] Replaced (folder is source of truth) {arr.Length} entries in: {AssetDatabase.GetAssetPath(table)}");
+        }
+
+        /// <summary>
+        /// 在 ExportFrom 的基础上，写完后清理文件夹中已不属于 SO 当前条目的孤儿 {表}_{id}.json 文件，
+        /// 使逐条目文件夹成为 SO 的完整快照——删除可从 Excel/SO 传播到 AI 编辑面
+        /// （否则被删条目的残留 JSON 会在下一次 push-json 时经 ImportFolderReplacing 复活）。
+        /// absoluteFolderOverride 用于测试注入临时目录；缺省使用 Resources/moba/{表名}。
+        /// </summary>
+        public static void ExportFromReplacing(MobaConfigTableAssetSO table, string absoluteFolderOverride = null)
+        {
+            if (table == null) throw new ArgumentNullException(nameof(table));
+
+            var absoluteFolder = absoluteFolderOverride ?? ToAbsolutePath(GetFolderAssetPath(table.FileWithoutExt));
+
+            ExportFromCore(table, absoluteFolder);
+
+            if (!Directory.Exists(absoluteFolder))
+            {
+                return;
+            }
+
+            var prefix = table.FileWithoutExt + "_";
+            var idGetter = CreateIdGetter(table.EntryType);
+            var expected = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
+            var entries = table.GetEntries();
+            if (entries != null)
+            {
+                foreach (var e in entries)
+                {
+                    if (e == null) continue;
+                    expected.Add($"{table.FileWithoutExt}_{idGetter(e)}.json");
+                }
+            }
+
+            var removed = 0;
+            var files = Directory.GetFiles(absoluteFolder, "*.json", SearchOption.TopDirectoryOnly);
+            for (var i = 0; i < files.Length; i++)
+            {
+                var fileName = Path.GetFileName(files[i]);
+                // 只清理本表命名约定的孤儿文件，不动其他文件。
+                if (!fileName.StartsWith(prefix, StringComparison.OrdinalIgnoreCase) || expected.Contains(fileName))
+                {
+                    continue;
+                }
+
+                File.Delete(files[i]);
+                removed++;
+            }
+
+            if (removed > 0)
+            {
+                AssetDatabase.Refresh();
+                Debug.Log($"[MobaConfigJsonFolderSync] ExportFromReplacing removed {removed} orphan file(s) in {absoluteFolder}");
+            }
+        }
+
+        public static void ExportFrom(MobaConfigTableAssetSO table)
+        {
+            if (table == null) throw new ArgumentNullException(nameof(table));
+            ExportFromCore(table, ToAbsolutePath(GetFolderAssetPath(table.FileWithoutExt)));
+        }
+
+        private static void ExportFromCore(MobaConfigTableAssetSO table, string absoluteFolder)
+        {
+            var entryType = table.EntryType;
+            var fileWithoutExt = table.FileWithoutExt;
+
+            Directory.CreateDirectory(absoluteFolder);
+
+            var idGetter = CreateIdGetter(entryType);
+
+            var set = new HashSet<int>();
+            var entries = new List<object>();
+            var enumerable = table.GetEntries();
+            if (enumerable != null)
+            {
+                foreach (var e in enumerable)
+                {
+                    if (e == null) continue;
+                    var id = idGetter(e);
+                    if (!set.Add(id))
+                    {
+                        Debug.LogError($"[MobaConfigJsonFolderSync] Duplicate Id in SO: {id} ({fileWithoutExt})");
+                        return;
+                    }
+                    entries.Add(e);
+                }
+            }
+
+            entries.Sort((a, b) => idGetter(a).CompareTo(idGetter(b)));
+
+            var count = 0;
+            for (var i = 0; i < entries.Count; i++)
+            {
+                var e = entries[i];
+                var id = idGetter(e);
+                var fileName = $"{fileWithoutExt}_{id}.json";
+                var p = Path.Combine(absoluteFolder, fileName);
+                var json = JsonConvert.SerializeObject(e, Formatting.Indented);
+                File.WriteAllText(p, json);
+                count++;
+            }
+
+            AssetDatabase.Refresh();
+            Debug.Log($"[MobaConfigJsonFolderSync] Exported {count} entries to: {absoluteFolder}");
+        }
+
+        public static void ExportArrayJsonToFolder(MobaConfigTableAssetSO table)
+        {
+            if (table == null) throw new ArgumentNullException(nameof(table));
+
+            var entryType = table.EntryType;
+            var fileWithoutExt = table.FileWithoutExt;
+
+            var folder = GetFolderAssetPath(fileWithoutExt);
+            var absoluteFolder = ToAbsolutePath(folder);
+            Directory.CreateDirectory(absoluteFolder);
+
+            var arrayPath = GetArrayJsonAssetPath(fileWithoutExt);
+            var absoluteArrayPath = ToAbsolutePath(arrayPath);
+            if (!File.Exists(absoluteArrayPath))
+            {
+                Debug.LogError($"[MobaConfigJsonFolderSync] Array json not found: {arrayPath}");
+                return;
+            }
+
+            var json = File.ReadAllText(absoluteArrayPath);
+            var arrayType = entryType.MakeArrayType();
+            var arr = JsonConvert.DeserializeObject(json, arrayType) as Array;
+            if (arr == null) arr = Array.CreateInstance(entryType, 0);
+
+            var idGetter = CreateIdGetter(entryType);
+            var entries = new List<object>(arr.Length);
+            for (var i = 0; i < arr.Length; i++)
+            {
+                var e = arr.GetValue(i);
+                if (e != null) entries.Add(e);
+            }
+            entries.Sort((a, b) => idGetter(a).CompareTo(idGetter(b)));
+
+            var count = 0;
+            for (var i = 0; i < entries.Count; i++)
+            {
+                var e = entries[i];
+                var id = idGetter(e);
+                var fileName = $"{fileWithoutExt}_{id}.json";
+                var p = Path.Combine(absoluteFolder, fileName);
+                var itemJson = JsonConvert.SerializeObject(e, Formatting.Indented);
+                File.WriteAllText(p, itemJson);
+                count++;
+            }
+
+            AssetDatabase.Refresh();
+            Debug.Log($"[MobaConfigJsonFolderSync] Exported {count} entries from array json to: {folder}");
+        }
+
+        public static bool TryExportArrayJsonToFolder(MobaConfigTableAssetSO table)
+        {
+            if (table == null) throw new ArgumentNullException(nameof(table));
+
+            var arrayPath = GetArrayJsonAssetPath(table.FileWithoutExt);
+            var absoluteArrayPath = ToAbsolutePath(arrayPath);
+            if (!File.Exists(absoluteArrayPath)) return false;
+
+            ExportArrayJsonToFolder(table);
+            return true;
+        }
+
+        public static void ImportFolderToArrayJson(MobaConfigTableAssetSO table)
+        {
+            if (table == null) throw new ArgumentNullException(nameof(table));
+
+            var entryType = table.EntryType;
+            var fileWithoutExt = table.FileWithoutExt;
+
+            var folder = GetFolderAssetPath(fileWithoutExt);
+            var absoluteFolder = ToAbsolutePath(folder);
+            if (!Directory.Exists(absoluteFolder))
+            {
+                Debug.LogError($"[MobaConfigJsonFolderSync] Folder not found: {folder}");
+                return;
+            }
+
+            var idGetter = CreateIdGetter(entryType);
+            var dict = new Dictionary<int, object>();
+
+            var paths = Directory.GetFiles(absoluteFolder, "*.json", SearchOption.TopDirectoryOnly);
+            for (var i = 0; i < paths.Length; i++)
+            {
+                var p = paths[i];
+                try
+                {
+                    var json = File.ReadAllText(p);
+                    if (string.IsNullOrWhiteSpace(json)) continue;
+
+                    var obj = JsonConvert.DeserializeObject(json, entryType);
+                    if (obj == null) continue;
+
+                    var id = idGetter(obj);
+                    dict[id] = obj;
+                }
+                catch (Exception e)
+                {
+                    Debug.LogError($"[MobaConfigJsonFolderSync] Failed to read: {p}\n{e}");
+                    return;
+                }
+            }
+
+            var list = new List<object>(dict.Values);
+            list.Sort((a, b) => idGetter(a).CompareTo(idGetter(b)));
+
+            var arr = Array.CreateInstance(entryType, list.Count);
+            for (var i = 0; i < list.Count; i++) arr.SetValue(list[i], i);
+
+            var arrayJson = JsonConvert.SerializeObject(arr, Formatting.Indented);
+            var arrayPath = GetArrayJsonAssetPath(fileWithoutExt);
+            var absoluteArrayPath = ToAbsolutePath(arrayPath);
+            File.WriteAllText(absoluteArrayPath, arrayJson);
+
+            AssetDatabase.Refresh();
+            Debug.Log($"[MobaConfigJsonFolderSync] Wrote array json ({arr.Length} entries): {arrayPath}");
+        }
+
+        private static string GetFolderAssetPath(string fileWithoutExt)
+        {
+            return $"{BaseResourcesFolder}/{fileWithoutExt}";
+        }
+
+        private static string GetArrayJsonAssetPath(string fileWithoutExt)
+        {
+            return $"{BaseResourcesFolder}/{fileWithoutExt}.json";
+        }
+
+        private static bool TrySetEntriesArray(MobaConfigTableAssetSO table, Type entryType, Array arr)
+        {
+            var t = table.GetType();
+
+            var fields = t.GetFields(BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance);
+            for (var i = 0; i < fields.Length; i++)
+            {
+                var f = fields[i];
+                if (f == null) continue;
+                if (!f.FieldType.IsArray) continue;
+                if (f.FieldType.GetElementType() != entryType) continue;
+
+                f.SetValue(table, arr);
+                return true;
+            }
+
+            return false;
+        }
+
+        private static Func<object, int> CreateIdGetter(Type entryType)
+        {
+            var field = entryType.GetField("Id", BindingFlags.Public | BindingFlags.Instance);
+            if (field != null && field.FieldType == typeof(int))
+            {
+                return o => (int)field.GetValue(o);
+            }
+
+            var prop = entryType.GetProperty("Id", BindingFlags.Public | BindingFlags.Instance);
+            if (prop != null && prop.PropertyType == typeof(int) && prop.GetMethod != null)
+            {
+                return o => (int)prop.GetValue(o);
+            }
+
+            throw new InvalidOperationException($"Config entry must have public int Id field/property. type={entryType.FullName}");
+        }
+
+        private static string ToAbsolutePath(string assetPath)
+        {
+            assetPath = (assetPath ?? string.Empty).Replace('\\', '/');
+            if (assetPath.StartsWith("Assets/", StringComparison.Ordinal) || assetPath == "Assets")
+            {
+                var rel = assetPath.Length > "Assets".Length ? assetPath.Substring("Assets".Length).TrimStart('/') : string.Empty;
+                return Path.Combine(Application.dataPath, rel);
+            }
+
+            if (assetPath.StartsWith("Packages/", StringComparison.Ordinal))
+            {
+                return Path.GetFullPath(Path.Combine(Application.dataPath, "..", assetPath));
+            }
+
+            throw new InvalidOperationException($"Expected an Assets or Packages path. path={assetPath}");
+        }
+    }
+}
+#endif

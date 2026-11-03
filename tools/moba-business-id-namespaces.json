@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "authorityRoot": "Unity/Packages/com.abilitykit.demo.moba.view.runtime/Resources",
+  "authorityRoot": "Unity/Assets/Scripts/GameBattle/Example/Moba/Resources",
   "legacyIdMax": 9999999,
   "namespaces": [
     {

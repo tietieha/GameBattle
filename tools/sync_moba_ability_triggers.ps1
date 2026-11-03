@@ -7,7 +7,7 @@
   (src/AbilityKit.Demo.Moba.Console/Configs/ability/triggers/<category>/),
   keyed by category in trigger_source_manifest.json. That snapshot can drift from the
   authoritative runtime config shipped in the Unity package
-  (Unity/Packages/com.abilitykit.demo.moba.view.runtime/Resources/ability/triggers/<category>/).
+  (Unity/Assets/Scripts/GameBattle/Example/Moba/Resources/ability/triggers/<category>/).
 
   This tool diffs Unity -> console per file (byte-for-byte SHA256) and reports:
     SAME       both sides identical
@@ -44,7 +44,7 @@
 #>
 [CmdletBinding()]
 param(
-    [string]$UnityRoot = 'Unity/Packages/com.abilitykit.demo.moba.view.runtime/Resources/ability/triggers',
+    [string]$UnityRoot = 'Unity/Assets/Scripts/GameBattle/Example/Moba/Resources/ability/triggers',
     [string]$ConsoleRoot = 'src/AbilityKit.Demo.Moba.Console/Configs/ability/triggers',
     [string[]]$Categories = @('skills'),
     [switch]$Apply,

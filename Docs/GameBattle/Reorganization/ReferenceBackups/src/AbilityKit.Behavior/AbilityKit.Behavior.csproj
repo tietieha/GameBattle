@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AbilityKitStable>true</AbilityKitStable>
+    <Nullable>enable</Nullable>
+    <RootNamespace>AbilityKit.Ability.Behavior</RootNamespace>
+    <AssemblyName>AbilityKit.Behavior</AssemblyName>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <!-- 引用 Packages 目录下的源码 -->
+  <ItemGroup>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Battle/Actor/Decision/Behavior/Core/BehaviorTypes.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Actor/Decision/Behavior/Executor/ABehaviorExecutor.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Actor/Decision/Behavior/Interface/IBehaviorDecision.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Actor/Decision/Behavior/Interface/IBehaviorExecutor.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Actor/Decision/Behavior/Interface/IWorldQuery.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Actor/Decision/Behavior/Pipeline/AbilityBehaviorPhase.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Actor/Decision/Behavior/Runtime/BehaviorManager.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Actor/Decision/Behavior/Runtime/BehaviorRuntime.cs"/>
+  </ItemGroup>
+
+  <!-- Reference Core and Pipeline -->
+  <ItemGroup>
+    <ProjectReference Include="..\AbilityKit.Core\AbilityKit.Core.csproj"/>
+    <ProjectReference Include="..\AbilityKit.Deterministic\AbilityKit.Deterministic.csproj"/>
+    <ProjectReference Include="..\AbilityKit.Continuous\AbilityKit.Continuous.csproj"/>
+    <ProjectReference Include="..\AbilityKit.Pipeline\AbilityKit.Pipeline.csproj"/>
+  </ItemGroup>
+</Project>

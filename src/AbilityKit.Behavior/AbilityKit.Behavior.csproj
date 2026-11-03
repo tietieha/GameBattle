@@ -11,14 +11,14 @@
 
   <!-- 引用 Packages 目录下的源码 -->
   <ItemGroup>
-    <Compile Include="../../Unity/Packages/com.abilitykit.behavior/Runtime/**/*.cs" />
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Runtime/Decision/Behavior/Core/BehaviorTypes.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Decision/Behavior/Executor/ABehaviorExecutor.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Decision/Behavior/Interface/IBehaviorDecision.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Decision/Behavior/Interface/IBehaviorExecutor.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Decision/Behavior/Interface/IWorldQuery.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Decision/Behavior/Pipeline/AbilityBehaviorPhase.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Decision/Behavior/Runtime/BehaviorManager.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Decision/Behavior/Runtime/BehaviorRuntime.cs"/>
   </ItemGroup>
 
   <!-- Reference Core and Pipeline -->
   <ItemGroup>
-    <ProjectReference Include="..\AbilityKit.Core\AbilityKit.Core.csproj" />
-    <ProjectReference Include="..\AbilityKit.Deterministic\AbilityKit.Deterministic.csproj" />
-    <ProjectReference Include="..\AbilityKit.Continuous\AbilityKit.Continuous.csproj" />
-    <ProjectReference Include="..\AbilityKit.Pipeline\AbilityKit.Pipeline.csproj" />
+    <ProjectReference Include="..\AbilityKit.Core\AbilityKit.Core.csproj"/>
+    <ProjectReference Include="..\AbilityKit.Deterministic\AbilityKit.Deterministic.csproj"/>
+    <ProjectReference Include="..\AbilityKit.Continuous\AbilityKit.Continuous.csproj"/>
+    <ProjectReference Include="..\AbilityKit.Pipeline\AbilityKit.Pipeline.csproj"/>
   </ItemGroup>
 </Project>

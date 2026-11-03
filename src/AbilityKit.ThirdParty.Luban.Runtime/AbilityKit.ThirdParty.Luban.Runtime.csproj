@@ -12,8 +12,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="../../Unity/Packages/com.abilitykit.thirdparty.luban.runtime/Runtime/**/*.cs" 
-             Exclude="../../Unity/Packages/com.abilitykit.thirdparty.luban.runtime/Runtime/**/*.asmdef" />
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Runtime/Content/Serialization/Luban/LubanCompat/BeanBase.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Content/Serialization/Luban/LubanCompat/ByteBuf.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Content/Serialization/Luban/LubanCompat/SerializationException.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Content/Serialization/Luban/LubanCompat/StringUtil.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Content/Serialization/Luban/LubanCore/Serialization/BeanBase.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Content/Serialization/Luban/LubanCore/Serialization/ByteBuf.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Content/Serialization/Luban/LubanCore/Serialization/ByteBufPool.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Content/Serialization/Luban/LubanCore/Serialization/EUnmarshalError.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Content/Serialization/Luban/LubanCore/Serialization/FieldTag.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Content/Serialization/Luban/LubanCore/Serialization/ISerializable.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Content/Serialization/Luban/LubanCore/Serialization/ITypeId.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Content/Serialization/Luban/LubanCore/Serialization/SerializationException.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Content/Serialization/Luban/LubanCore/Serialization/ThreadLocalTemporalByteBufPool.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Content/Serialization/Luban/LubanCore/Utils/StringUtil.cs"/>
   </ItemGroup>
 
 </Project>

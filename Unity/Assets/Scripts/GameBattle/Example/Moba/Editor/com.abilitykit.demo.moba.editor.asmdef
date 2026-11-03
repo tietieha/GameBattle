@@ -1,0 +1,28 @@
+{
+  "name": "AbilityKit.Demo.Moba.Editor",
+  "rootNamespace": "AbilityKit",
+  "references": [
+    "AbilityKit.Demo.Common",
+    "AbilityKit.Demo.Common.Unity",
+    "AbilityKit.Demo.Starter",
+    "AbilityKit.Demo.Moba.Diagnostics.Core",
+    "GameBattle.Runtime",
+    "AbilityKit.Demo.Moba.Runtime",
+    "AbilityKit.Demo.Moba.Share",
+    "AbilityKit.Demo.Moba.View.Runtime",
+    "AbilityKit.Game.Flow.Core",
+    "GameBattle.Editor",
+    "AbilityKit.Demo.Moba.Environment"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

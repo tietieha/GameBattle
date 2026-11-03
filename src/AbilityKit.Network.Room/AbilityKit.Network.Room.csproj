@@ -12,14 +12,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="../../Unity/Packages/com.abilitykit.network.room/Runtime/**/*.cs"
-             Exclude="../../Unity/Packages/com.abilitykit.network.room/Runtime/**/*.asmdef" />
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Networking/Room/GatewayMultiplayerSession.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Networking/Room/NetworkSdkRoomExtensions.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Networking/Room/RoomGatewayBattleSessionBase.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Networking/Room/RoomGatewayConnectionSession.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Networking/Room/RoomGatewayInterfaces.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Networking/Room/RoomGatewayLaunchManifestCompatibility.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Networking/Room/RoomGatewayNetworkSyncCapabilities.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Networking/Room/RoomGatewayNetworkSyncSessionBinding.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Networking/Room/RoomGatewayRestoreFirstConnectionPolicy.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Networking/Room/RoomGatewaySessionFlow.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Networking/Room/RoomGatewaySnapshot.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Networking/Room/RoomGatewayWireSessionClient.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Networking/Room/Flow/RoomGatewayCommandIdLedger.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Networking/Room/Flow/RoomGatewayLoadingStage.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Networking/Room/Recovery/RoomGatewayConnectionRecovery.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Networking/Room/Sync/RoomGatewayFrameInbox.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Networking/Room/Sync/RoomGatewayFullSnapshotCursor.cs"/>
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="../AbilityKit.Network.Runtime/AbilityKit.Network.Runtime.csproj" />
-    <ProjectReference Include="../AbilityKit.Network.Sdk/AbilityKit.Network.Sdk.csproj" />
-    <ProjectReference Include="../AbilityKit.Protocol/AbilityKit.Protocol.csproj" />
-    <ProjectReference Include="../AbilityKit.Protocol.Room/AbilityKit.Protocol.Room.csproj" />
+    <ProjectReference Include="../AbilityKit.Network.Runtime/AbilityKit.Network.Runtime.csproj"/>
+    <ProjectReference Include="../AbilityKit.Network.Sdk/AbilityKit.Network.Sdk.csproj"/>
+    <ProjectReference Include="../AbilityKit.Protocol/AbilityKit.Protocol.csproj"/>
+    <ProjectReference Include="../AbilityKit.Protocol.Room/AbilityKit.Protocol.Room.csproj"/>
   </ItemGroup>
 </Project>

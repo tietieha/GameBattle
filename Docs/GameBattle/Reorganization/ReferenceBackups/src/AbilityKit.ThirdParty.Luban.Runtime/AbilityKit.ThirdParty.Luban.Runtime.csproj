@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>AbilityKit</RootNamespace>
+    <AssemblyName>AbilityKit.ThirdParty.Luban.Runtime</AssemblyName>
+    <LangVersion>latest</LangVersion>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/ThirdParty/Luban/LubanCompat/BeanBase.cs;../../Unity/Assets/Scripts/GameBattle/ThirdParty/Luban/LubanCompat/ByteBuf.cs;../../Unity/Assets/Scripts/GameBattle/ThirdParty/Luban/LubanCompat/SerializationException.cs;../../Unity/Assets/Scripts/GameBattle/ThirdParty/Luban/LubanCompat/StringUtil.cs;../../Unity/Assets/Scripts/GameBattle/ThirdParty/Luban/LubanCore/Serialization/BeanBase.cs;../../Unity/Assets/Scripts/GameBattle/ThirdParty/Luban/LubanCore/Serialization/ByteBuf.cs;../../Unity/Assets/Scripts/GameBattle/ThirdParty/Luban/LubanCore/Serialization/ByteBufPool.cs;../../Unity/Assets/Scripts/GameBattle/ThirdParty/Luban/LubanCore/Serialization/EUnmarshalError.cs;../../Unity/Assets/Scripts/GameBattle/ThirdParty/Luban/LubanCore/Serialization/FieldTag.cs;../../Unity/Assets/Scripts/GameBattle/ThirdParty/Luban/LubanCore/Serialization/ISerializable.cs;../../Unity/Assets/Scripts/GameBattle/ThirdParty/Luban/LubanCore/Serialization/ITypeId.cs;../../Unity/Assets/Scripts/GameBattle/ThirdParty/Luban/LubanCore/Serialization/SerializationException.cs;../../Unity/Assets/Scripts/GameBattle/ThirdParty/Luban/LubanCore/Serialization/ThreadLocalTemporalByteBufPool.cs;../../Unity/Assets/Scripts/GameBattle/ThirdParty/Luban/LubanCore/Utils/StringUtil.cs"/>
+  </ItemGroup>
+
+</Project>

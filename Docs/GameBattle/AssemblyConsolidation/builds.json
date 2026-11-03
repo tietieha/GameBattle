@@ -1,0 +1,116 @@
+[
+  {
+    "name": "GameBattle.Runtime",
+    "status": 0,
+    "log": "Docs/GameBattle/AssemblyConsolidation/BuildLogs/GameBattle.Runtime.log",
+    "output": "\r\n已成功生成。\r\n    2 个警告\r\n    0 个错误\r\n\r\n已用时间 00:00:00.28\r\n"
+  },
+  {
+    "name": "GameBattle.Unity",
+    "status": 0,
+    "log": "Docs/GameBattle/AssemblyConsolidation/BuildLogs/GameBattle.Unity.log",
+    "output": "\r\n已成功生成。\r\n    4 个警告\r\n    0 个错误\r\n\r\n已用时间 00:00:00.42\r\n"
+  },
+  {
+    "name": "GameBattle.Editor",
+    "status": 0,
+    "log": "Docs/GameBattle/AssemblyConsolidation/BuildLogs/GameBattle.Editor.log",
+    "output": "\r\n已成功生成。\r\n    4 个警告\r\n    0 个错误\r\n\r\n已用时间 00:00:00.57\r\n"
+  },
+  {
+    "name": "AbilityKit.Pipeline.Editor.Tests",
+    "status": 0,
+    "log": "Docs/GameBattle/AssemblyConsolidation/BuildLogs/AbilityKit.Pipeline.Editor.Tests.log",
+    "output": "\r\n已成功生成。\r\n    4 个警告\r\n    0 个错误\r\n\r\n已用时间 00:00:00.83\r\n"
+  },
+  {
+    "name": "AbilityKit.Ability.Editor.Tests",
+    "status": 0,
+    "log": "Docs/GameBattle/AssemblyConsolidation/BuildLogs/AbilityKit.Ability.Editor.Tests.log",
+    "output": "\r\n已成功生成。\r\n    4 个警告\r\n    0 个错误\r\n\r\n已用时间 00:00:00.70\r\n"
+  },
+  {
+    "name": "AbilityKit.BehaviorTree.Editor.Tests",
+    "status": 0,
+    "log": "Docs/GameBattle/AssemblyConsolidation/BuildLogs/AbilityKit.BehaviorTree.Editor.Tests.log",
+    "output": "\r\n已成功生成。\r\n    4 个警告\r\n    0 个错误\r\n\r\n已用时间 00:00:00.70\r\n"
+  },
+  {
+    "name": "AbilityKit.Triggering.Tests",
+    "status": 0,
+    "log": "Docs/GameBattle/AssemblyConsolidation/BuildLogs/AbilityKit.Triggering.Tests.log",
+    "output": "\r\n已成功生成。\r\n    2 个警告\r\n    0 个错误\r\n\r\n已用时间 00:00:00.40\r\n"
+  },
+  {
+    "name": "AbilityKit.Editor.Platform.Tests",
+    "status": 0,
+    "log": "Docs/GameBattle/AssemblyConsolidation/BuildLogs/AbilityKit.Editor.Platform.Tests.log",
+    "output": "\r\n已成功生成。\r\n    4 个警告\r\n    0 个错误\r\n\r\n已用时间 00:00:00.67\r\n"
+  },
+  {
+    "name": "AbilityKit.Combat.Motion.Tests",
+    "status": 0,
+    "log": "Docs/GameBattle/AssemblyConsolidation/BuildLogs/AbilityKit.Combat.Motion.Tests.log",
+    "output": "\r\n已成功生成。\r\n    2 个警告\r\n    0 个错误\r\n\r\n已用时间 00:00:00.40\r\n"
+  },
+  {
+    "name": "AbilityKit.Compute.UnityJobs.Tests",
+    "status": 0,
+    "log": "Docs/GameBattle/AssemblyConsolidation/BuildLogs/AbilityKit.Compute.UnityJobs.Tests.log",
+    "output": "\r\n已成功生成。\r\n    4 个警告\r\n    0 个错误\r\n\r\n已用时间 00:00:00.52\r\n"
+  },
+  {
+    "name": "AbilityKit.HFSM.Tests",
+    "status": 0,
+    "log": "Docs/GameBattle/AssemblyConsolidation/BuildLogs/AbilityKit.HFSM.Tests.log",
+    "output": "\r\n已成功生成。\r\n    4 个警告\r\n    0 个错误\r\n\r\n已用时间 00:00:00.77\r\n"
+  },
+  {
+    "name": "AbilityKit.Demo.Moba.View.Runtime",
+    "status": 0,
+    "log": "Docs/GameBattle/AssemblyConsolidation/BuildLogs/AbilityKit.Demo.Moba.View.Runtime.log",
+    "output": "\r\n已成功生成。\r\n    40 个警告\r\n    0 个错误\r\n\r\n已用时间 00:00:01.66\r\n"
+  },
+  {
+    "name": "AbilityKit.Demo.Moba.Editor",
+    "status": 0,
+    "log": "Docs/GameBattle/AssemblyConsolidation/BuildLogs/AbilityKit.Demo.Moba.Editor.log",
+    "output": "\r\n已成功生成。\r\n    44 个警告\r\n    0 个错误\r\n\r\n已用时间 00:00:01.94\r\n"
+  },
+  {
+    "name": "AbilityKit.Demo.Shooter.View.Runtime",
+    "status": 0,
+    "log": "Docs/GameBattle/AssemblyConsolidation/BuildLogs/AbilityKit.Demo.Shooter.View.Runtime.log",
+    "output": "\r\n已成功生成。\r\n    16 个警告\r\n    0 个错误\r\n\r\n已用时间 00:00:00.91\r\n"
+  },
+  {
+    "name": "AbilityKit.Demo.Shooter.Jobs.Tests",
+    "status": 0,
+    "log": "Docs/GameBattle/AssemblyConsolidation/BuildLogs/AbilityKit.Demo.Shooter.Jobs.Tests.log",
+    "output": "\r\n已成功生成。\r\n    14 个警告\r\n    0 个错误\r\n\r\n已用时间 00:00:00.88\r\n"
+  },
+  {
+    "name": "AbilityKit.Demo.Tiny.View",
+    "status": 0,
+    "log": "Docs/GameBattle/AssemblyConsolidation/BuildLogs/AbilityKit.Demo.Tiny.View.log",
+    "output": "\r\n已成功生成。\r\n    12 个警告\r\n    0 个错误\r\n\r\n已用时间 00:00:00.61\r\n"
+  },
+  {
+    "name": "AbilityKit.Demo.Tiny.Turn.View",
+    "status": 0,
+    "log": "Docs/GameBattle/AssemblyConsolidation/BuildLogs/AbilityKit.Demo.Tiny.Turn.View.log",
+    "output": "\r\n已成功生成。\r\n    8 个警告\r\n    0 个错误\r\n\r\n已用时间 00:00:00.54\r\n"
+  },
+  {
+    "name": "AbilityKit.Game.UnitTests",
+    "status": 0,
+    "log": "Docs/GameBattle/AssemblyConsolidation/BuildLogs/AbilityKit.Game.UnitTests.log",
+    "output": "\r\n已成功生成。\r\n    44 个警告\r\n    0 个错误\r\n\r\n已用时间 00:00:01.90\r\n"
+  },
+  {
+    "name": "Assembly-CSharp-Editor",
+    "status": 0,
+    "log": "Docs/GameBattle/AssemblyConsolidation/BuildLogs/Assembly-CSharp-Editor.log",
+    "output": "\r\n已成功生成。\r\n    316 个警告\r\n    0 个错误\r\n\r\n已用时间 00:00:04.20\r\n"
+  }
+]

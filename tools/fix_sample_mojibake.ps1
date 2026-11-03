@@ -3,7 +3,7 @@
     Repair UTF-8-read-as-GBK mojibake in sample source comments.
 
 .DESCRIPTION
-    A subset of the sample sources in Unity/Packages/com.abilitykit.samples were
+    A subset of the sample sources in Unity/Assets/Scripts/GameBattle/Example/Foundation were
     committed with their UTF-8 comment bytes decoded as GBK, so Chinese XML doc
     comments read as garbage (for example the marker-type doc line in
     Runtime/Samples/Pipeline/ExecutorForAttribute.cs).
@@ -46,7 +46,7 @@
 [CmdletBinding()]
 param(
     [switch]$Apply,
-    [string[]]$Root = @('Unity/Packages/com.abilitykit.samples')
+    [string[]]$Root = @('Unity/Assets/Scripts/GameBattle/Example/Foundation')
 )
 
 $ErrorActionPreference = 'Stop'

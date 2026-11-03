@@ -1,0 +1,20 @@
+{
+  "name": "AbilityKit.World.NetworkFragments",
+  "rootNamespace": "AbilityKit",
+  "references": [
+    "AbilityKit.Core",
+    "AbilityKit.Host",
+    "AbilityKit.World.DI",
+    "AbilityKit.World.FrameSync",
+    "AbilityKit.Network.Runtime"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": true
+}

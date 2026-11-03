@@ -12,14 +12,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="../../Unity/Packages/com.abilitykit.combat.damage/Runtime/**/*.cs" />
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Runtime/Effect/Damage/Damage/Data/DamageCalculationContext.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Effect/Damage/Damage/Data/DamageData.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Effect/Damage/Damage/Enum/DamageEnums.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Effect/Damage/Damage/Processor/DamageProcessors.cs"/>
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="../../src/AbilityKit.Core/AbilityKit.Core.csproj" />
-    <ProjectReference Include="../../src/AbilityKit.Dataflow/AbilityKit.Dataflow.csproj" />
-    <ProjectReference Include="../../src/AbilityKit.Modifiers/AbilityKit.Modifiers.csproj" />
-    <ProjectReference Include="../../src/AbilityKit.Attributes/AbilityKit.Attributes.csproj" />
+    <ProjectReference Include="../../src/AbilityKit.Core/AbilityKit.Core.csproj"/>
+    <ProjectReference Include="../../src/AbilityKit.Dataflow/AbilityKit.Dataflow.csproj"/>
+    <ProjectReference Include="../../src/AbilityKit.Modifiers/AbilityKit.Modifiers.csproj"/>
+    <ProjectReference Include="../../src/AbilityKit.Attributes/AbilityKit.Attributes.csproj"/>
   </ItemGroup>
 
 </Project>

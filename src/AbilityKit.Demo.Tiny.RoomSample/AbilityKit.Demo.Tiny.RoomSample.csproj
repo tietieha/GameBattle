@@ -6,7 +6,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="../../Unity/Packages/com.abilitykit.demo.tiny/Samples~/02-Room/TinyRoomExample.cs" Link="TinyRoomExample.cs" />
-    <ProjectReference Include="../AbilityKit.Network.Room/AbilityKit.Network.Room.csproj" />
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Example/Optional~/demo.tiny/02-Room/TinyRoomExample.cs" Link="TinyRoomExample.cs"/>
+    <ProjectReference Include="../AbilityKit.Network.Room/AbilityKit.Network.Room.csproj"/>
   </ItemGroup>
 </Project>

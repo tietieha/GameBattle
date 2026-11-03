@@ -129,7 +129,7 @@ public sealed class MobaActionTimelineCompilerTests
     public void XiaoQiao_skill_one_export_matches_existing_authoritative_flow()
     {
         var root = Path.GetFullPath(Path.Combine(AppContext.BaseDirectory,
-            "../../../../../Unity/Packages/com.abilitykit.demo.moba.view.runtime/Resources/moba"));
+            "../../../../../Unity/Assets/Scripts/GameBattle/Example/Moba/Resources/moba"));
         var logicJson = File.ReadAllText(Path.Combine(root, "action_timeline/skill_10020101.moba.logic.json"));
         var presentationJson = File.ReadAllText(Path.Combine(root, "action_timeline/skill_10020101.moba.presentation.json"));
         var editorAsset = Newtonsoft.Json.Linq.JObject.Parse(File.ReadAllText(

@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c92ca45d1a30a34e8cc871c3c837e5a, type: 3}
+  m_Name: 10001
+  m_EditorClassIdentifier: 
+  AbilityId: AbilityEditor
+  Triggers:
+  - Core:
+      TriggerId: 10001
+      EventId: 
+      AllowExternal: 0
+    Enabled: 1
+    Note: 
+    LocalVars: []
+    ConditionsStrong: []
+    ActionsStrong:
+    - rid: 3080489919452282882
+    - rid: 3080490100035420160
+  references:
+    version: 2
+    RefIds:
+    - rid: 3080489919452282882
+      type: {class: DebugLogActionEditorConfig, ns: AbilityKit.Ability.Editor, asm: GameBattle.Editor}
+      data:
+        Message: "\u6D4B\u8BD5\u65E5\u5FD7\u8F93\u51FA11111222"
+    - rid: 3080490100035420160
+      type: {class: ShootProjectileActionEditorConfig, ns: AbilityKit.Ability.Editor, asm: GameBattle.Editor}
+      data:
+        LauncherId: 100001
+        ProjectileId: 200001

@@ -5,6 +5,6 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="..\..\Unity\Packages\com.abilitykit.demo.tiny.logic\Runtime\Logic\*.cs" />
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Example/Tiny/Runtime/Logic/TinyBattle.cs;../../Unity/Assets/Scripts/GameBattle/Example/Tiny/Runtime/Logic/TinyBattleStateCodec.cs;../../Unity/Assets/Scripts/GameBattle/Example/Tiny/Runtime/Logic/TinyInput.cs;../../Unity/Assets/Scripts/GameBattle/Example/Tiny/Runtime/Logic/TinySyncSettings.cs;../../Unity/Assets/Scripts/GameBattle/Example/Tiny/Runtime/Logic/TinySyncTemplates.cs"/>
   </ItemGroup>
 </Project>

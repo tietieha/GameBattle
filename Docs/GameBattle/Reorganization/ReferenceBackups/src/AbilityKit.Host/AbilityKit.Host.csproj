@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AbilityKitStable>true</AbilityKitStable>
+    <RootNamespace>AbilityKit</RootNamespace>
+    <AssemblyName>AbilityKit.Host</AssemblyName>
+    <LangVersion>latest</LangVersion>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Integration/Hosting/Host/Host/IHostClient.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Hosting/Host/Host/IHostServer.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Hosting/Host/Host/IWorldHost.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Hosting/Host/Host/IWorldStateSnapshotProvider.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Hosting/Host/Host/ServerClientId.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Hosting/Host/Host/WorldInitData.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Hosting/Host/Host/WorldStateSnapshot.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Hosting/Host/Host/Builder/DefaultWorldFactory.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Hosting/Host/Host/Builder/IWorldHostBuilder.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Hosting/Host/Host/Builder/WorldHostBuilder.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Hosting/Host/Host/Framework/HostRuntime.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Hosting/Host/Host/Framework/HostRuntimeFeatures.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Hosting/Host/Host/Framework/HostRuntimeModuleHost.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Hosting/Host/Host/Framework/HostRuntimeOptions.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Hosting/Host/Host/Framework/IHostRuntimeFeatures.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Hosting/Host/Host/Framework/IHostRuntimeModule.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Hosting/Host/Host/Hooks/Hook.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Hosting/Host/Host/Transport/HostClientConnectionAdapter.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Hosting/Host/Host/Transport/IServerConnection.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Hosting/Host/Host/Transport/IServerConnectionHost.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Hosting/Host/Host/Transport/ServerMessage.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Hosting/Host/Host/WorldBlueprints/IWorldBlueprint.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Hosting/Host/Host/WorldBlueprints/IWorldBlueprintRegistry.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Hosting/Host/Host/WorldBlueprints/WorldBlueprintRegistry.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Hosting/Host/Host/WorldBlueprints/WorldBlueprintWorldFactory.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Hosting/Host/Host/Builder/Components/FixedStepTimeDriver.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Hosting/Host/Host/Builder/Components/IConnectionManager.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Hosting/Host/Host/Builder/Components/IInputDriver.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Hosting/Host/Host/Builder/Components/ISnapshotProvider.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Hosting/Host/Host/Builder/Components/ITimeDriver.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Hosting/Host/Host/Builder/Components/LocalInputDriver.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Hosting/Host/Host/Builder/Components/SimpleSnapshotProvider.cs"/>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../../src/AbilityKit.Core/AbilityKit.Core.csproj"/>
+    <ProjectReference Include="../../src/AbilityKit.World.DI/AbilityKit.World.DI.csproj"/>
+    <ProjectReference Include="../../src/AbilityKit.World.FrameSync/AbilityKit.World.FrameSync.csproj"/>
+    <ProjectReference Include="../../src/AbilityKit.Network.Runtime/AbilityKit.Network.Runtime.csproj"/>
+  </ItemGroup>
+
+</Project>

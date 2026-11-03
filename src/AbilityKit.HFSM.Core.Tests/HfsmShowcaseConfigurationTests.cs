@@ -114,7 +114,7 @@ public sealed class HfsmShowcaseConfigurationTests
     private static StateMachineDefinition Load(string name)
     {
         var path = Path.GetFullPath(Path.Combine(Path.GetDirectoryName(SourcePath())!,
-            "../../Unity/Packages/com.abilitykit.hfsm/Samples~/CompleteHfsmShowcase/Resources/" + name + ".json"));
+            "../../Unity/Assets/Scripts/GameBattle/Example/Optional~/hfsm/CompleteHfsmShowcase/Resources/" + name + ".json"));
         return DefinitionJson.Load(File.ReadAllText(path));
     }
 
@@ -122,7 +122,7 @@ public sealed class HfsmShowcaseConfigurationTests
     {
         var catalog = CompositeActionCatalog.LoadJson(File.ReadAllText(Path.GetFullPath(Path.Combine(
             Path.GetDirectoryName(SourcePath())!,
-            "../../Unity/Packages/com.abilitykit.hfsm/Samples~/CompleteHfsmShowcase/Resources/hfsm_showcase_actions.json"))));
+            "../../Unity/Assets/Scripts/GameBattle/Example/Optional~/hfsm/CompleteHfsmShowcase/Resources/hfsm_showcase_actions.json"))));
         var bindings = new RuntimeBindings<Facts>();
         bindings.RegisterState("showcase.state", () => new EmptyState());
         foreach (var key in new[] { "showcase.patrol.walk", "showcase.patrol.block",

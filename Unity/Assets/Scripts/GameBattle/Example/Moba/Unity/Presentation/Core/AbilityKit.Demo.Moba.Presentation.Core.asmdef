@@ -1,0 +1,18 @@
+{
+  "name": "AbilityKit.Demo.Moba.Presentation.Core",
+  "rootNamespace": "AbilityKit",
+  "references": [
+    "GameBattle.Runtime",
+    "GameBattle.Unity",
+    "AbilityKit.Demo.Moba.Presentation.Contracts"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": true
+}

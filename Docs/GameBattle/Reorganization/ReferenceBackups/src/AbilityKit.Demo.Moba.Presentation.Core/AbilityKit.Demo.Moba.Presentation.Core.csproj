@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>net8.0;net10.0</TargetFrameworks>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);CS1591</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Presentation/Moba/Core/BattleActorViewProjection.cs;../../Unity/Assets/Scripts/GameBattle/Presentation/Moba/Core/BattleHudSessionModel.cs;../../Unity/Assets/Scripts/GameBattle/Presentation/Moba/Core/BattleProjectileSnapshotDeduplicator.cs;../../Unity/Assets/Scripts/GameBattle/Presentation/Moba/Core/BattleSessionLifecycleController.cs;../../Unity/Assets/Scripts/GameBattle/Presentation/Moba/Core/BattleSessionTickProjection.cs;../../Unity/Assets/Scripts/GameBattle/Presentation/Moba/Core/PresentationActorIndex.cs;../../Unity/Assets/Scripts/GameBattle/Presentation/Moba/Core/PresentationCueReconciliationController.cs;../../Unity/Assets/Scripts/GameBattle/Presentation/Moba/Core/PresentationCueViewRegistry.cs;../../Unity/Assets/Scripts/GameBattle/Presentation/Moba/Core/PresentationLifetimePolicy.cs;../../Unity/Assets/Scripts/GameBattle/Presentation/Moba/Core/PresentationPositionSampleBuffer.cs;../../Unity/Assets/Scripts/GameBattle/Presentation/Moba/Core/SessionAsyncOperation.cs;../../Unity/Assets/Scripts/GameBattle/Presentation/Moba/Core/SessionSnapshotRoutingController.cs;../../Unity/Assets/Scripts/GameBattle/Presentation/Moba/Core/SessionTeardownPolicy.cs;../../Unity/Assets/Scripts/GameBattle/Presentation/Moba/Core/SessionTickLoopController.cs;../../Unity/Assets/Scripts/GameBattle/Presentation/Moba/Core/SkillCooldownPresentationState.cs;../../Unity/Assets/Scripts/GameBattle/Presentation/Moba/Core/ViewEventSourceModePolicy.cs"/>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../AbilityKit.Demo.Moba.Presentation.Contracts/AbilityKit.Demo.Moba.Presentation.Contracts.csproj"/>
+  </ItemGroup>
+</Project>

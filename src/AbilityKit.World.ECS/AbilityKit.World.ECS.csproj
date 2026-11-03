@@ -12,19 +12,17 @@
 
   <!-- 引用 Packages 目录下的源码 (排除 EntityWorld.cs 和 asmdef) -->
   <ItemGroup>
-    <Compile Include="../../Unity/Packages/com.abilitykit.world.ecs/Runtime/**/*.cs" 
-             Exclude="../../Unity/Packages/com.abilitykit.world.ecs/Runtime/**/*.asmdef;
-                     ../../Unity/Packages/com.abilitykit.world.ecs/Runtime/AbilityKit.World.ECS/Impl/EntityWorld.cs" />
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Runtime/Entity/Storage/Builder/EntityWorldBuilder.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Entity/Storage/Compatibility/ECSCompat.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Entity/Storage/Core/EntityQuery.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Entity/Storage/Core/IComponentRegistry.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Entity/Storage/Core/IECWorld.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Entity/Storage/Core/IEntity.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Entity/Storage/Core/IEntityId.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Entity/Storage/Core/IWorldEventBus.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Entity/Storage/Events/WorldEvents.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Entity/Storage/Impl/ComponentRegistry.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Entity/Storage/Impl/EntityWorld.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Entity/Storage/Impl/WorldEventBus.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Entity/Storage/Internal/Pool.cs"/>
   </ItemGroup>
 
   <!-- 本地 .NET 版本文件 -->
   <ItemGroup>
-    <Compile Include="Impl/EntityWorld.cs" />
+    <Compile Include="Impl/EntityWorld.cs"/>
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="../../src/AbilityKit.Core/AbilityKit.Core.csproj" />
-    <ProjectReference Include="../../src/AbilityKit.Diagnostics/AbilityKit.Diagnostics.csproj" />
+    <ProjectReference Include="../../src/AbilityKit.Core/AbilityKit.Core.csproj"/>
+    <ProjectReference Include="../../src/AbilityKit.Diagnostics/AbilityKit.Diagnostics.csproj"/>
   </ItemGroup>
 
 </Project>

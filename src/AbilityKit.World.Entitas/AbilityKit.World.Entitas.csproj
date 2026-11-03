@@ -12,18 +12,18 @@
 
   <!-- 引用 Packages 目录下的源码 -->
   <ItemGroup>
-    <Compile Include="../../Unity/Packages/com.abilitykit.world.entitas/Runtime/**/*.cs" />
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Runtime/Entity/Adapters/Entitas/World/Attributes/WorldSystemAttribute.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Entity/Adapters/Entitas/World/Attributes/WorldSystemOrder.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Entity/Adapters/Entitas/World/Base/ReactiveWorldSystemBase.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Entity/Adapters/Entitas/World/Base/WorldSystemBase.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Entity/Adapters/Entitas/World/Core/EntitasWorld.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Entity/Adapters/Entitas/World/Core/EntitasWorldComposer.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Entity/Adapters/Entitas/World/Core/EntitasWorldContext.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Entity/Adapters/Entitas/World/Extensions/EntitasWorldTypeRegistration.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Entity/Adapters/Entitas/World/Extensions/WorldCreateOptionsEntitasExtensions.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Entity/Adapters/Entitas/World/Interfaces/IEntitasContextsFactory.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Entity/Adapters/Entitas/World/Interfaces/IEntitasSystemsInstaller.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Entity/Adapters/Entitas/World/Interfaces/IEntitasWorld.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Entity/Adapters/Entitas/World/Interfaces/IEntitasWorldContext.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Entity/Adapters/Entitas/World/Modules/AutoSystemInstaller.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Entity/Adapters/Entitas/World/Modules/TickCounter/TickCounterSystem.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Entity/Adapters/Entitas/World/Modules/TickCounter/TickCounterWorldModule.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Entity/Adapters/Entitas/World/Modules/TickCounter/WorldTickCounter.cs"/>
   </ItemGroup>
 
   <!-- 项目引用 -->
   <ItemGroup>
-    <ProjectReference Include="../../src/AbilityKit.Core/AbilityKit.Core.csproj" />
-    <ProjectReference Include="../../src/AbilityKit.World.DI/AbilityKit.World.DI.csproj" />
+    <ProjectReference Include="../../src/AbilityKit.Core/AbilityKit.Core.csproj"/>
+    <ProjectReference Include="../../src/AbilityKit.World.DI/AbilityKit.World.DI.csproj"/>
   </ItemGroup>
 
   <!-- NuGet 包引用 -->
   <ItemGroup>
-    <PackageReference Include="Entitas" Version="1.5.0" />
+    <PackageReference Include="Entitas" Version="1.5.0"/>
   </ItemGroup>
 
 </Project>

@@ -10,12 +10,12 @@ $repoRoot = (Resolve-Path (Join-Path $PSScriptRoot '..')).Path
 $requiredCoverageKeys = @('repeatedRelease', 'buff', 'projectile', 'area', 'presentation')
 $allowedCoverageStates = @('covered', 'not-covered')
 $expectedHeroes = @(
-    @{ heroId = 1; heroName = 'LianPo'; fixtureFile = 'Unity\Packages\com.abilitykit.demo.moba.view.runtime\Runtime\Game\Test\UnitTest\Acceptance\Heroes\LianPo\LianPoSkillAcceptanceTests.cs' },
-    @{ heroId = 1002; heroName = 'XiaoQiao'; fixtureFile = 'Unity\Packages\com.abilitykit.demo.moba.view.runtime\Runtime\Game\Test\UnitTest\Acceptance\Heroes\XiaoQiao\XiaoQiaoSkillAcceptanceTests.cs' },
-    @{ heroId = 1003; heroName = 'ZhaoYun'; fixtureFile = 'Unity\Packages\com.abilitykit.demo.moba.view.runtime\Runtime\Game\Test\UnitTest\Acceptance\Heroes\ZhaoYun\ZhaoYunSkillAcceptanceTests.cs' },
-    @{ heroId = 1004; heroName = 'Mozi'; fixtureFile = 'Unity\Packages\com.abilitykit.demo.moba.view.runtime\Runtime\Game\Test\UnitTest\Acceptance\Heroes\Mozi\MoziSkillAcceptanceTests.cs' },
-    @{ heroId = 1005; heroName = 'Daji'; fixtureFile = 'Unity\Packages\com.abilitykit.demo.moba.view.runtime\Runtime\Game\Test\UnitTest\Acceptance\Heroes\Daji\DajiSkillAcceptanceTests.cs' },
-    @{ heroId = 1006; heroName = 'YingZheng'; fixtureFile = 'Unity\Packages\com.abilitykit.demo.moba.view.runtime\Runtime\Game\Test\UnitTest\Acceptance\Heroes\YingZheng\YingZhengSkillAcceptanceTests.cs' }
+    @{ heroId = 1; heroName = 'LianPo'; fixtureFile = 'Unity\Assets\Scripts\GameBattle\Example\Moba\Tests\LegacyClient\UnitTest\Acceptance\Heroes\LianPo\LianPoSkillAcceptanceTests.cs' },
+    @{ heroId = 1002; heroName = 'XiaoQiao'; fixtureFile = 'Unity\Assets\Scripts\GameBattle\Example\Moba\Tests\LegacyClient\UnitTest\Acceptance\Heroes\XiaoQiao\XiaoQiaoSkillAcceptanceTests.cs' },
+    @{ heroId = 1003; heroName = 'ZhaoYun'; fixtureFile = 'Unity\Assets\Scripts\GameBattle\Example\Moba\Tests\LegacyClient\UnitTest\Acceptance\Heroes\ZhaoYun\ZhaoYunSkillAcceptanceTests.cs' },
+    @{ heroId = 1004; heroName = 'Mozi'; fixtureFile = 'Unity\Assets\Scripts\GameBattle\Example\Moba\Tests\LegacyClient\UnitTest\Acceptance\Heroes\Mozi\MoziSkillAcceptanceTests.cs' },
+    @{ heroId = 1005; heroName = 'Daji'; fixtureFile = 'Unity\Assets\Scripts\GameBattle\Example\Moba\Tests\LegacyClient\UnitTest\Acceptance\Heroes\Daji\DajiSkillAcceptanceTests.cs' },
+    @{ heroId = 1006; heroName = 'YingZheng'; fixtureFile = 'Unity\Assets\Scripts\GameBattle\Example\Moba\Tests\LegacyClient\UnitTest\Acceptance\Heroes\YingZheng\YingZhengSkillAcceptanceTests.cs' }
 )
 
 function Resolve-RepoPath {

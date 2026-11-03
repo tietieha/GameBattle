@@ -13,12 +13,12 @@
 
   <!-- 引用 Packages 目录下的源码 -->
   <ItemGroup>
-    <Compile Include="../../Unity/Packages/com.abilitykit.context/Runtime/**/*.cs" />
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/ExecutionContext/Context/FlowContext.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/ExecutionContext/Events/ContextEvent.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/ExecutionContext/Events/ContextEventHandler.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/ExecutionContext/Events/ContextEventType.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/ExecutionContext/Events/ContextLifecycleObservation.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/ExecutionContext/Internal/TimeUtil.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/ExecutionContext/Property/IProperty.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/ExecutionContext/Property/PropertyType.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/ExecutionContext/Query/Query.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/ExecutionContext/Registry/ContextRegistry.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/ExecutionContext/Snapshot/ContextSnapshotManagement.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/ExecutionContext/Snapshot/IContextSnapshot.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/ExecutionContext/Snapshot/ISnapshotAccessor.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/ExecutionContext/Snapshot/SnapshotStorage.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/ExecutionContext/Snapshot/SnapshotStorage.Managed.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/ExecutionContext/Value/ContextRealtimeProviderRegistry.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/ExecutionContext/Value/ContextValueResolver.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/ExecutionContext/Value/ContextValueTypes.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/ExecutionContext/Value/IContextValueProvider.cs"/>
   </ItemGroup>
 
   <!-- 项目引用 -->
   <ItemGroup>
-    <ProjectReference Include="../../src/AbilityKit.Core/AbilityKit.Core.csproj" />
+    <ProjectReference Include="../../src/AbilityKit.Core/AbilityKit.Core.csproj"/>
   </ItemGroup>
 
 </Project>

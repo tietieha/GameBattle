@@ -8,6 +8,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="../../Unity/Packages/com.abilitykit.compute/Runtime/**/*.cs" />
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Runtime/Foundation/Compute/ComputeAttempt.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Foundation/Compute/ComputeAttemptOutcome.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Foundation/Compute/ComputeBackendChain.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Foundation/Compute/ComputeExecutionOptions.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Foundation/Compute/ComputeExecutionResult.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Foundation/Compute/IComputeBackend.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Foundation/Compute/IComputeKernel.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Foundation/Compute/IComputeObserver.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Foundation/Compute/IComputeResultValidator.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Foundation/Compute/ManagedParallelComputeBackend.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Foundation/Compute/ManagedSequentialComputeBackend.cs"/>
   </ItemGroup>
 </Project>

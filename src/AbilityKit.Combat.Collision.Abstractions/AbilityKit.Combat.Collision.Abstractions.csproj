@@ -12,13 +12,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="../../Unity/Packages/com.abilitykit.combat.collision.abstractions/Runtime/**/*.cs" />
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Runtime/Movement/Collision/Collision/CollisionLayerMatrix.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Movement/Collision/Collision/CollisionWorldFactory.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Movement/Collision/Collision/DynamicAabbTree.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Movement/Collision/Collision/GridBroadphase.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Movement/Collision/Collision/GridCollisionWorld.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Movement/Collision/Collision/IBroadphase.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Movement/Collision/Collision/ICollisionWorldDebugView.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Movement/Collision/Collision/LayerFilter.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Movement/Collision/Math/CollisionPrimitives.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Movement/Collision/Math/CollisionQueries.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Movement/Collision/Math/CollisionService.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Movement/Collision/Math/CollisionWorld.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Movement/Collision/Math/ICollisionService.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Movement/Collision/Math/OrientedBoxSweepQueries.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Movement/Collision/Math/SphereSweepQueries.cs"/>
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="../../src/AbilityKit.Core/AbilityKit.Core.csproj" />
-    <ProjectReference Include="../../src/AbilityKit.World.DI/AbilityKit.World.DI.csproj" />
-    <ProjectReference Include="../../src/AbilityKit.Deterministic/AbilityKit.Deterministic.csproj" />
+    <ProjectReference Include="../../src/AbilityKit.Core/AbilityKit.Core.csproj"/>
+    <ProjectReference Include="../../src/AbilityKit.World.DI/AbilityKit.World.DI.csproj"/>
+    <ProjectReference Include="../../src/AbilityKit.Deterministic/AbilityKit.Deterministic.csproj"/>
   </ItemGroup>
 
 </Project>

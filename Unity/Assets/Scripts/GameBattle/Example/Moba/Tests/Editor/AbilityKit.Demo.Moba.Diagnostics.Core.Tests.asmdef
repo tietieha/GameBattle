@@ -1,0 +1,34 @@
+{
+  "name": "AbilityKit.Demo.Moba.Diagnostics.Core.Tests",
+  "rootNamespace": "AbilityKit.Demo.Moba.Diagnostics.Tests",
+  "references": [
+    "AbilityKit.Demo.Moba.Diagnostics.Core",
+    "GameBattle.Runtime",
+    "AbilityKit.Demo.Moba.Runtime",
+    "AbilityKit.Demo.Moba.Trace.Adapter",
+    "AbilityKit.Protocol.Moba",
+    "AbilityKit.Demo.Moba.Editor",
+    "AbilityKit.Demo.Moba.View.Runtime",
+    "AbilityKit.Game.UnitTests",
+    "GameBattle.Editor",
+    "AbilityKit.Demo.Moba.Share",
+    "AbilityKit.Host.Extensions.Moba"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": true,
+  "precompiledReferences": [
+    "Entitas.dll",
+    "Sirenix.Serialization.dll"
+  ],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false,
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ]
+}

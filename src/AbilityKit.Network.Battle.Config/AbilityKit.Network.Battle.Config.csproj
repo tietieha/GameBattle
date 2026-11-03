@@ -7,13 +7,12 @@
     <LangVersion>latest</LangVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="../../Unity/Packages/com.abilitykit.network.battle.config/Runtime/**/*.cs"
-             Exclude="../../Unity/Packages/com.abilitykit.network.battle.config/Runtime/**/*.asmdef" />
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Networking/Configuration/NetworkBattleConfig.cs"/>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="../AbilityKit.Network.Battle/AbilityKit.Network.Battle.csproj" />
-    <ProjectReference Include="../AbilityKit.Network.Runtime/AbilityKit.Network.Runtime.csproj" />
-    <ProjectReference Include="../AbilityKit.Network.Sdk/AbilityKit.Network.Sdk.csproj" />
-    <ProjectReference Include="../AbilityKit.Protocol.Room/AbilityKit.Protocol.Room.csproj" />
+    <ProjectReference Include="../AbilityKit.Network.Battle/AbilityKit.Network.Battle.csproj"/>
+    <ProjectReference Include="../AbilityKit.Network.Runtime/AbilityKit.Network.Runtime.csproj"/>
+    <ProjectReference Include="../AbilityKit.Network.Sdk/AbilityKit.Network.Sdk.csproj"/>
+    <ProjectReference Include="../AbilityKit.Protocol.Room/AbilityKit.Protocol.Room.csproj"/>
   </ItemGroup>
 </Project>

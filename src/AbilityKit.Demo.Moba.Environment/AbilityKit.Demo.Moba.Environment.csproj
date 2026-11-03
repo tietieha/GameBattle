@@ -10,8 +10,8 @@
 
   <!-- 引用 Packages 目录下的源码 -->
   <ItemGroup>
-    <Compile Include="../../Unity/Packages/com.abilitykit.demo.moba.environment/Runtime/**/*.cs" />
-    <ProjectReference Include="..\AbilityKit.Environment\AbilityKit.Environment.csproj" />
-    <ProjectReference Include="..\AbilityKit.BattleScenario\AbilityKit.BattleScenario.csproj" />
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Composition/MobaAssertionBlocks.cs;../../Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Composition/MobaBattleScenarioAssertions.cs;../../Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Composition/MobaBattleScenarioDslParser.cs;../../Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Composition/MobaEnvironmentConcerns.cs;../../Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Composition/MobaEnvironmentGroupExpander.cs;../../Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Composition/MobaEnvironmentProfileCatalog.cs;../../Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Composition/MobaPredictionBackendIds.cs"/>
+    <ProjectReference Include="..\AbilityKit.Environment\AbilityKit.Environment.csproj"/>
+    <ProjectReference Include="..\AbilityKit.BattleScenario\AbilityKit.BattleScenario.csproj"/>
   </ItemGroup>
 </Project>

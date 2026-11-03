@@ -11,13 +11,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="../../Unity/Packages/com.abilitykit.triggering/Runtime/Abstractions/**/*.cs" 
-             Exclude="../../Unity/Packages/com.abilitykit.triggering/Runtime/Abstractions/**/*.asmdef" />
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Rules/Abstractions/ActionAbstractions.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Rules/Abstractions/ITriggerConfig.cs"/>
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="../../src/AbilityKit.Core/AbilityKit.Core.csproj" />
-    <ProjectReference Include="../../src/AbilityKit.Modifiers/AbilityKit.Modifiers.csproj" />
+    <ProjectReference Include="../../src/AbilityKit.Core/AbilityKit.Core.csproj"/>
+    <ProjectReference Include="../../src/AbilityKit.Modifiers/AbilityKit.Modifiers.csproj"/>
   </ItemGroup>
 
 </Project>

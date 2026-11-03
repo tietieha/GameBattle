@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AbilityKitStable>true</AbilityKitStable>
+    <Nullable>enable</Nullable>
+    <RootNamespace>AbilityKit.GameplayTags</RootNamespace>
+    <AssemblyName>AbilityKit.GameplayTags</AssemblyName>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <!-- 引用 Packages 目录下的源码 -->
+  <ItemGroup>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Battle/Actor/Tags/GameplayTags/Core/ContinuousTagRequirements.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Actor/Tags/GameplayTags/Core/GameplayTag.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Actor/Tags/GameplayTags/Core/GameplayTagCollection.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Actor/Tags/GameplayTags/Core/GameplayTagContainer.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Actor/Tags/GameplayTags/Core/GameplayTagDelta.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Actor/Tags/GameplayTags/Core/GameplayTagManager.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Actor/Tags/GameplayTags/Core/GameplayTagQuery.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Actor/Tags/GameplayTags/Core/GameplayTagRequirements.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Actor/Tags/GameplayTags/Core/GameplayTagSource.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Actor/Tags/GameplayTags/Core/GameplayTagStack.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Actor/Tags/GameplayTags/Lifecycle/IDurable.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Actor/Tags/GameplayTags/Lifecycle/IDurableRegistry.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Actor/Tags/GameplayTags/Persistence/DefaultTagSerializer.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Actor/Tags/GameplayTags/Template/GameplayTagTemplate.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Actor/Tags/GameplayTags/Template/TagTemplateRegistry.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Actor/Tags/GameplayTags/Template/TagTemplateRuntime.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Actor/Tags/GameplayTags/Utilities/GameplayTagConfigLoader.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Actor/Tags/GameplayTags/Utilities/GameplayTags.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Actor/Tags/GameplayTags/Utilities/GameplayTagsLib.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Actor/Tags/GameplayTags/Persistence/Interfaces/ITagSerializer.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Actor/Tags/GameplayTags/Service/Events/ITagChangeSubscriber.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Actor/Tags/GameplayTags/Service/Events/ITagEffectRouter.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Actor/Tags/GameplayTags/Service/Interfaces/IGameplayTagService.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Actor/Tags/GameplayTags/Template/Interfaces/ITagTemplateRegistry.cs"/>
+  </ItemGroup>
+</Project>

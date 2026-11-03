@@ -36,11 +36,11 @@ Assert-References 'AbilityKit.Demo.Tiny.LiveRecord.Sample' @(
     'AbilityKit.Network.Room', 'AbilityKit.Protocol.Room')
 
 $logic = Get-Content -LiteralPath (Join-Path $root `
-    'Unity/Packages/com.abilitykit.demo.tiny.logic/package.json') -Raw | ConvertFrom-Json
+    'Docs/GameBattle/Reorganization/Archive/LegacyPackages/PackageManifests/demo.tiny.logic/package.json') -Raw | ConvertFrom-Json
 $tiny = Get-Content -LiteralPath (Join-Path $root `
-    'Unity/Packages/com.abilitykit.demo.tiny/package.json') -Raw | ConvertFrom-Json
+    'Docs/GameBattle/Reorganization/Archive/LegacyPackages/PackageManifests/demo.tiny/package.json') -Raw | ConvertFrom-Json
 $turn = Get-Content -LiteralPath (Join-Path $root `
-    'Unity/Packages/com.abilitykit.demo.tiny.turn/package.json') -Raw | ConvertFrom-Json
+    'Docs/GameBattle/Reorganization/Archive/LegacyPackages/PackageManifests/demo.tiny.turn/package.json') -Raw | ConvertFrom-Json
 if (@($logic.dependencies.PSObject.Properties).Count -ne 0) {
     throw 'Tiny Logic package must remain standalone.'
 }

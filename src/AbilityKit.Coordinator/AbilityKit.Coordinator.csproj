@@ -13,18 +13,18 @@
 
   <ItemGroup>
     <!-- Reference Unity/Packages source -->
-    <Compile Include="../../Unity/Packages/com.abilitykit.coordinator/Runtime/**/*.cs" />
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Hosting/Sessions/Core/ILogicWorldDriveGate.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Hosting/Sessions/Core/ILogicWorldDriverBridge.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Hosting/Sessions/Core/ISessionCoordinatorHost.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Hosting/Sessions/Core/ISpawnService.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Hosting/Sessions/Core/SessionConfig.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Hosting/Sessions/Core/SessionEnums.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Hosting/Sessions/Core/SessionId.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Hosting/Sessions/Data/CoordinatorPayloadCodec.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Hosting/Sessions/Data/EntityState.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Hosting/Sessions/Data/FrameSnapshotData.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Hosting/Sessions/Data/NetworkEndpoint.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Hosting/Sessions/Data/PlayerInput.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Hosting/Sessions/Data/PlayerSpawnData.cs"/>
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\AbilityKit.Core\AbilityKit.Core.csproj" />
-    <ProjectReference Include="..\AbilityKit.World.DI\AbilityKit.World.DI.csproj" />
-    <ProjectReference Include="..\AbilityKit.Host\AbilityKit.Host.csproj" />
-    <ProjectReference Include="..\AbilityKit.Protocol\AbilityKit.Protocol.csproj" />
+    <ProjectReference Include="..\AbilityKit.Core\AbilityKit.Core.csproj"/>
+    <ProjectReference Include="..\AbilityKit.World.DI\AbilityKit.World.DI.csproj"/>
+    <ProjectReference Include="..\AbilityKit.Host\AbilityKit.Host.csproj"/>
+    <ProjectReference Include="..\AbilityKit.Protocol\AbilityKit.Protocol.csproj"/>
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="MemoryPack" Version="1.21.0" />
+    <PackageReference Include="MemoryPack" Version="1.21.0"/>
   </ItemGroup>
 
 </Project>

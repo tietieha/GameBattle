@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Examples/Shared/Rooms/DemoMultiplayerLaunchIntent.cs"/>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Examples/Tiny/Turn/View/TinyTurnSession.cs"/>
+    <ProjectReference Include="../AbilityKit.Demo.Tiny.Turn.Core/AbilityKit.Demo.Tiny.Turn.Core.csproj"/>
+    <ProjectReference Include="../AbilityKit.Network.Room/AbilityKit.Network.Room.csproj"/>
+    <ProjectReference Include="../AbilityKit.Protocol.Room/AbilityKit.Protocol.Room.csproj"/>
+  </ItemGroup>
+</Project>

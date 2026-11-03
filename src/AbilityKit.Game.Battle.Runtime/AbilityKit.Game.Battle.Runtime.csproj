@@ -11,17 +11,16 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="../../Unity/Packages/com.abilitykit.game.battle.runtime/Runtime/**/*.cs" 
-             Exclude="../../Unity/Packages/com.abilitykit.game.battle.runtime/Runtime/**/*.asmdef" />
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Commands/Battle/BattleRuntimeStatus.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Commands/Battle/BattleStageGraph.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Commands/Battle/BattleSystemContribution.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Commands/Battle/BattleValidationAndHealth.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Commands/Battle/IBattleLogicTransport.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Commands/Battle/Requests/CreateWorldRequest.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Commands/Battle/Requests/JoinWorldRequest.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Commands/Battle/Requests/LeaveWorldRequest.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Commands/Battle/Requests/SubmitInputRequest.cs"/>
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="../../src/AbilityKit.Host/AbilityKit.Host.csproj" />
-    <ProjectReference Include="../../src/AbilityKit.Ability.Config/AbilityKit.Ability.Config.csproj" />
-    <ProjectReference Include="../../src/AbilityKit.World.DI/AbilityKit.World.DI.csproj" />
-    <ProjectReference Include="../../src/AbilityKit.World.FrameSync/AbilityKit.World.FrameSync.csproj" />
-    <ProjectReference Include="../../src/AbilityKit.World.Snapshot/AbilityKit.World.Snapshot.csproj" />
-    <ProjectReference Include="../../src/AbilityKit.World.NetworkFragments/AbilityKit.World.NetworkFragments.csproj" />
+    <ProjectReference Include="../../src/AbilityKit.Host/AbilityKit.Host.csproj"/>
+    <ProjectReference Include="../../src/AbilityKit.Ability.Config/AbilityKit.Ability.Config.csproj"/>
+    <ProjectReference Include="../../src/AbilityKit.World.DI/AbilityKit.World.DI.csproj"/>
+    <ProjectReference Include="../../src/AbilityKit.World.FrameSync/AbilityKit.World.FrameSync.csproj"/>
+    <ProjectReference Include="../../src/AbilityKit.World.Snapshot/AbilityKit.World.Snapshot.csproj"/>
+    <ProjectReference Include="../../src/AbilityKit.World.NetworkFragments/AbilityKit.World.NetworkFragments.csproj"/>
   </ItemGroup>
 
 </Project>

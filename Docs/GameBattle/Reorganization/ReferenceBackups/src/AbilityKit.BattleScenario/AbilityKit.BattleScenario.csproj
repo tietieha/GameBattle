@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>AbilityKit.BattleScenario</RootNamespace>
+    <AssemblyName>AbilityKit.BattleScenario</AssemblyName>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <!-- 引用 Packages 目录下的源码 -->
+  <ItemGroup>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Tests/Scenarios/Battle/BattleBlock.cs;../../Unity/Assets/Scripts/GameBattle/Tests/Scenarios/Battle/BattleBlockLibrary.cs;../../Unity/Assets/Scripts/GameBattle/Tests/Scenarios/Battle/BattleBlockPalette.cs;../../Unity/Assets/Scripts/GameBattle/Tests/Scenarios/Battle/BattleScenarioBlocks.cs;../../Unity/Assets/Scripts/GameBattle/Tests/Scenarios/Battle/BattleScenarioBuilder.cs;../../Unity/Assets/Scripts/GameBattle/Tests/Scenarios/Battle/BattleScenarioCodec.cs;../../Unity/Assets/Scripts/GameBattle/Tests/Scenarios/Battle/BattleScenarioCompiler.cs;../../Unity/Assets/Scripts/GameBattle/Tests/Scenarios/Battle/BattleScenarioDocument.cs;../../Unity/Assets/Scripts/GameBattle/Tests/Scenarios/Battle/BattleScenarioDslParser.cs;../../Unity/Assets/Scripts/GameBattle/Tests/Scenarios/Battle/BattleScenarioRunner.cs;../../Unity/Assets/Scripts/GameBattle/Tests/Scenarios/Battle/IsExternalInitPolyfill.cs"/>
+    <ProjectReference Include="..\AbilityKit.Scenario\AbilityKit.Scenario.csproj"/>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3"/>
+  </ItemGroup>
+</Project>

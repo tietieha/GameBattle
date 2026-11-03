@@ -55,15 +55,15 @@ $wireInput = Join-Path $repoRoot 'Protocols/WireSchemas'
 $projectRegistry = [ordered]@{
     shooter = @{
         ProjectId = 'abilitykit.shooter'
-        ExportDirectory = 'Unity/Packages/com.abilitykit.protocol.shooter/Runtime/Generated'
+        ExportDirectory = 'Unity/Assets/Scripts/GameBattle/Example/Shooter/Runtime/Protocol/Generated'
     }
     moba = @{
         ProjectId = 'abilitykit.moba'
-        ExportDirectory = 'Unity/Packages/com.abilitykit.protocol.moba/Runtime/Generated/MemoryPack'
+        ExportDirectory = 'Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Protocol/Generated/MemoryPack'
     }
     room = @{
         ProjectId = 'abilitykit.shared'
-        ExportDirectory = 'Unity/Packages/com.abilitykit.protocol.room/Runtime/Generated/MemoryPack'
+        ExportDirectory = 'Unity/Assets/Scripts/GameBattle/Runtime/Battle/Networking/Room/Protocol/Generated/MemoryPack'
     }
 }
 

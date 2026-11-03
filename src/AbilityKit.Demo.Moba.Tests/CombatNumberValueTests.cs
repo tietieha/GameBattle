@@ -1,4 +1,4 @@
-using AbilityKit.Demo.Moba;
+using AbilityKit.Combat.Calculation;
 using Xunit;
 
 namespace AbilityKit.Demo.Moba.Tests;

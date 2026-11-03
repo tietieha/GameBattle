@@ -1,0 +1,19 @@
+{
+  "name": "AbilityKit.Demo.Moba.View.Abstractions",
+  "rootNamespace": "AbilityKit.Demo.Moba.View.Abstractions",
+  "references": [
+    "GameBattle.Runtime",
+    "AbilityKit.Demo.Moba.Runtime",
+    "AbilityKit.Demo.Moba.Share",
+    "AbilityKit.Protocol.Moba"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": true
+}

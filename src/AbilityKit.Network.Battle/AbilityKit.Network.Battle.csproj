@@ -11,17 +11,16 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="../../Unity/Packages/com.abilitykit.network.battle/Runtime/**/*.cs"
-             Exclude="../../Unity/Packages/com.abilitykit.network.battle/Runtime/**/*.asmdef" />
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Networking/Battle/GenericNetworkClient.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Networking/Battle/INetworkClient.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Networking/Battle/NetworkTransport.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Networking/Battle/NetworkTransportOptions.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Networking/Battle/Projection/ActorProjectionData.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Networking/Battle/Projection/IActorProjection.cs"/>
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="../../src/AbilityKit.Game.Battle.Runtime/AbilityKit.Game.Battle.Runtime.csproj" />
-    <ProjectReference Include="../../src/AbilityKit.Network.Runtime/AbilityKit.Network.Runtime.csproj" />
-    <ProjectReference Include="../../src/AbilityKit.Network.Sdk/AbilityKit.Network.Sdk.csproj" />
-    <ProjectReference Include="../../src/AbilityKit.World.Snapshot/AbilityKit.World.Snapshot.csproj" />
-    <ProjectReference Include="../../src/AbilityKit.World.StateSync/AbilityKit.World.StateSync.csproj" />
-    <ProjectReference Include="../../src/AbilityKit.Core/AbilityKit.Core.csproj" />
+    <ProjectReference Include="../../src/AbilityKit.Game.Battle.Runtime/AbilityKit.Game.Battle.Runtime.csproj"/>
+    <ProjectReference Include="../../src/AbilityKit.Network.Runtime/AbilityKit.Network.Runtime.csproj"/>
+    <ProjectReference Include="../../src/AbilityKit.Network.Sdk/AbilityKit.Network.Sdk.csproj"/>
+    <ProjectReference Include="../../src/AbilityKit.World.Snapshot/AbilityKit.World.Snapshot.csproj"/>
+    <ProjectReference Include="../../src/AbilityKit.World.StateSync/AbilityKit.World.StateSync.csproj"/>
+    <ProjectReference Include="../../src/AbilityKit.Core/AbilityKit.Core.csproj"/>
   </ItemGroup>
 
 </Project>

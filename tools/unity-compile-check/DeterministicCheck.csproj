@@ -15,7 +15,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="$(RepoRoot)\Unity\Packages\com.abilitykit.deterministic\Runtime\**\*.cs" />
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Runtime/Foundation/Math/Deterministic/DeterministicHash.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Foundation/Math/Deterministic/DeterministicMath.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Foundation/Math/Deterministic/DeterministicRandom.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Foundation/Math/Deterministic/Fixed64.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Foundation/Math/Deterministic/FixedVec2.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Foundation/Math/Deterministic/FixedVec3.cs"/>
   </ItemGroup>
 
   <ItemGroup>

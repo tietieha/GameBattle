@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>net8.0;net10.0</TargetFrameworks>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);CS1591</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Presentation/Moba/Adapter/AssemblyInfo.cs;../../Unity/Assets/Scripts/GameBattle/Presentation/Moba/Adapter/BattlePresentationCuePlacementResolver.cs;../../Unity/Assets/Scripts/GameBattle/Presentation/Moba/Adapter/BattlePresentationCueReconciliationTracker.cs;../../Unity/Assets/Scripts/GameBattle/Presentation/Moba/Adapter/BattlePresentationCueResolver.cs"/>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../AbilityKit.Demo.Moba.Presentation.Core/AbilityKit.Demo.Moba.Presentation.Core.csproj"/>
+    <ProjectReference Include="../AbilityKit.Demo.Moba.Presentation.Contracts/AbilityKit.Demo.Moba.Presentation.Contracts.csproj"/>
+  </ItemGroup>
+</Project>

@@ -12,11 +12,11 @@
     <RepoRoot>C:\Workspace\gitProject\AbilityKit</RepoRoot>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="$(RepoRoot)\Unity\Packages\com.abilitykit.behaviortree\Samples~\CompleteRuntimeObservation\Editor\*.cs" />
-    <ProjectReference Include="ShowcaseRuntimeCheck.csproj" />
-    <ProjectReference Include="RuntimeCheck.csproj" />
-    <ProjectReference Include="DeterministicCheck.csproj" />
-    <ProjectReference Include="EditorCheck.csproj" />
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Example/Optional~/behaviortree/CompleteRuntimeObservation/Editor/BehaviorTreeShowcaseDocuments.cs;../../Unity/Assets/Scripts/GameBattle/Example/Optional~/behaviortree/CompleteRuntimeObservation/Editor/BehaviorTreeShowcaseInstaller.cs;../../Unity/Assets/Scripts/GameBattle/Example/Optional~/behaviortree/CompleteRuntimeObservation/Editor/RuntimeObservationSampleAssetGenerator.cs;../../Unity/Assets/Scripts/GameBattle/Example/Optional~/behaviortree/CompleteRuntimeObservation/Editor/RuntimeObservationSampleInspector.cs;../../Unity/Assets/Scripts/GameBattle/Example/Optional~/behaviortree/CompleteRuntimeObservation/Editor/RuntimeObservationSampleInstaller.cs;../../Unity/Assets/Scripts/GameBattle/Example/Optional~/behaviortree/CompleteRuntimeObservation/Editor/RuntimeObservationSamplePrefabGenerator.cs"/>
+    <ProjectReference Include="ShowcaseRuntimeCheck.csproj"/>
+    <ProjectReference Include="RuntimeCheck.csproj"/>
+    <ProjectReference Include="DeterministicCheck.csproj"/>
+    <ProjectReference Include="EditorCheck.csproj"/>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="AbilityKit.Editor.Platform">

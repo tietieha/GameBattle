@@ -1,0 +1,9 @@
+{
+  "name": "AbilityKit.World.ECS",
+  "rootNamespace": "AbilityKit.World.ECS",
+  "references": [
+    "AbilityKit.Core"
+  ],
+  "allowUnsafeCode": false,
+  "noEngineReferences": true
+}

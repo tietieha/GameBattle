@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>AbilityKit</RootNamespace>
+    <AssemblyName>AbilityKit.Trace</AssemblyName>
+    <LangVersion>latest</LangVersion>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <!-- 引用 Packages 目录下的源码 -->
+  <ItemGroup>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Battle/Core/Diagnostics/Trace/TraceContextProperty.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Core/Diagnostics/Trace/TraceInterfaces.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Core/Diagnostics/Trace/TraceOrigin.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Core/Diagnostics/Trace/TraceRegistryRuntime.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Core/Diagnostics/Trace/TraceSnapshot.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Core/Diagnostics/Trace/TraceTreeExport.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Core/Diagnostics/Trace/TraceTreeRegistry.Core.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Core/Diagnostics/Trace/TraceTreeScope.cs"/>
+  </ItemGroup>
+
+  <!-- 项目引用 -->
+  <ItemGroup>
+    <ProjectReference Include="../../src/AbilityKit.Core/AbilityKit.Core.csproj"/>
+    <ProjectReference Include="../../src/AbilityKit.Context/AbilityKit.Context.csproj"/>
+  </ItemGroup>
+
+</Project>

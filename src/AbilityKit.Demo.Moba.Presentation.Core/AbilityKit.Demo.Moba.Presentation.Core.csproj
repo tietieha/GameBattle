@@ -9,10 +9,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="../../Unity/Packages/com.abilitykit.demo.moba.view.runtime/Runtime/Game/Battle/Presentation/Core/**/*.cs" />
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Example/Moba/Unity/Presentation/Core/BattleActorViewProjection.cs;../../Unity/Assets/Scripts/GameBattle/Example/Moba/Unity/Presentation/Core/BattleHudSessionModel.cs;../../Unity/Assets/Scripts/GameBattle/Example/Moba/Unity/Presentation/Core/BattleProjectileSnapshotDeduplicator.cs;../../Unity/Assets/Scripts/GameBattle/Example/Moba/Unity/Presentation/Core/BattleSessionLifecycleController.cs;../../Unity/Assets/Scripts/GameBattle/Unity/Foundation/Driving/BattleSessionTickProjection.cs;../../Unity/Assets/Scripts/GameBattle/Example/Moba/Unity/Presentation/Core/PresentationActorIndex.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Presentation/PresentationCueReconciliationController.cs;../../Unity/Assets/Scripts/GameBattle/Unity/Presentation/Cues/PresentationCueViewRegistry.cs;../../Unity/Assets/Scripts/GameBattle/Unity/Presentation/Cues/PresentationLifetimePolicy.cs;../../Unity/Assets/Scripts/GameBattle/Example/Moba/Unity/Presentation/Core/PresentationPositionSampleBuffer.cs;../../Unity/Assets/Scripts/GameBattle/Example/Moba/Unity/Presentation/Core/SessionAsyncOperation.cs;../../Unity/Assets/Scripts/GameBattle/Example/Moba/Unity/Presentation/Core/SessionSnapshotRoutingController.cs;../../Unity/Assets/Scripts/GameBattle/Example/Moba/Unity/Presentation/Core/SessionTeardownPolicy.cs;../../Unity/Assets/Scripts/GameBattle/Unity/Foundation/Driving/SessionTickLoopController.cs;../../Unity/Assets/Scripts/GameBattle/Example/Moba/Unity/Presentation/Core/SkillCooldownPresentationState.cs;../../Unity/Assets/Scripts/GameBattle/Example/Moba/Unity/Presentation/Core/ViewEventSourceModePolicy.cs"/>
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="../AbilityKit.Demo.Moba.Presentation.Contracts/AbilityKit.Demo.Moba.Presentation.Contracts.csproj" />
+    <ProjectReference Include="../AbilityKit.Demo.Moba.Presentation.Contracts/AbilityKit.Demo.Moba.Presentation.Contracts.csproj"/>
   </ItemGroup>
 </Project>

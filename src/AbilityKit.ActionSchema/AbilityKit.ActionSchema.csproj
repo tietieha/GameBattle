@@ -11,17 +11,17 @@
 
   <!-- 引用 Unity/Packages 目录下的源码 -->
   <ItemGroup>
-    <Compile Include="../../Unity/Packages/com.abilitykit.actionschema/Runtime/**/*.cs" />
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Runtime/Content/Definitions/Timeline/ActionTimelineDtos.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Content/Definitions/Timeline/ActionTimelineRuntime.cs"/>
   </ItemGroup>
 
   <!-- 项目引用 -->
   <ItemGroup>
-    <ProjectReference Include="..\AbilityKit.Core\AbilityKit.Core.csproj" />
+    <ProjectReference Include="..\AbilityKit.Core\AbilityKit.Core.csproj"/>
   </ItemGroup>
 
   <!-- NuGet Dependencies -->
   <ItemGroup>
-    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3"/>
   </ItemGroup>
 
 </Project>

@@ -7,7 +7,7 @@ namespace AbilityKit.Editor.Tools
 {
     public static class MobaTemporaryPresentationPrefabGenerator
     {
-        private const string ResourceRoot = "Packages/com.abilitykit.demo.moba.view.runtime/Resources";
+        private const string ResourceRoot = "Assets/Scripts/GameBattle/Example/Moba/Resources";
         private const string MaterialRoot = ResourceRoot + "/generated_materials";
         private static readonly Dictionary<string, Material> Materials = new Dictionary<string, Material>();
 

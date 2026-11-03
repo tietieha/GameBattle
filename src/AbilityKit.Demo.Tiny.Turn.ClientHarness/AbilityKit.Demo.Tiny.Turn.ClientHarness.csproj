@@ -5,10 +5,10 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="../../Unity/Packages/com.abilitykit.demo.common/Runtime/Rooms/DemoMultiplayerLaunchIntent.cs" />
-    <Compile Include="../../Unity/Packages/com.abilitykit.demo.tiny.turn/Runtime/View/TinyTurnSession.cs" />
-    <ProjectReference Include="../AbilityKit.Demo.Tiny.Turn.Core/AbilityKit.Demo.Tiny.Turn.Core.csproj" />
-    <ProjectReference Include="../AbilityKit.Network.Room/AbilityKit.Network.Room.csproj" />
-    <ProjectReference Include="../AbilityKit.Protocol.Room/AbilityKit.Protocol.Room.csproj" />
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Example/Shared/Rooms/DemoMultiplayerLaunchIntent.cs"/>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Example/Tiny/Unity/Turn/TinyTurnSession.cs"/>
+    <ProjectReference Include="../AbilityKit.Demo.Tiny.Turn.Core/AbilityKit.Demo.Tiny.Turn.Core.csproj"/>
+    <ProjectReference Include="../AbilityKit.Network.Room/AbilityKit.Network.Room.csproj"/>
+    <ProjectReference Include="../AbilityKit.Protocol.Room/AbilityKit.Protocol.Room.csproj"/>
   </ItemGroup>
 </Project>

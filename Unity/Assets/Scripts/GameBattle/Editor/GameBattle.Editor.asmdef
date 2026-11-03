@@ -1,0 +1,19 @@
+{
+  "name": "GameBattle.Editor",
+  "rootNamespace": "GameBattle",
+  "references": [
+    "GameBattle.Runtime",
+    "GameBattle.Unity"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

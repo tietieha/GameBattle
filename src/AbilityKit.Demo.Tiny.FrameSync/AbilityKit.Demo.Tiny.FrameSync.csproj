@@ -5,8 +5,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="..\..\Unity\Packages\com.abilitykit.demo.tiny\Runtime\FrameSync\*.cs" />
-    <ProjectReference Include="..\AbilityKit.Demo.Tiny.Core\AbilityKit.Demo.Tiny.Core.csproj" />
-    <ProjectReference Include="..\AbilityKit.World.FrameSync\AbilityKit.World.FrameSync.csproj" />
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Example/Tiny/Runtime/FrameSync/TinyBattleRollbackProvider.cs;../../Unity/Assets/Scripts/GameBattle/Example/Tiny/Runtime/FrameSync/TinyFrameSyncSession.cs"/>
+    <ProjectReference Include="..\AbilityKit.Demo.Tiny.Core\AbilityKit.Demo.Tiny.Core.csproj"/>
+    <ProjectReference Include="..\AbilityKit.World.FrameSync\AbilityKit.World.FrameSync.csproj"/>
   </ItemGroup>
 </Project>

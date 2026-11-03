@@ -12,18 +12,17 @@
 
   <!-- 排除 Unity 相关文件 -->
   <ItemGroup>
-    <Compile Include="../../Unity/Packages/com.abilitykit.record.memorypack/Runtime/**/*.cs"
-             Exclude="../../Unity/Packages/com.abilitykit.record.memorypack/Runtime/**/*.asmdef" />
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Serialization/MemoryPackRecord/FrameRecord/FrameRecordMemoryPackCodec.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Serialization/MemoryPackRecord/FrameRecord/FrameRecordMemoryPackCodecInstaller.cs"/>
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="../../src/AbilityKit.Core/AbilityKit.Core.csproj" />
-    <ProjectReference Include="../../src/AbilityKit.Record/AbilityKit.Record.csproj" />
-    <ProjectReference Include="../../src/AbilityKit.World.ECS/AbilityKit.World.ECS.csproj" />
+    <ProjectReference Include="../../src/AbilityKit.Core/AbilityKit.Core.csproj"/>
+    <ProjectReference Include="../../src/AbilityKit.Record/AbilityKit.Record.csproj"/>
+    <ProjectReference Include="../../src/AbilityKit.World.ECS/AbilityKit.World.ECS.csproj"/>
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="MemoryPack" Version="1.21.0" />
+    <PackageReference Include="MemoryPack" Version="1.21.0"/>
   </ItemGroup>
 
 </Project>

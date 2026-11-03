@@ -10,7 +10,7 @@ namespace AbilityKit.Protocol.Tests;
 /// </summary>
 public sealed partial class ProtocolEditorLegacyTrackFreezeTests
 {
-    private const string EditorRootRelative = "Unity/Packages/com.abilitykit.protocol.editor/Editor/ProtocolEditor";
+    private const string EditorRootRelative = "Unity/Assets/Scripts/GameBattle/Editor/Runtime/Battle/Serialization/Protocol/ProtocolEditor";
 
     private const string OfficialWorkspaceMenu = "Tools/AbilityKit/Framework/Protocol/Protocol Workspace";
 

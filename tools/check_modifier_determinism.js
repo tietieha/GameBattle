@@ -26,9 +26,9 @@ const fs = require('fs');
 const path = require('path');
 
 const DEFAULT_SCOPES = [
-  'Unity/Packages/com.abilitykit.modifiers/Runtime',
-  'Unity/Packages/com.abilitykit.demo.moba.runtime/Runtime/Application/Services/Skill/Modifiers',
-  'Unity/Packages/com.abilitykit.demo.moba.runtime/Runtime/Application/Services/Continuous',
+  'Unity/Assets/Scripts/GameBattle/Runtime/Attribute/Modifiers',
+  'Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Ability/Services/Skill/Modifiers',
+  'Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Effect/Services/Continuous',
 ];
 
 const SKIP_DIRS = new Set(['obj', 'bin', 'Tests', 'Samples~', '.git']);

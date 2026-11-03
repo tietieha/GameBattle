@@ -1,0 +1,12 @@
+{
+  "sourceDirectory": "tools/bt-export/authoring/moba",
+  "sourceKind": "AuthoringDocument",
+  "exportTargets": [
+    "Unity/Assets/Scripts/GameBattle/Examples/Moba/Resources/moba/bt",
+    "src/AbilityKit.Demo.Moba.Console/Configs/moba/bt"
+  ],
+  "trees": [
+    "generic_hero_combat_bt",
+    "summon_warden_bt"
+  ]
+}

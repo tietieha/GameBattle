@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>AbilityKit.Compute</RootNamespace>
+    <AssemblyName>AbilityKit.Compute</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Integration/Compute/Managed/ComputeAttempt.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Compute/Managed/ComputeAttemptOutcome.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Compute/Managed/ComputeBackendChain.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Compute/Managed/ComputeExecutionOptions.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Compute/Managed/ComputeExecutionResult.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Compute/Managed/IComputeBackend.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Compute/Managed/IComputeKernel.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Compute/Managed/IComputeObserver.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Compute/Managed/IComputeResultValidator.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Compute/Managed/ManagedParallelComputeBackend.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Compute/Managed/ManagedSequentialComputeBackend.cs"/>
+  </ItemGroup>
+</Project>

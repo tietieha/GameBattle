@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>AbilityKit</RootNamespace>
+    <AssemblyName>AbilityKit.Combat.SkillLibrary</AssemblyName>
+    <LangVersion>latest</LangVersion>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Content/Catalog/SkillLibrary/SkillLibrary/DerivedKeyedSkillIndex.cs;../../Unity/Assets/Scripts/GameBattle/Content/Catalog/SkillLibrary/SkillLibrary/DerivedMultiKeySkillIndex.cs;../../Unity/Assets/Scripts/GameBattle/Content/Catalog/SkillLibrary/SkillLibrary/IKeyedSkillIndex.cs;../../Unity/Assets/Scripts/GameBattle/Content/Catalog/SkillLibrary/SkillLibrary/ISkillIndex.cs;../../Unity/Assets/Scripts/GameBattle/Content/Catalog/SkillLibrary/SkillLibrary/SkillLibrary.cs;../../Unity/Assets/Scripts/GameBattle/Content/Catalog/SkillLibrary/SkillLibrary/SkillLibraryExample.cs;../../Unity/Assets/Scripts/GameBattle/Content/Catalog/SkillLibrary/SkillLibrary/SkillUpdate.cs"/>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../../src/AbilityKit.Core/AbilityKit.Core.csproj"/>
+  </ItemGroup>
+
+</Project>

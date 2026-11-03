@@ -12,13 +12,13 @@
 
   <!-- 引用 Packages 目录下的源码 -->
   <ItemGroup>
-    <Compile Include="../../Unity/Packages/com.abilitykit.timer/Runtime/**/*.cs" />
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Runtime/Foundation/Time/Interfaces/IScheduledTask.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Foundation/Time/Interfaces/IScheduler.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Foundation/Time/Interfaces/ISimpleTask.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Foundation/Time/Interfaces/ITimer.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Foundation/Time/Interfaces/TaskState.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Foundation/Time/Scheduler/DefaultScheduler.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Foundation/Time/Scheduler/TaskList.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Foundation/Time/Tasks/ContinuousTask.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Foundation/Time/Tasks/DelayTask.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Foundation/Time/Tasks/PeriodicTask.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Foundation/Time/Tasks/ScheduledTaskBase.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Foundation/Time/Timer/SystemTimer.cs"/>
   </ItemGroup>
 
   <!-- 项目引用 -->
   <ItemGroup>
-    <ProjectReference Include="../../src/AbilityKit.Core/AbilityKit.Core.csproj" />
-    <ProjectReference Include="../../src/AbilityKit.Deterministic/AbilityKit.Deterministic.csproj" />
+    <ProjectReference Include="../../src/AbilityKit.Core/AbilityKit.Core.csproj"/>
+    <ProjectReference Include="../../src/AbilityKit.Deterministic/AbilityKit.Deterministic.csproj"/>
   </ItemGroup>
 
 </Project>

@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>net8.0;net10.0</TargetFrameworks>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);CS1591</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Presentation/Moba/Contracts/Contracts/ActorDespawnData.cs;../../Unity/Assets/Scripts/GameBattle/Presentation/Moba/Contracts/Contracts/ActorSpawnData.cs;../../Unity/Assets/Scripts/GameBattle/Presentation/Moba/Contracts/Contracts/ActorTransformData.cs;../../Unity/Assets/Scripts/GameBattle/Presentation/Moba/Contracts/Contracts/AreaEventData.cs;../../Unity/Assets/Scripts/GameBattle/Presentation/Moba/Contracts/Contracts/BattleEnterGameSnapshot.cs;../../Unity/Assets/Scripts/GameBattle/Presentation/Moba/Contracts/Contracts/CharacterActionData.cs;../../Unity/Assets/Scripts/GameBattle/Presentation/Moba/Contracts/Contracts/DamageEventData.cs;../../Unity/Assets/Scripts/GameBattle/Presentation/Moba/Contracts/Contracts/GameplayClockData.cs;../../Unity/Assets/Scripts/GameBattle/Presentation/Moba/Contracts/Contracts/GameplayMatchData.cs;../../Unity/Assets/Scripts/GameBattle/Presentation/Moba/Contracts/Contracts/GameplayRespawnData.cs;../../Unity/Assets/Scripts/GameBattle/Presentation/Moba/Contracts/Contracts/GatewayStateSyncSnapshot.cs;../../Unity/Assets/Scripts/GameBattle/Presentation/Moba/Contracts/Contracts/PresentationCueData.cs;../../Unity/Assets/Scripts/GameBattle/Presentation/Moba/Contracts/Contracts/ProjectileEventData.cs;../../Unity/Assets/Scripts/GameBattle/Presentation/Moba/Contracts/Contracts/SkillStateData.cs;../../Unity/Assets/Scripts/GameBattle/Presentation/Moba/Contracts/Contracts/StateHashData.cs"/>
+  </ItemGroup>
+</Project>

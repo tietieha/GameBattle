@@ -1,0 +1,94 @@
+{
+  "date": "2026-10-26",
+  "originalFrameworkAssemblies": 107,
+  "mergedAssemblies": 99,
+  "retainedTestAssemblies": 8,
+  "framework": [
+    "GameBattle.Runtime",
+    "GameBattle.Unity",
+    "GameBattle.Editor"
+  ],
+  "totalAssemblies": 66,
+  "filesPreserved": 14854,
+  "changedSources": [
+    "Unity/Assets/Scripts/GameBattle/Editor/Unity/Decision/StateMachine/StateMachineEditorWindow.cs",
+    "Unity/Assets/Scripts/GameBattle/Example/Foundation/Abstractions/IResourceProvider.cs",
+    "Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Battle/Services/Context/Runtime/MobaRuntimeContextService.cs",
+    "Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Battle/Services/Triggering/PlanActions/Skill/AdjustDamageNumberArgs.cs",
+    "Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Battle/Services/Triggering/PlanActions/Skill/AdjustDamageNumberPlanActionModule.cs",
+    "Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Battle/Services/Triggering/PlanActions/Skill/AdjustDamageNumberSchema.cs",
+    "Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Buff/Services/Buffs/Core/BuffRepository.cs",
+    "Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Buff/Services/Buffs/Core/BuffRuntimeContexts.cs",
+    "Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Buff/Services/Buffs/Core/BuffStackingPolicyApplier.cs",
+    "Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Buff/Services/Buffs/Lifecycle/BuffApplyFlow.cs",
+    "Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Buff/Services/Buffs/Lifecycle/BuffEndFlow.cs",
+    "Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Buff/Services/Buffs/MobaBuffService.cs",
+    "Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Buff/Services/Buffs/Runtime/BuffContinuousRuntime.cs",
+    "Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Buff/State/BuffComponent.cs",
+    "Unity/Assets/Scripts/GameBattle/Runtime/Effect/Calculation/CombatNumberValue.cs",
+    "Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Effect/Services/Combat/Damage/DamagePipelineModels.cs",
+    "Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Effect/Services/Continuous/MobaContinuousTickProcessor.cs",
+    "Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Infrastructure/Serialization/DemoWireSerializerBootstrap.cs",
+    "Unity/Assets/Scripts/GameBattle/Runtime/Battle/Hosting/Extensions/Server/BattleHost/BattleInputBuffer.cs",
+    "Unity/Assets/Scripts/GameBattle/Runtime/Battle/Hosting/Host/Host/Builder/Components/FixedStepTimeDriver.cs",
+    "Unity/Assets/Scripts/GameBattle/Runtime/Battle/Networking/Room/Protocol/IsExternalInitPolyfill.cs",
+    "Unity/Assets/Scripts/GameBattle/Runtime/Battle/Testing/BattleScenario/IsExternalInitPolyfill.cs",
+    "Unity/Assets/Scripts/GameBattle/Runtime/Battle/Testing/Scenario/IsExternalInitPolyfill.cs",
+    "Unity/Assets/Scripts/GameBattle/Runtime/Battle/World/World/Services/WorldServiceContainerFactory.cs",
+    "Unity/Assets/Scripts/GameBattle/Runtime/Decision/BehaviorTree/IsExternalInitPolyfill.cs",
+    "Unity/Assets/Scripts/GameBattle/Runtime/Foundation/Flow/Nodes/WaitSecondsEventNode.cs",
+    "Unity/Assets/Scripts/GameBattle/Runtime/Movement/Navigation/Navigation/NavigationWorldFactory.cs",
+    "Unity/Assets/Scripts/GameBattle/Unity/Compute/UnityComputeBuffer.cs",
+    "Unity/Assets/Scripts/GameBattle/Unity/Compute/UnityJobPlan.cs",
+    "Unity/Assets/Scripts/GameBattle/Unity/Decision/MLAgents/AbilityKitMlAgentsBridgePackage.cs",
+    "Unity/Assets/Scripts/GameBattle/Example/FrameworkTests/Unity/Decision/StateMachine/Tests/DiagnosticsTests.cs"
+  ],
+  "projectInputs": {
+    "projects": 330,
+    "checkedInputs": 11746,
+    "projectInputFailures": [],
+    "unrelatedMissingInputs": [
+      {
+        "project": "src/AbilityKit.Demo.ET.Share/src/cn.etetet.excel@3.0.0/DotNet~/ET.ExcelExporter.csproj",
+        "kind": "ProjectReference",
+        "input": "src/AbilityKit.Demo.ET.Share/src/cn.etetet.core/DotNet~/ET.Core.csproj"
+      },
+      {
+        "project": "src/AbilityKit.Demo.ET.Share/src/cn.etetet.loader@3.0.1/DotNet~/ET.Loader.csproj",
+        "kind": "ProjectReference",
+        "input": "src/AbilityKit.Demo.ET.Share/src/cn.etetet.core/DotNet~/ET.Core.csproj"
+      },
+      {
+        "project": "src/AbilityKit.Demo.ET.Share/src/cn.etetet.proto@3.0.2/DotNet~/ET.Proto2CS.csproj",
+        "kind": "ProjectReference",
+        "input": "src/AbilityKit.Demo.ET.Share/src/cn.etetet.core/DotNet~/ET.Core.csproj"
+      },
+      {
+        "project": "src/AbilityKit.Demo.ET.Share/src/cn.etetet.statesync/DotNet~/Model/ET.Model.csproj",
+        "kind": "ProjectReference",
+        "input": "src/AbilityKit.Demo.ET.Share/src/cn.etetet.loader/DotNet~/ET.Loader.csproj"
+      },
+      {
+        "project": "src/AbilityKit.Demo.ET.Share/src/cn.etetet.statesync/DotNet~/Model/ET.Model.csproj",
+        "kind": "ProjectReference",
+        "input": "src/AbilityKit.Demo.ET.Share/src/cn.etetet.mathematics/DotNet~/ET.Mathematics.csproj"
+      },
+      {
+        "project": "src/AbilityKit.Demo.ET.Share/src/cn.etetet.statesync/DotNet~/Model/ET.Model.csproj",
+        "kind": "ProjectReference",
+        "input": "src/AbilityKit.Demo.ET.Share/src/cn.etetet.recast/DotNet~/ET.Recast.csproj"
+      },
+      {
+        "project": "src/AbilityKit.Demo.ET.Share/src/cn.etetet.statesync/DotNet~/Model/ET.Model.csproj",
+        "kind": "ProjectReference",
+        "input": "src/AbilityKit.Demo.ET.Share/src/cn.etetet.sourcegenerator/DotNet~/ET.SourceGeneratorAttribute/ET.SourceGeneratorAttribute.csproj"
+      },
+      {
+        "project": "src/AbilityKit.Demo.Moba.Presentation.Core.Tests/AbilityKit.Demo.Moba.Presentation.Core.Tests.csproj",
+        "kind": "Compile",
+        "input": "samples/GodotMobaPresentation/PresentationFixture.cs"
+      }
+    ]
+  },
+  "problems": []
+}

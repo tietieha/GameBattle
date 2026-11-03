@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AbilityKitStable>true</AbilityKitStable>
+    <RootNamespace>AbilityKit</RootNamespace>
+    <AssemblyName>AbilityKit.Combat.Targeting</AssemblyName>
+    <LangVersion>latest</LangVersion>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Battle/Spatial/Targeting/AssemblyInfo.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Spatial/Targeting/SearchTarget/Abstractions/EntityId.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Spatial/Targeting/SearchTarget/Abstractions/IAdditionalInterfaces.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Spatial/Targeting/SearchTarget/Abstractions/IPositionProvider.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Spatial/Targeting/SearchTarget/Abstractions/Vec2.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Spatial/Targeting/SearchTarget/Attributes/TargetAttributes.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Spatial/Targeting/SearchTarget/Execution/SearchContext.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Spatial/Targeting/SearchTarget/Execution/SearchHit.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Spatial/Targeting/SearchTarget/Execution/SearchHitBuffer.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Spatial/Targeting/SearchTarget/Execution/SearchResult.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Spatial/Targeting/SearchTarget/Execution/TargetingPool.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Spatial/Targeting/SearchTarget/Execution/TargetSearchEngine.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Spatial/Targeting/SearchTarget/Pipeline/SearchPipelineBuilder.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Spatial/Targeting/SearchTarget/Pipeline/SearchPipelineBuilderExtensions.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Spatial/Targeting/SearchTarget/Providers/CompositeCandidateProviders.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Spatial/Targeting/SearchTarget/Providers/ICandidateProvider.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Spatial/Targeting/SearchTarget/Queries/SearchOrdering.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Spatial/Targeting/SearchTarget/Queries/SearchQuery.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Spatial/Targeting/SearchTarget/Queries/TargetQueryDatabase.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Spatial/Targeting/SearchTarget/Registry/TargetRegistries.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Spatial/Targeting/SearchTarget/Rules/CommonRules.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Spatial/Targeting/SearchTarget/Rules/CompositeRules.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Spatial/Targeting/SearchTarget/Rules/ITargetRule.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Spatial/Targeting/SearchTarget/Scorers/CommonScorers.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Spatial/Targeting/SearchTarget/Scorers/ITargetScorer.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Spatial/Targeting/SearchTarget/Selectors/ITargetSelector.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Spatial/Targeting/SearchTarget/Selectors/TopKSelectors.cs"/>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../../src/AbilityKit.Core/AbilityKit.Core.csproj"/>
+  </ItemGroup>
+
+</Project>

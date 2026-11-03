@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>AbilityKit.Demo.Shooter.AI</RootNamespace>
+    <AssemblyName>AbilityKit.Demo.Shooter.AI</AssemblyName>
+    <LangVersion>latest</LangVersion>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Gameplay/Shooter/AI/ShooterAiTrainingEnvironment.cs"/>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AbilityKit.AI.Abstractions\AbilityKit.AI.Abstractions.csproj"/>
+    <ProjectReference Include="..\AbilityKit.Demo.Shooter.Runtime\AbilityKit.Demo.Shooter.Runtime.csproj"/>
+    <ProjectReference Include="..\AbilityKit.Protocol.Shooter\AbilityKit.Protocol.Shooter.csproj"/>
+  </ItemGroup>
+</Project>

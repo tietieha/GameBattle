@@ -11,13 +11,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="../../Unity/Packages/com.abilitykit.demo.shooter.share/Runtime/**/*.cs"
-             Exclude="../../Unity/Packages/com.abilitykit.demo.shooter.share/Runtime/**/*.asmdef" />
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Example/Shooter/Runtime/Shared/ShooterGameplay.cs"/>
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="../../src/AbilityKit.Core/AbilityKit.Core.csproj" />
-    <ProjectReference Include="../../src/AbilityKit.Protocol.Shooter/AbilityKit.Protocol.Shooter.csproj" />
+    <ProjectReference Include="../../src/AbilityKit.Core/AbilityKit.Core.csproj"/>
+    <ProjectReference Include="../../src/AbilityKit.Protocol.Shooter/AbilityKit.Protocol.Shooter.csproj"/>
   </ItemGroup>
 
 </Project>

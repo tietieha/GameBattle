@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>net8.0;net10.0</TargetFrameworks>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);CS1591</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Example/Moba/Unity/Presentation/Core/BattleActorViewProjection.cs;../../Unity/Assets/Scripts/GameBattle/Example/Moba/Unity/Presentation/Core/BattleHudSessionModel.cs;../../Unity/Assets/Scripts/GameBattle/Example/Moba/Unity/Presentation/Core/BattleProjectileSnapshotDeduplicator.cs;../../Unity/Assets/Scripts/GameBattle/Example/Moba/Unity/Presentation/Core/BattleSessionLifecycleController.cs;../../Unity/Assets/Scripts/GameBattle/Example/Moba/Unity/Presentation/Core/BattleSessionTickProjection.cs;../../Unity/Assets/Scripts/GameBattle/Example/Moba/Unity/Presentation/Core/PresentationActorIndex.cs;../../Unity/Assets/Scripts/GameBattle/Example/Moba/Unity/Presentation/Core/PresentationCueReconciliationController.cs;../../Unity/Assets/Scripts/GameBattle/Example/Moba/Unity/Presentation/Core/PresentationCueViewRegistry.cs;../../Unity/Assets/Scripts/GameBattle/Example/Moba/Unity/Presentation/Core/PresentationLifetimePolicy.cs;../../Unity/Assets/Scripts/GameBattle/Example/Moba/Unity/Presentation/Core/PresentationPositionSampleBuffer.cs;../../Unity/Assets/Scripts/GameBattle/Example/Moba/Unity/Presentation/Core/SessionAsyncOperation.cs;../../Unity/Assets/Scripts/GameBattle/Example/Moba/Unity/Presentation/Core/SessionSnapshotRoutingController.cs;../../Unity/Assets/Scripts/GameBattle/Example/Moba/Unity/Presentation/Core/SessionTeardownPolicy.cs;../../Unity/Assets/Scripts/GameBattle/Example/Moba/Unity/Presentation/Core/SessionTickLoopController.cs;../../Unity/Assets/Scripts/GameBattle/Example/Moba/Unity/Presentation/Core/SkillCooldownPresentationState.cs;../../Unity/Assets/Scripts/GameBattle/Example/Moba/Unity/Presentation/Core/ViewEventSourceModePolicy.cs"/>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../AbilityKit.Demo.Moba.Presentation.Contracts/AbilityKit.Demo.Moba.Presentation.Contracts.csproj"/>
+  </ItemGroup>
+</Project>

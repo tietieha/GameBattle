@@ -1,0 +1,47 @@
+{
+  "name": "AbilityKit.Game.UnitTests",
+  "rootNamespace": "",
+  "references": [
+    "AbilityKit.Demo.Common",
+    "AbilityKit.Demo.Common.Unity",
+    "AbilityKit.Demo.Starter",
+    "AbilityKit.Demo.Moba.View.Runtime",
+    "AbilityKit.Demo.Moba.Presentation.Core",
+    "AbilityKit.Demo.Moba.Presentation.Contracts",
+    "AbilityKit.Demo.Moba.Presentation.ProtocolAdapter",
+    "AbilityKit.Demo.Moba.Presentation.SnapshotAdapter",
+    "AbilityKit.Demo.Moba.Presentation.Adapter",
+    "AbilityKit.Demo.Moba.Environment",
+    "GameBattle.Runtime",
+    "AbilityKit.Demo.Moba.Runtime",
+    "AbilityKit.Demo.Moba.Trace.Adapter",
+    "AbilityKit.Demo.Moba.Share",
+    "AbilityKit.Host.Extensions.Moba",
+    "AbilityKit.Game.Flow.Core",
+    "AbilityKit.Game.Battle.Shared.Logging",
+    "AbilityKit.Game.Battle.Shared.Time",
+    "AbilityKit.Demo.Moba.View.Abstractions",
+    "GameBattle.Unity",
+    "AbilityKit.Protocol.Moba",
+    "MemoryPack",
+    "UnityEngine.TestRunner",
+    "UnityEditor.TestRunner"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": true,
+  "precompiledReferences": [
+    "Entitas.dll",
+    "nunit.framework.dll",
+    "Newtonsoft.Json.dll"
+  ],
+  "autoReferenced": false,
+  "defineConstraints": [
+    "UNITY_INCLUDE_TESTS"
+  ],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

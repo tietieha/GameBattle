@@ -15,12 +15,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="$(RepoRoot)\Unity\Packages\com.abilitykit.demo.moba.runtime\Runtime\Application\Services\Behavior\BTree\*.cs" />
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Decision/Services/Behavior/BTree/MobaBTreeAssetLoader.cs;../../Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Decision/Services/Behavior/BTree/MobaBTreeCatalog.cs;../../Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Decision/Services/Behavior/BTree/MobaBTreeDecision.cs;../../Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Decision/Services/Behavior/BTree/MobaBTreeNodes.cs;../../Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Decision/Services/Behavior/BTree/MobaBTreeRuntimeContext.cs"/>
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="RuntimeCheck.csproj" />
-    <ProjectReference Include="DeterministicCheck.csproj" />
+    <ProjectReference Include="RuntimeCheck.csproj"/>
+    <ProjectReference Include="DeterministicCheck.csproj"/>
   </ItemGroup>
 
   <ItemGroup>
@@ -49,7 +49,7 @@
       <Private>false</Private>
     </Reference>
     <Reference Include="Entitas">
-      <HintPath>$(RepoRoot)\Unity\Packages\com.abilitykit.thirdparty.entitas\Entitas\Entitas.dll</HintPath>
+      <HintPath>$(RepoRoot)\Unity\Assets\Scripts\GameBattle\Runtime\Entity\Dependencies\Entitas\Entitas.dll</HintPath>
       <Private>false</Private>
     </Reference>
   </ItemGroup>

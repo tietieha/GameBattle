@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);CS1591</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Gameplay/Shooter/Presentation/Editor/ShooterFrameRecordReplayPlayModeLauncherEditor.cs;../../Unity/Assets/Scripts/GameBattle/Gameplay/Shooter/Presentation/Editor/ShooterFrameRecordReplayPlayModeProfileEditor.cs;../../Unity/Assets/Scripts/GameBattle/Gameplay/Shooter/Presentation/Editor/ShooterLocalEditorPerfBenchCommand.cs;../../Unity/Assets/Scripts/GameBattle/Gameplay/Shooter/Presentation/Editor/ShooterMultiplayerHeadlessClientCommand.cs;../../Unity/Assets/Scripts/GameBattle/Gameplay/Shooter/Presentation/Editor/ShooterPlayModeProfileInspectorGui.cs;../../Unity/Assets/Scripts/GameBattle/Gameplay/Shooter/Presentation/Editor/ShooterRemoteStateSyncPlayModeLauncherEditor.cs;../../Unity/Assets/Scripts/GameBattle/Gameplay/Shooter/Presentation/Editor/ShooterRemoteStateSyncPlayModeProfileEditor.cs"/>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Gameplay/Shooter/Presentation/Unity/PlayMode/ShooterFormalMultiplayerController.cs;../../Unity/Assets/Scripts/GameBattle/Gameplay/Shooter/Presentation/Unity/PlayMode/ShooterFrameRecordReplayPlayModeLauncher.cs;../../Unity/Assets/Scripts/GameBattle/Gameplay/Shooter/Presentation/Unity/PlayMode/ShooterFrameRecordReplayPlayModeProfile.cs;../../Unity/Assets/Scripts/GameBattle/Gameplay/Shooter/Presentation/Unity/PlayMode/ShooterFrameRecordReplayPlayModeProfileCatalog.cs;../../Unity/Assets/Scripts/GameBattle/Gameplay/Shooter/Presentation/Unity/PlayMode/ShooterInitialFullStateSyncCoordinator.cs;../../Unity/Assets/Scripts/GameBattle/Gameplay/Shooter/Presentation/Unity/PlayMode/ShooterMultiplayerProfileSO.cs;../../Unity/Assets/Scripts/GameBattle/Gameplay/Shooter/Presentation/Unity/PlayMode/ShooterPlayModeMenu.cs;../../Unity/Assets/Scripts/GameBattle/Gameplay/Shooter/Presentation/Unity/PlayMode/ShooterPlayModeSessionHost.cs;../../Unity/Assets/Scripts/GameBattle/Gameplay/Shooter/Presentation/Unity/PlayMode/ShooterReconnectLaunchOptionsBuilder.cs;../../Unity/Assets/Scripts/GameBattle/Gameplay/Shooter/Presentation/Unity/PlayMode/ShooterRemoteInputPump.cs;../../Unity/Assets/Scripts/GameBattle/Gameplay/Shooter/Presentation/Unity/PlayMode/ShooterRemoteInputSubmitStrategy.cs;../../Unity/Assets/Scripts/GameBattle/Gameplay/Shooter/Presentation/Unity/PlayMode/ShooterRemotePresentationFrameBuilder.cs;../../Unity/Assets/Scripts/GameBattle/Gameplay/Shooter/Presentation/Unity/PlayMode/ShooterRemoteStateSyncPlayModeHost.cs;../../Unity/Assets/Scripts/GameBattle/Gameplay/Shooter/Presentation/Unity/PlayMode/ShooterRemoteStateSyncPlayModeLauncher.cs;../../Unity/Assets/Scripts/GameBattle/Gameplay/Shooter/Presentation/Unity/PlayMode/ShooterRemoteStateSyncPlayModeProfile.cs;../../Unity/Assets/Scripts/GameBattle/Gameplay/Shooter/Presentation/Unity/PlayMode/ShooterRemoteStateSyncPlayModeProfileCatalog.cs;../../Unity/Assets/Scripts/GameBattle/Gameplay/Shooter/Presentation/Unity/PlayMode/UnityShooterPlayAdapters.cs;../../Unity/Assets/Scripts/GameBattle/Gameplay/Shooter/Presentation/Unity/PlayMode/UnityShooterViewBackends.cs"/>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Integration/Hosting/Extensions/Client/StateSync/RemoteClientInputSubmitQueue.cs"/>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="../AbilityKit.Demo.Shooter.View.Runtime/AbilityKit.Demo.Shooter.View.Runtime.csproj"/>
+    <ProjectReference Include="../AbilityKit.Network.Runtime/AbilityKit.Network.Runtime.csproj"/>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2022.3.62f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2022.3.62f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2022.3.62f1/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2022.3.62f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2022.3.62f1/Editor/Data/Managed/UnityEditor.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,116 @@
+{
+    "exportMobaRuntime": false,
+    "groups": [
+        {
+            "name": "Group",
+            "tracks": [
+                {
+                    "actionClips": [
+                        {
+                            "blendIn": 0.25,
+                            "blendOut": 0.25,
+                            "clipKey": "",
+                            "resPath": "",
+                            "playbackSpeed": 1.0,
+                            "clipOffset": 0.0,
+                            "startTime": 0.0,
+                            "length": 1.0,
+                            "name": "PlayAnimation",
+                            "$type": "AbilityKit.ActionEditorImpl.PlayAnimation"
+                        }
+                    ],
+                    "name": "AnimationTrack",
+                    "active": true,
+                    "isLocked": false,
+                    "color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "$type": "AbilityKit.ActionEditorImpl.AnimationTrack"
+                },
+                {
+                    "Test1": 0,
+                    "Test2": 0.0,
+                    "Test3": null,
+                    "actionClips": [
+                        {
+                            "curve": {
+                                "keys": [],
+                                "preWrapMode": "ClampForever",
+                                "postWrapMode": "ClampForever"
+                            },
+                            "interpolation": "QuadInOut",
+                            "move": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "startTime": 0.41,
+                            "length": 0.43,
+                            "name": "MoveBy",
+                            "$type": "AbilityKit.ActionEditorImpl.MoveBy"
+                        },
+                        {
+                            "interpolation": "QuadInOut",
+                            "targetRotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "startTime": 1.19,
+                            "length": 0.3000001,
+                            "name": "RotateTo",
+                            "$type": "AbilityKit.ActionEditorImpl.RotateTo"
+                        }
+                    ],
+                    "name": "ActionTrack",
+                    "active": true,
+                    "isLocked": false,
+                    "color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "$type": "AbilityKit.ActionEditorImpl.ActionTrack"
+                },
+                {
+                    "Layer": 0,
+                    "actionClips": [
+                        {
+                            "resourceKey": "",
+                            "resPath": "Assets/Generated/Moba/BattleMap_1.prefab",
+                            "scale": false,
+                            "startTime": 1.49,
+                            "length": 1.0,
+                            "name": "PlayParticle",
+                            "$type": "AbilityKit.ActionEditorImpl.PlayParticle"
+                        }
+                    ],
+                    "name": "EffectTrack",
+                    "active": true,
+                    "isLocked": false,
+                    "color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "$type": "AbilityKit.ActionEditorImpl.EffectTrack"
+                }
+            ],
+            "isCollapsed": false,
+            "active": true,
+            "isLocked": false,
+            "ActorId": 0
+        }
+    ],
+    "length": 2.49,
+    "viewTimeMin": 0.0,
+    "viewTimeMax": 5.954229,
+    "rangeMin": 0.0,
+    "rangeMax": 5.0,
+    "$type": "AbilityKit.ActionEditorImpl.SkillAsset"
+}

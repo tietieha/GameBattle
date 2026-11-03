@@ -145,7 +145,7 @@ if ($IncludeTurn) {
     $turnGuid = ([regex]::Match((Get-Content -LiteralPath $turnSceneMeta -Raw),
         '(?m)^guid: ([0-9a-f]{32})\r?$')).Groups[1].Value
     if (-not $turnGuid) { throw 'Tiny Turn scene GUID metadata is incomplete.' }
-    $turnScene = "  - enabled: 1`n    path: Packages/com.abilitykit.demo.tiny.turn/Scenes/TinyTurnGameplayScene.unity`n    guid: $turnGuid`n"
+    $turnScene = "  - enabled: 1`n    path: Assets/Scripts/GameBattle/Example/Tiny/demo.tiny.turn/Scenes/TinyTurnGameplayScene.unity`n    guid: $turnGuid`n"
     if ($Standalone) {
         $consumerTurnMeta = Join-Path $projectScenes 'ConsumerTurnLobby.unity.meta'
         $consumerTurnGuid = ([regex]::Match((Get-Content -LiteralPath $consumerTurnMeta -Raw),
@@ -166,7 +166,7 @@ EditorBuildSettings:
     path: $entryScenePath
     guid: $entryGuid
   - enabled: 1
-    path: Packages/com.abilitykit.demo.tiny/Scenes/TinyDemoGameplayScene.unity
+    path: Assets/Scripts/GameBattle/Example/Tiny/demo.tiny/Scenes/TinyDemoGameplayScene.unity
     guid: $tinyGuid
 $turnScene
   m_configObjects: {}

@@ -13,23 +13,23 @@
 
   <!-- 引用 Packages 目录下的源码 -->
   <ItemGroup>
-    <Compile Include="../../Unity/Packages/com.abilitykit.world.framesync/Runtime/**/*.cs" />
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Synchronization/FrameSync/FrameSync/FrameCommandBuffer.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Synchronization/FrameSync/FrameSync/FrameIndex.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Synchronization/FrameSync/FrameSync/FrameTime.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Synchronization/FrameSync/FrameSync/IFrameDriver.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Synchronization/FrameSync/FrameSync/IFrameTime.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Synchronization/FrameSync/FrameSync/WorldManagerFrameDriver.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Synchronization/FrameSync/Host/IWorldInputSink.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Synchronization/FrameSync/Host/PlayerId.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Synchronization/FrameSync/Host/PlayerInputCommand.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Synchronization/FrameSync/FrameSync/Rollback/ClientPredictionReconciler.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Synchronization/FrameSync/FrameSync/Rollback/ClientPredictionRunner.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Synchronization/FrameSync/FrameSync/Rollback/CommandJournalCheckpoint.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Synchronization/FrameSync/FrameSync/Rollback/CommandRollbackLog.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Synchronization/FrameSync/FrameSync/Rollback/CommandRollbackStateProvider.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Synchronization/FrameSync/FrameSync/Rollback/FrameTimeRollbackStateProvider.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Synchronization/FrameSync/FrameSync/Rollback/InputHistoryRingBuffer.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Synchronization/FrameSync/FrameSync/Rollback/IRollbackStateProvider.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Synchronization/FrameSync/FrameSync/Rollback/IWorldStateHashProvider.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Synchronization/FrameSync/FrameSync/Rollback/RollbackCommandContracts.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Synchronization/FrameSync/FrameSync/Rollback/RollbackCommandHandlerRegistry.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Synchronization/FrameSync/FrameSync/Rollback/RollbackCoordinator.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Synchronization/FrameSync/FrameSync/Rollback/RollbackOperationResult.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Synchronization/FrameSync/FrameSync/Rollback/RollbackRegistry.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Synchronization/FrameSync/FrameSync/Rollback/RollbackSnapshotRingBuffer.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Synchronization/FrameSync/FrameSync/Rollback/WorldRollbackSnapshot.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Synchronization/FrameSync/FrameSync/Rollback/WorldStateHashRingBuffer.cs"/>
   </ItemGroup>
 
   <!-- 项目引用 -->
   <ItemGroup>
-    <ProjectReference Include="../../src/AbilityKit.Core/AbilityKit.Core.csproj" />
-    <ProjectReference Include="../../src/AbilityKit.Deterministic/AbilityKit.Deterministic.csproj" />
-    <ProjectReference Include="../../src/AbilityKit.World.DI/AbilityKit.World.DI.csproj" />
+    <ProjectReference Include="../../src/AbilityKit.Core/AbilityKit.Core.csproj"/>
+    <ProjectReference Include="../../src/AbilityKit.Deterministic/AbilityKit.Deterministic.csproj"/>
+    <ProjectReference Include="../../src/AbilityKit.World.DI/AbilityKit.World.DI.csproj"/>
   </ItemGroup>
 
   <!-- NuGet 依赖 -->
   <ItemGroup>
-    <PackageReference Include="MemoryPack" Version="1.21.0" />
+    <PackageReference Include="MemoryPack" Version="1.21.0"/>
   </ItemGroup>
 
   <ItemGroup>
-    <InternalsVisibleTo Include="AbilityKit.World.FrameSync.Tests" />
+    <InternalsVisibleTo Include="AbilityKit.World.FrameSync.Tests"/>
   </ItemGroup>
 
 </Project>

@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>AbilityKit</RootNamespace>
+    <AssemblyName>AbilityKit.Protocol</AssemblyName>
+    <LangVersion>latest</LangVersion>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <DefineConstants>USE_NEWTONSOFT_JSON</DefineConstants>
+  </PropertyGroup>
+
+  <!-- 引用 Packages 目录下的源码 -->
+  <ItemGroup>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Integration/Serialization/Protocol/Generated/BuiltInProtocolCatalogs.g.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Serialization/Protocol/Generated/BuiltInProtocolMetadata.g.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Serialization/Protocol/Protocol/MessageEnvelope.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Serialization/Protocol/Protocol/ProtocolOpCodeAttribute.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Serialization/Protocol/Protocol/ProtocolRegistry.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Serialization/Protocol/Protocol/ServerPushHandlerBase.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Serialization/Protocol/Protocol/ServerPushHandlerRegistry.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Serialization/Protocol/Serialization/ITextSerializer.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Serialization/Protocol/Serialization/IWireSerializer.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Serialization/Protocol/Serialization/JsonTextSerializer.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Serialization/Protocol/Serialization/JsonTextSerializerInstaller.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Serialization/Protocol/Serialization/MemoryPackWireSerializer.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Serialization/Protocol/Serialization/MemoryPackWireSerializerInstaller.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Serialization/Protocol/Serialization/WireSerializer.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Serialization/Protocol/Protocol/Catalog/ProtocolCatalogAdvertisement.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Serialization/Protocol/Protocol/Catalog/ProtocolCatalogAdvertisementNegotiation.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Serialization/Protocol/Protocol/Catalog/ProtocolCatalogModel.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Serialization/Protocol/Protocol/Catalog/ProtocolCatalogNegotiation.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Serialization/Protocol/Protocol/Catalog/ProtocolCatalogNegotiationSession.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Serialization/Protocol/Protocol/Catalog/ProtocolCatalogRegistry.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Serialization/Protocol/Protocol/Catalog/ProtocolCatalogValidation.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Serialization/Protocol/Protocol/Catalog/ProtocolMetadataRegistry.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Serialization/Protocol/Protocol/Catalog/ProtocolPayloadDecoderRegistry.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Serialization/Protocol/Protocol/Catalog/ProtocolSchemaVersionNegotiator.cs"/>
+  </ItemGroup>
+
+  <!-- 项目引用 -->
+  <ItemGroup>
+    <ProjectReference Include="../../src/AbilityKit.Core/AbilityKit.Core.csproj"/>
+  </ItemGroup>
+
+  <!-- NuGet 依赖 -->
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3"/>
+  </ItemGroup>
+
+</Project>

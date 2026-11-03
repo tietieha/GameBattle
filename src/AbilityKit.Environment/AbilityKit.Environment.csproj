@@ -10,6 +10,6 @@
 
   <!-- 引用 Packages 目录下的源码 -->
   <ItemGroup>
-    <Compile Include="../../Unity/Packages/com.abilitykit.environment/Runtime/**/*.cs" />
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Hosting/Configuration/IsExternalInitPolyfill.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Hosting/Configuration/Environment/EnvironmentBindResult.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Hosting/Configuration/Environment/EnvironmentConcern.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Hosting/Configuration/Environment/EnvironmentPrimitive.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Hosting/Configuration/Environment/EnvironmentProfile.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Hosting/Configuration/Environment/EnvironmentProfileCatalog.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Hosting/Configuration/Environment/EnvironmentVector3.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Hosting/Configuration/Environment/IEnvironmentGroupExpander.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Hosting/Configuration/Environment/IEnvironmentProfileBinder.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Hosting/Configuration/Environment/ResolvedEnvironmentProfile.cs"/>
   </ItemGroup>
 </Project>

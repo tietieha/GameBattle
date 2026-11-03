@@ -1,0 +1,42 @@
+{
+  "projects": 424,
+  "links": 12463,
+  "migrationScopeMissing": [],
+  "unrelatedMissing": [
+    {
+      "project": "src\\AbilityKit.Demo.ET.Share\\src\\cn.etetet.excel@3.0.0\\DotNet~\\ET.ExcelExporter.csproj",
+      "kind": "ProjectReference",
+      "path": "..\\..\\cn.etetet.core\\DotNet~\\ET.Core.csproj"
+    },
+    {
+      "project": "src\\AbilityKit.Demo.ET.Share\\src\\cn.etetet.loader@3.0.1\\DotNet~\\ET.Loader.csproj",
+      "kind": "ProjectReference",
+      "path": "..\\..\\cn.etetet.core\\DotNet~\\ET.Core.csproj"
+    },
+    {
+      "project": "src\\AbilityKit.Demo.ET.Share\\src\\cn.etetet.proto@3.0.2\\DotNet~\\ET.Proto2CS.csproj",
+      "kind": "ProjectReference",
+      "path": "..\\..\\cn.etetet.core\\DotNet~\\ET.Core.csproj"
+    },
+    {
+      "project": "src\\AbilityKit.Demo.ET.Share\\src\\cn.etetet.statesync\\DotNet~\\Model\\ET.Model.csproj",
+      "kind": "ProjectReference",
+      "path": "..\\..\\..\\cn.etetet.loader\\DotNet~\\ET.Loader.csproj"
+    },
+    {
+      "project": "src\\AbilityKit.Demo.ET.Share\\src\\cn.etetet.statesync\\DotNet~\\Model\\ET.Model.csproj",
+      "kind": "ProjectReference",
+      "path": "..\\..\\..\\cn.etetet.mathematics\\DotNet~\\ET.Mathematics.csproj"
+    },
+    {
+      "project": "src\\AbilityKit.Demo.ET.Share\\src\\cn.etetet.statesync\\DotNet~\\Model\\ET.Model.csproj",
+      "kind": "ProjectReference",
+      "path": "..\\..\\..\\cn.etetet.recast\\DotNet~\\ET.Recast.csproj"
+    },
+    {
+      "project": "src\\AbilityKit.Demo.ET.Share\\src\\cn.etetet.statesync\\DotNet~\\Model\\ET.Model.csproj",
+      "kind": "ProjectReference",
+      "path": "..\\..\\..\\cn.etetet.sourcegenerator\\DotNet~\\ET.SourceGeneratorAttribute\\ET.SourceGeneratorAttribute.csproj"
+    }
+  ]
+}

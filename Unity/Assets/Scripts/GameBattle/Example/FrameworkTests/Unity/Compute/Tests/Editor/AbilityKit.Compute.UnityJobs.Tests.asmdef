@@ -1,0 +1,32 @@
+{
+  "name": "AbilityKit.Compute.UnityJobs.Tests",
+  "rootNamespace": "AbilityKit.Compute.UnityJobs.Tests",
+  "references": [
+    "GameBattle.Runtime",
+    "GameBattle.Unity",
+    "Unity.Collections"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [
+    "UNITY_INCLUDE_TESTS",
+    "ABILITYKIT_COMPUTE_UNITY_JOBS"
+  ],
+  "versionDefines": [
+    {
+      "name": "com.unity.collections",
+      "expression": "1.0.0",
+      "define": "ABILITYKIT_COMPUTE_UNITY_JOBS"
+    }
+  ],
+  "noEngineReferences": false,
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ]
+}

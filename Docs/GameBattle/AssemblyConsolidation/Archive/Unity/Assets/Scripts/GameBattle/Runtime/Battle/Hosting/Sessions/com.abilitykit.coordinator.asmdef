@@ -1,0 +1,20 @@
+{
+  "name": "AbilityKit.Coordinator",
+  "rootNamespace": "AbilityKit.Coordinator",
+  "references": [
+    "AbilityKit.Core",
+    "AbilityKit.World.DI",
+    "AbilityKit.Host",
+    "AbilityKit.Protocol",
+    "MemoryPack"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeBlocks": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": true
+}

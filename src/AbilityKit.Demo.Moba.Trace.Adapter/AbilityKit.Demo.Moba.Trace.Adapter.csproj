@@ -11,17 +11,17 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="../../Unity/Packages/com.abilitykit.demo.moba.trace.adapter/Runtime/**/*.cs" />
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Diagnostics/TraceAdapter/AssemblyInfo.cs;../../Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Diagnostics/TraceAdapter/MobaRuntimeTraceRetentionService.cs;../../Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Diagnostics/TraceAdapter/MobaTraceAdapterModule.cs;../../Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Diagnostics/TraceAdapter/MobaTraceMetadata.cs;../../Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Diagnostics/TraceAdapter/MobaTraceRegistry.cs;../../Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Diagnostics/TraceAdapter/MobaTraceRetention.cs;../../Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Diagnostics/TraceAdapter/MobaTraceValidation.cs;../../Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Diagnostics/TraceAdapter/Diagnostics/MobaActionExecutionSnapshot.cs;../../Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Diagnostics/TraceAdapter/Diagnostics/MobaActionExecutionSnapshotStore.cs;../../Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Diagnostics/TraceAdapter/Diagnostics/MobaAnalysisArtifactBuilder.cs;../../Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Diagnostics/TraceAdapter/Diagnostics/MobaBattleDiagnosticTraceReadStore.cs;../../Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Diagnostics/TraceAdapter/Diagnostics/MobaEffectExecutionEntrySnapshot.cs;../../Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Diagnostics/TraceAdapter/Diagnostics/MobaEffectExecutionSnapshotStore.cs"/>
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\AbilityKit.Demo.Moba.Core\AbilityKit.Demo.Moba.Core.csproj" />
-    <ProjectReference Include="..\AbilityKit.Trace\AbilityKit.Trace.csproj" />
-    <ProjectReference Include="..\AbilityKit.Context\AbilityKit.Context.csproj" />
-    <ProjectReference Include="..\AbilityKit.Core\AbilityKit.Core.csproj" />
-    <ProjectReference Include="..\AbilityKit.Ability\AbilityKit.Ability.csproj" />
-    <ProjectReference Include="..\AbilityKit.World.DI\AbilityKit.World.DI.csproj" />
-    <ProjectReference Include="..\AbilityKit.Diagnostics\AbilityKit.Diagnostics.csproj" />
+    <ProjectReference Include="..\AbilityKit.Demo.Moba.Core\AbilityKit.Demo.Moba.Core.csproj"/>
+    <ProjectReference Include="..\AbilityKit.Trace\AbilityKit.Trace.csproj"/>
+    <ProjectReference Include="..\AbilityKit.Context\AbilityKit.Context.csproj"/>
+    <ProjectReference Include="..\AbilityKit.Core\AbilityKit.Core.csproj"/>
+    <ProjectReference Include="..\AbilityKit.Ability\AbilityKit.Ability.csproj"/>
+    <ProjectReference Include="..\AbilityKit.World.DI\AbilityKit.World.DI.csproj"/>
+    <ProjectReference Include="..\AbilityKit.Diagnostics\AbilityKit.Diagnostics.csproj"/>
   </ItemGroup>
 
 </Project>

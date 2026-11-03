@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-26",
+  "state": "applied",
+  "routes": [
+    {
+      "from": "Unity/Assets/Scripts/GameBattle/Example/Moba/Editor/CodeGen/AbilityKit.Demo.Moba.CodeGen.dll",
+      "to": "Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/CodeGen/AbilityKit.Demo.Moba.CodeGen.dll"
+    }
+  ],
+  "files": [
+    {
+      "from": "Unity/Assets/Scripts/GameBattle/Example/Moba/Editor/CodeGen/AbilityKit.Demo.Moba.CodeGen.dll",
+      "to": "Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/CodeGen/AbilityKit.Demo.Moba.CodeGen.dll",
+      "sha256": "15a2092f5f059264d2fadb9b8bb93e8ec904feb9582d586f5cebbe9fbfa41594"
+    },
+    {
+      "from": "Unity/Assets/Scripts/GameBattle/Example/Moba/Editor/CodeGen/AbilityKit.Demo.Moba.CodeGen.dll.meta",
+      "to": "Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/CodeGen/AbilityKit.Demo.Moba.CodeGen.dll.meta",
+      "sha256": "7571f8846993412215a8130d553cb7d14a7b8d7d3e87e28ba9cca9bb00748cb0"
+    }
+  ],
+  "rewritten": [
+    "Unity/AbilityKit.Demo.Moba.BattleScenario.Editor.Tests.csproj",
+    "Unity/AbilityKit.Demo.Moba.ConfigSync.Tests.csproj",
+    "Unity/AbilityKit.Demo.Moba.Diagnostics.Core.Tests.csproj",
+    "Unity/AbilityKit.Demo.Moba.Editor.csproj",
+    "Unity/Assembly-CSharp-Editor.csproj",
+    "Unity/Assembly-CSharp-firstpass.csproj",
+    "Unity/Assembly-CSharp.csproj"
+  ]
+}

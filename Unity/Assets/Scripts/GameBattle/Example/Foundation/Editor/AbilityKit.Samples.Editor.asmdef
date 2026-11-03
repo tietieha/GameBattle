@@ -1,0 +1,20 @@
+{
+  "name": "AbilityKit.Samples.Editor",
+  "rootNamespace": "AbilityKit",
+  "references": [
+    "GameBattle.Runtime",
+    "AbilityKit.Samples",
+    "GameBattle.Editor"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

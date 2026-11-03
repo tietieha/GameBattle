@@ -1,0 +1,28 @@
+{
+  "name": "AbilityKit.Demo.Shooter.Jobs",
+  "rootNamespace": "AbilityKit.Demo.Shooter.Jobs",
+  "references": [
+    "GameBattle.Unity",
+    "AbilityKit.Demo.Shooter.Runtime",
+    "GameBattle.Runtime",
+    "Unity.Burst",
+    "Unity.Collections"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [
+    "ABILITYKIT_SHOOTER_UNITY_JOBS"
+  ],
+  "versionDefines": [
+    {
+      "name": "com.unity.collections",
+      "expression": "1.0.0",
+      "define": "ABILITYKIT_SHOOTER_UNITY_JOBS"
+    }
+  ],
+  "noEngineReferences": false
+}

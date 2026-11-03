@@ -1,0 +1,22 @@
+{
+  "name": "AbilityKit.Demo.Shooter.View.Runtime",
+  "rootNamespace": "AbilityKit.Demo.Shooter.View",
+  "references": [
+    "GameBattle.Runtime",
+    "AbilityKit.Demo.Common",
+    "AbilityKit.Demo.Shooter.Jobs",
+    "AbilityKit.Demo.Shooter.Runtime",
+    "AbilityKit.Demo.Shooter.Share",
+    "AbilityKit.Protocol.Shooter",
+    "GameBattle.Unity"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

@@ -1,0 +1,232 @@
+{
+  "date": "2026-10-26",
+  "state": "implemented",
+  "routes": [],
+  "files": [
+    {
+      "from": "Unity/Assets/Scripts/GameBattle/Runtime/Buff/State/BuffState.cs",
+      "to": "Unity/Assets/Scripts/GameBattle/Runtime/Buff/State/BuffState.cs",
+      "sha256": "dc1886bc6b41be914bfb1d585336100dcddfdfbe1e8984469e52de55d4f98434"
+    },
+    {
+      "from": "Unity/Assets/Scripts/GameBattle/Runtime/Buff/State/BuffState.cs.meta",
+      "to": "Unity/Assets/Scripts/GameBattle/Runtime/Buff/State/BuffState.cs.meta",
+      "sha256": "d46d8d1b4c58f65b22ecd9d8964e08118b9ceb624b6f11949bdca79c71f59681"
+    },
+    {
+      "from": "Unity/Assets/Scripts/GameBattle/Runtime/Buff/Policies/BuffStackingPolicyApplier.cs",
+      "to": "Unity/Assets/Scripts/GameBattle/Runtime/Buff/Policies/BuffStackingPolicyApplier.cs",
+      "sha256": "b2addcb71beb052808344d9f591dfbb03de953305d35ad14940a77c1bbf6f917"
+    },
+    {
+      "from": "Unity/Assets/Scripts/GameBattle/Runtime/Buff/Policies/BuffStackingPolicyApplier.cs.meta",
+      "to": "Unity/Assets/Scripts/GameBattle/Runtime/Buff/Policies/BuffStackingPolicyApplier.cs.meta",
+      "sha256": "ee15f307321558ee070d579cb062bf1ef45a357d85ec1718e6bc39b9fd56d9db"
+    },
+    {
+      "from": "Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Buff/State/BuffComponent.cs",
+      "to": "Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Buff/State/BuffComponent.cs",
+      "sha256": "1321562c688dce46a122fa0a3f16092cd349cb7061b8e525fbfab65397dc9d73"
+    },
+    {
+      "from": "Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Buff/State/BuffComponent.cs.meta",
+      "to": "Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Buff/State/BuffComponent.cs.meta",
+      "sha256": "e99f25fbf8cc0de6fa228156c97f21462598d94fa7c67f291d8d9c4bfe1f3deb"
+    },
+    {
+      "from": "Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Buff/Services/Buffs/Core/BuffRuntimeContexts.cs",
+      "to": "Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Buff/Services/Buffs/Core/BuffRuntimeContexts.cs",
+      "sha256": "d489ef0e5450ba5cc3ced97396cf8cc95e5db9f78e83144e1b05c6b0cd8a00c8"
+    },
+    {
+      "from": "Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Buff/Services/Buffs/Core/BuffRuntimeContexts.cs.meta",
+      "to": "Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Buff/Services/Buffs/Core/BuffRuntimeContexts.cs.meta",
+      "sha256": "bc045c17aa55269473aa14dc3f5df57f2965252a564bb1e56633f27c8e625378"
+    },
+    {
+      "from": "Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Buff/Services/Buffs/Core/BuffRepository.cs",
+      "to": "Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Buff/Services/Buffs/Core/BuffRepository.cs",
+      "sha256": "24d890dfa93275086a40fec8d724e26c753a51ffb2e24afc9658a8e93a590941"
+    },
+    {
+      "from": "Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Buff/Services/Buffs/Core/BuffRepository.cs.meta",
+      "to": "Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Buff/Services/Buffs/Core/BuffRepository.cs.meta",
+      "sha256": "d12da6af70a0bbb39d5f214e731e5e52dc663793de3e9ba41e836647745417a5"
+    },
+    {
+      "from": "Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Buff/Services/Buffs/Lifecycle/BuffApplyFlow.cs",
+      "to": "Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Buff/Services/Buffs/Lifecycle/BuffApplyFlow.cs",
+      "sha256": "d9b9ed842147dfd245003b73641b9e8b4eb05a2b90dc545628cc540657b12a75"
+    },
+    {
+      "from": "Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Buff/Services/Buffs/Lifecycle/BuffApplyFlow.cs.meta",
+      "to": "Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Buff/Services/Buffs/Lifecycle/BuffApplyFlow.cs.meta",
+      "sha256": "89aaef100461387be147ff0eebb5c4313b9dbf739bff2922bca7d2dc947e030d"
+    },
+    {
+      "from": "Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Buff/Services/Buffs/Lifecycle/BuffEndFlow.cs",
+      "to": "Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Buff/Services/Buffs/Lifecycle/BuffEndFlow.cs",
+      "sha256": "ecf4d09d85dca903f777a7f9ba4ef2b8d524b1f06d41526fa8800496347bc1c0"
+    },
+    {
+      "from": "Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Buff/Services/Buffs/Lifecycle/BuffEndFlow.cs.meta",
+      "to": "Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Buff/Services/Buffs/Lifecycle/BuffEndFlow.cs.meta",
+      "sha256": "1bc29fcd72809eddd62eec66914e919836ad7af0f52f5d410b6b9632dcfc1a14"
+    },
+    {
+      "from": "Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Buff/Services/Buffs/MobaBuffService.cs",
+      "to": "Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Buff/Services/Buffs/MobaBuffService.cs",
+      "sha256": "4e40123429e6d4b1b39525e91890a40271a05aaea82101e6caa4f4888c5eaeb6"
+    },
+    {
+      "from": "Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Buff/Services/Buffs/MobaBuffService.cs.meta",
+      "to": "Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Buff/Services/Buffs/MobaBuffService.cs.meta",
+      "sha256": "c169eb119c350acc0606592982d99a9228518b2de743487dd1246bd35182a91d"
+    },
+    {
+      "from": "Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Buff/Services/Buffs/Runtime/BuffContinuousRuntime.cs",
+      "to": "Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Buff/Services/Buffs/Runtime/BuffContinuousRuntime.cs",
+      "sha256": "c43d92358f7fbeb06f31752ad8f94749232239811eebcb6e6e084f8c4806dd03"
+    },
+    {
+      "from": "Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Buff/Services/Buffs/Runtime/BuffContinuousRuntime.cs.meta",
+      "to": "Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Buff/Services/Buffs/Runtime/BuffContinuousRuntime.cs.meta",
+      "sha256": "a1b37b10e64a63859c6c95deda5326247fbd5b5a35a50e0270507f80ae3cf632"
+    },
+    {
+      "from": "Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Effect/Services/Continuous/MobaContinuousTickProcessor.cs",
+      "to": "Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Effect/Services/Continuous/MobaContinuousTickProcessor.cs",
+      "sha256": "befeb151545c09a08b253f84020e6e07e3478227a22a1c73621715ebd87821e1"
+    },
+    {
+      "from": "Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Effect/Services/Continuous/MobaContinuousTickProcessor.cs.meta",
+      "to": "Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Effect/Services/Continuous/MobaContinuousTickProcessor.cs.meta",
+      "sha256": "c749ecec5a5400c78ab7d792ec835974c7df7f76444edb6f3d4f2c2399a1dd30"
+    },
+    {
+      "from": "Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Battle/Services/Context/Runtime/MobaRuntimeContextService.cs",
+      "to": "Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Battle/Services/Context/Runtime/MobaRuntimeContextService.cs",
+      "sha256": "3a5c0ea5e8b0cd425dfa4335ab169d48d0209c9ad908f78d8f54cfc56b549605"
+    },
+    {
+      "from": "Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Battle/Services/Context/Runtime/MobaRuntimeContextService.cs.meta",
+      "to": "Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Battle/Services/Context/Runtime/MobaRuntimeContextService.cs.meta",
+      "sha256": "58dc136d72ef7816188cec64491a5a049d3135dfb79f7d9e1e652cf041fb1085"
+    }
+  ],
+  "added": [
+    "Unity/Assets/Scripts/GameBattle/Runtime/Buff/Storage/BuffRuntimeKey.cs",
+    "Unity/Assets/Scripts/GameBattle/Runtime/Buff/Storage/BuffStorage.cs",
+    "Unity/Assets/Scripts/GameBattle/Runtime/Buff/Lifecycle/BuffApplyProcessor.cs",
+    "Unity/Assets/Scripts/GameBattle/Runtime/Buff/Lifecycle/BuffEndProcessor.cs",
+    "Unity/Assets/Scripts/GameBattle/Runtime/Buff/Lifecycle/BuffLifetimeReconciler.cs",
+    "Unity/Assets/Scripts/GameBattle/Runtime/Buff/Commands/BuffCommandQueue.cs",
+    "Unity/Assets/Scripts/GameBattle/Runtime/Buff/Timing/BuffDuration.cs",
+    "Unity/Assets/Scripts/GameBattle/Runtime/Buff/Context/BuffContextBinding.cs",
+    "Unity/Assets/Scripts/GameBattle/Runtime/Effect/Continuous/Timing/FixedIntervalTicker.cs"
+  ],
+  "rewritten": [
+    {
+      "file": "Unity/Assets/Scripts/GameBattle/Runtime/Buff/State/BuffState.cs",
+      "beforeSha256": "dc1886bc6b41be914bfb1d585336100dcddfdfbe1e8984469e52de55d4f98434",
+      "afterSha256": "6b57e2be7c78c47bd7c99e3f94a47e8aedbaf797a80e329d82bf78e477446d09"
+    },
+    {
+      "file": "Unity/Assets/Scripts/GameBattle/Runtime/Buff/Policies/BuffStackingPolicyApplier.cs",
+      "beforeSha256": "b2addcb71beb052808344d9f591dfbb03de953305d35ad14940a77c1bbf6f917",
+      "afterSha256": "fa5a929584ed6129b519945a6a17ff7c767b7696bb8cc3584ac27bcc61816f65"
+    },
+    {
+      "file": "Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Buff/State/BuffComponent.cs",
+      "beforeSha256": "1321562c688dce46a122fa0a3f16092cd349cb7061b8e525fbfab65397dc9d73",
+      "afterSha256": "f1b501fc51b773a69586d5900997766e7d8b04ebb27b1eb1b0d92659fb359ab2"
+    },
+    {
+      "file": "Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Buff/Services/Buffs/Core/BuffRuntimeContexts.cs",
+      "beforeSha256": "d489ef0e5450ba5cc3ced97396cf8cc95e5db9f78e83144e1b05c6b0cd8a00c8",
+      "afterSha256": "d8ee059b4b6cd3eed626685bffcf86a23ded6cc9e3b485957d94880b09321ded"
+    },
+    {
+      "file": "Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Buff/Services/Buffs/Core/BuffRepository.cs",
+      "beforeSha256": "24d890dfa93275086a40fec8d724e26c753a51ffb2e24afc9658a8e93a590941",
+      "afterSha256": "999e804af84dd61349a254d46098fe434ac2f1bc8731a53cf12c2fe3616c0f8b"
+    },
+    {
+      "file": "Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Buff/Services/Buffs/Lifecycle/BuffApplyFlow.cs",
+      "beforeSha256": "d9b9ed842147dfd245003b73641b9e8b4eb05a2b90dc545628cc540657b12a75",
+      "afterSha256": "5840961455464e9273b67bc04b3cda39d2261707c7521b1b27156d95f45f742e"
+    },
+    {
+      "file": "Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Buff/Services/Buffs/Lifecycle/BuffEndFlow.cs",
+      "beforeSha256": "ecf4d09d85dca903f777a7f9ba4ef2b8d524b1f06d41526fa8800496347bc1c0",
+      "afterSha256": "5833991634d94449320297c9701169bc6a1450e07d0c08310c935839afdcd4c0"
+    },
+    {
+      "file": "Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Buff/Services/Buffs/MobaBuffService.cs",
+      "beforeSha256": "4e40123429e6d4b1b39525e91890a40271a05aaea82101e6caa4f4888c5eaeb6",
+      "afterSha256": "b66038cecc3a1688f48d1b3a425529d7f9c71e10e26f6d2545a446ed773dd383"
+    },
+    {
+      "file": "Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Buff/Services/Buffs/Runtime/BuffContinuousRuntime.cs",
+      "beforeSha256": "c43d92358f7fbeb06f31752ad8f94749232239811eebcb6e6e084f8c4806dd03",
+      "afterSha256": "f5cc7a654bff11e3fa6146d9bdc568c9d56ada43f99aee2447c2552b292ce464"
+    },
+    {
+      "file": "Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Effect/Services/Continuous/MobaContinuousTickProcessor.cs",
+      "beforeSha256": "befeb151545c09a08b253f84020e6e07e3478227a22a1c73621715ebd87821e1",
+      "afterSha256": "6b681171d073fec1917e14e54240387e3f9c796d757a0c7bd3ee1e77073a12e0"
+    },
+    {
+      "file": "Unity/Assets/Scripts/GameBattle/Example/Moba/Runtime/Battle/Services/Context/Runtime/MobaRuntimeContextService.cs",
+      "beforeSha256": "3a5c0ea5e8b0cd425dfa4335ab169d48d0209c9ad908f78d8f54cfc56b549605",
+      "afterSha256": "bed88775073af28093e23ede6a7286ad66acaa36c4e1d390ba5dae071e844914"
+    }
+  ],
+  "created": [
+    {
+      "file": "Unity/Assets/Scripts/GameBattle/Runtime/Buff/Storage/BuffRuntimeKey.cs",
+      "sha256": "e52593a1709df3a6153d062b6a255eec1606354221714aa047ab6a48ff5214a7",
+      "metadataSha256": "7f4ab21a30ddab1bfbfd1fc138136259d5caf72c0afa22942877a6e5a33971a7"
+    },
+    {
+      "file": "Unity/Assets/Scripts/GameBattle/Runtime/Buff/Storage/BuffStorage.cs",
+      "sha256": "13b4bae8df3a0700b54099e9f41ef3ee76d2cd893c92a356fdbe3735ccf6679c",
+      "metadataSha256": "4df2fe8c58df991085c555e11a6cdbe60eac438c5f6b685e22f7816214d67f79"
+    },
+    {
+      "file": "Unity/Assets/Scripts/GameBattle/Runtime/Buff/Lifecycle/BuffApplyProcessor.cs",
+      "sha256": "e47188bbef12b9aa466204f67cdbb0a96ad1c216037756d023e402471fff7cf2",
+      "metadataSha256": "94beb0673b1c56585c850550c0edb9ae00486732554f3ba1183ce304d2a238cc"
+    },
+    {
+      "file": "Unity/Assets/Scripts/GameBattle/Runtime/Buff/Lifecycle/BuffEndProcessor.cs",
+      "sha256": "d27f0fe3cf15661b839e7a1849fd6b7238c1ab00477f108330abdd8b87e30335",
+      "metadataSha256": "5828e03a9c2ebff689b7efa3c295fc0ba41f161fdd04396b434c22dc8f6403b2"
+    },
+    {
+      "file": "Unity/Assets/Scripts/GameBattle/Runtime/Buff/Lifecycle/BuffLifetimeReconciler.cs",
+      "sha256": "cc970a68b307ac90379454c80d6e1a147163494b73a55bf1a2a272a66f9edf5a",
+      "metadataSha256": "7bc14c19cd272e28b7f2ce88d4a93f949ea5b2cdbd654a51e547e57dcd699244"
+    },
+    {
+      "file": "Unity/Assets/Scripts/GameBattle/Runtime/Buff/Commands/BuffCommandQueue.cs",
+      "sha256": "029dddbd16a427fa76e5a0a21345e431c0d3f14cc5d271275195eb82ab75c0db",
+      "metadataSha256": "a01dc01e7f3cdc9064d61b93c0c40f77ee63e87be5f17cf042c56d3a0ceeb191"
+    },
+    {
+      "file": "Unity/Assets/Scripts/GameBattle/Runtime/Buff/Timing/BuffDuration.cs",
+      "sha256": "b8f971e08854ab1d89920b888c5c880bd14fdcc1d367ec99e95265530ed06dd1",
+      "metadataSha256": "70dab0ef03578779603a7011210e1b299387acd31202387dfb959cf87d1f38bd"
+    },
+    {
+      "file": "Unity/Assets/Scripts/GameBattle/Runtime/Buff/Context/BuffContextBinding.cs",
+      "sha256": "d152e529c90fe5c0fb3c8ed46728d8418ff8bda8c19ff43cdfdb8e9eee155935",
+      "metadataSha256": "e39242107e88dfe01852b08d61365160338d76ff349bea6df2a2d4fb7f8bda6c"
+    },
+    {
+      "file": "Unity/Assets/Scripts/GameBattle/Runtime/Effect/Continuous/Timing/FixedIntervalTicker.cs",
+      "sha256": "7c0b8dfdf296d752c057715b87dc396d994f296985b86bd5e7cab2e6eef2a68e",
+      "metadataSha256": "34c7464da164277514c9318898fa7763c5f39cade2a0d37adbf83ad06af89ea6"
+    }
+  ]
+}

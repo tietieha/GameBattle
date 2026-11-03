@@ -30,7 +30,7 @@ if (Test-Path -LiteralPath $outputPath) {
 }
 
 $fixture = "AbilityKit.Game.Test.UnitTest.$($HeroName)SkillAcceptanceTests"
-$fixturePath = "Unity/Packages/com.abilitykit.demo.moba.view.runtime/Runtime/Game/Test/UnitTest/Acceptance/Heroes/$HeroName/$($HeroName)SkillAcceptanceTests.cs"
+$fixturePath = "Unity/Assets/Scripts/GameBattle/Example/Moba/Tests/LegacyClient/UnitTest/Acceptance/Heroes/$HeroName/$($HeroName)SkillAcceptanceTests.cs"
 $manifest = [ordered]@{
     schemaVersion = 1
     manifest = 'moba-hero-production-entry'
@@ -40,16 +40,16 @@ $manifest = [ordered]@{
     fixture = $fixture
     fixturePath = $fixturePath
     requiredConfigPaths = @(
-        'Unity/Packages/com.abilitykit.demo.moba.view.runtime/Resources/moba/characters.json',
-        'Unity/Packages/com.abilitykit.demo.moba.view.runtime/Resources/moba/skills.json',
-        'Unity/Packages/com.abilitykit.demo.moba.view.runtime/Resources/moba/skill_flows.json',
-        'Unity/Packages/com.abilitykit.demo.moba.view.runtime/Resources/moba/skill_button_templates.json'
+        'Unity/Assets/Scripts/GameBattle/Example/Moba/Resources/moba/characters.json',
+        'Unity/Assets/Scripts/GameBattle/Example/Moba/Resources/moba/skills.json',
+        'Unity/Assets/Scripts/GameBattle/Example/Moba/Resources/moba/skill_flows.json',
+        'Unity/Assets/Scripts/GameBattle/Example/Moba/Resources/moba/skill_button_templates.json'
     )
     requiredPresentationPaths = @(
-        'Unity/Packages/com.abilitykit.demo.moba.view.runtime/Resources/moba/models.json',
-        'Unity/Packages/com.abilitykit.demo.moba.view.runtime/Resources/moba/aoes.json',
-        'Unity/Packages/com.abilitykit.demo.moba.view.runtime/Resources/moba/projectiles.json',
-        'Unity/Packages/com.abilitykit.demo.moba.view.runtime/Resources/moba/presentation_templates.json'
+        'Unity/Assets/Scripts/GameBattle/Example/Moba/Resources/moba/models.json',
+        'Unity/Assets/Scripts/GameBattle/Example/Moba/Resources/moba/aoes.json',
+        'Unity/Assets/Scripts/GameBattle/Example/Moba/Resources/moba/projectiles.json',
+        'Unity/Assets/Scripts/GameBattle/Example/Moba/Resources/moba/presentation_templates.json'
     )
 }
 $content = $manifest | ConvertTo-Json -Depth 4

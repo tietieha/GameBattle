@@ -12,11 +12,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="../../Unity/Packages/com.abilitykit.combat.entitymanager/Runtime/**/*.cs" />
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Runtime/Entity/Index/EntityManager/BattleEntityManager.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Entity/Index/EntityManager/BattleEntityManagerExample.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Entity/Index/EntityManager/EntityRegistry.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Entity/Index/EntityManager/EntityUpdate.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Entity/Index/EntityManager/IEntityIndex.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Entity/Index/EntityManager/IKeyedEntityIndex.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Entity/Index/EntityManager/IUpdateTypeAwareIndex.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Entity/Index/EntityManager/KeyedEntityIndex.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Entity/Index/EntityManager/KeyedIndexUpdates.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Entity/Index/EntityManager/MultiKeyEntityIndex.cs"/>
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="../../src/AbilityKit.Core/AbilityKit.Core.csproj" />
+    <ProjectReference Include="../../src/AbilityKit.Core/AbilityKit.Core.csproj"/>
   </ItemGroup>
 
 </Project>

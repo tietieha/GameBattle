@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AbilityKitStable>true</AbilityKitStable>
+    <Nullable>enable</Nullable>
+    <RootNamespace>AbilityKit</RootNamespace>
+    <AssemblyName>AbilityKit.Ability</AssemblyName>
+    <LangVersion>latest</LangVersion>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <!-- 引用 Unity/Packages 目录下的源码，排除 Unity 特定文件 -->
+  <ItemGroup>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Battle/Ability/Common/Config/TriggerAuthoringModels.cs;../../Unity/Assets/Scripts/GameBattle/Content/Config/Ability/ArgValueKind.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Actor/Contracts/IEcsWorld.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Actor/Contracts/IUnitFacade.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Actor/Contracts/IUnitResolver.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Effect/Common/AreaTriggering.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Effect/Common/EffectContainer.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Effect/Common/EffectDurationPolicy.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Effect/Common/EffectExecutionContext.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Effect/Common/EffectInstance.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Effect/Common/EffectTriggering.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Effect/Common/GameplayEffectSpec.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Effect/Common/IEffectComponent.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Effect/Common/IEffectTriggeringSwitch.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Effect/Common/IGameplayEffectCue.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Effect/Common/NullGameplayEffectCue.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Effect/Common/ProjectileTriggering.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Ability/Common/Ability/HotReload/ConfigReloadBus.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Ability/Common/Ability/HotReload/ConfigReloadResult.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Actor/Tags/Ability/DurableRegistry.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Actor/Tags/Ability/GameplayTagService.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Actor/Tags/Ability/TagEffectRouter.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Ability/Common/Config/Source/TriggerSourceConfig.cs;../../Unity/Assets/Scripts/GameBattle/Content/Config/Ability/Core/ConfigGroup.cs;../../Unity/Assets/Scripts/GameBattle/Content/Config/Ability/Core/ConfigTextSinkAdapter.cs;../../Unity/Assets/Scripts/GameBattle/Content/Config/Ability/Core/IConfigBytesSource.cs;../../Unity/Assets/Scripts/GameBattle/Content/Config/Ability/Core/IConfigDatabase.cs;../../Unity/Assets/Scripts/GameBattle/Content/Config/Ability/Core/IConfigDeserializer.cs;../../Unity/Assets/Scripts/GameBattle/Content/Config/Ability/Core/IConfigGroup.cs;../../Unity/Assets/Scripts/GameBattle/Content/Config/Ability/Core/IConfigSource.cs;../../Unity/Assets/Scripts/GameBattle/Content/Config/Ability/Core/IConfigTableRegistry.cs;../../Unity/Assets/Scripts/GameBattle/Content/Config/Ability/Core/IConfigTextSink.cs;../../Unity/Assets/Scripts/GameBattle/Content/Config/Ability/Core/ITextAssetLoader.cs;../../Unity/Assets/Scripts/GameBattle/Content/Config/Ability/Core/NullTextAssetLoader.cs;../../Unity/Assets/Scripts/GameBattle/Content/Config/Ability/Core/TypeNameComparer.cs;../../Unity/Assets/Scripts/GameBattle/Content/Config/Ability/Database/ConfigDatabase.cs;../../Unity/Assets/Scripts/GameBattle/Content/Config/Ability/Database/IntKeyConfigTable.cs;../../Unity/Assets/Scripts/GameBattle/Content/Config/Ability/Deserializers/JsonNetConfigDeserializer.cs;../../Unity/Assets/Scripts/GameBattle/Content/Config/Ability/Loaders/DictionaryConfigSource.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Effect/Common/Components/AttributeEffectComponent.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Unity/Ability/Pipeline/AbilityPipelineSharedKeys.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Core/AbilityServices/Services/DefaultEffectTriggeringSwitch.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Core/AbilityServices/Services/DefaultWorldServicesModule.cs"/>
+  </ItemGroup>
+
+  <!-- 项目引用 -->
+  <ItemGroup>
+    <ProjectReference Include="..\AbilityKit.Core\AbilityKit.Core.csproj"/>
+    <ProjectReference Include="..\AbilityKit.Deterministic\AbilityKit.Deterministic.csproj"/>
+    <ProjectReference Include="..\AbilityKit.GameplayTags\AbilityKit.GameplayTags.csproj"/>
+    <ProjectReference Include="..\AbilityKit.Triggering\AbilityKit.Triggering.csproj"/>
+    <ProjectReference Include="..\AbilityKit.Pipeline\AbilityKit.Pipeline.csproj"/>
+    <ProjectReference Include="..\AbilityKit.Host\AbilityKit.Host.csproj"/>
+    <ProjectReference Include="..\AbilityKit.World.ECS\AbilityKit.World.ECS.csproj"/>
+    <ProjectReference Include="..\AbilityKit.HFSM.Core\AbilityKit.HFSM.Core.csproj"/>
+    <ProjectReference Include="..\AbilityKit.Modifiers\AbilityKit.Modifiers.csproj"/>
+    <ProjectReference Include="..\AbilityKit.Combat.Projectile\AbilityKit.Combat.Projectile.csproj"/>
+  </ItemGroup>
+
+  <!-- NuGet Dependencies -->
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3"/>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,20 @@
+{
+  "name": "AbilityKit.Demo.Moba.Share",
+  "rootNamespace": "AbilityKit.Demo.Moba.Share",
+  "references": [
+    "AbilityKit.Demo.Moba.Presentation.Contracts",
+    "AbilityKit.Demo.Moba.Presentation.ProtocolAdapter",
+    "Unity.Mathematics",
+    "GameBattle.Runtime",
+    "AbilityKit.Protocol.Moba"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

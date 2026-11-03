@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>AbilityKit</RootNamespace>
+    <AssemblyName>AbilityKit.World.Entitas</AssemblyName>
+    <LangVersion>latest</LangVersion>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <!-- 引用 Packages 目录下的源码 -->
+  <ItemGroup>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Integration/Ecs/Entitas/World/Attributes/WorldSystemAttribute.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Ecs/Entitas/World/Attributes/WorldSystemOrder.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Ecs/Entitas/World/Base/ReactiveWorldSystemBase.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Ecs/Entitas/World/Base/WorldSystemBase.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Ecs/Entitas/World/Core/EntitasWorld.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Ecs/Entitas/World/Core/EntitasWorldComposer.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Ecs/Entitas/World/Core/EntitasWorldContext.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Ecs/Entitas/World/Extensions/EntitasWorldTypeRegistration.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Ecs/Entitas/World/Extensions/WorldCreateOptionsEntitasExtensions.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Ecs/Entitas/World/Interfaces/IEntitasContextsFactory.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Ecs/Entitas/World/Interfaces/IEntitasSystemsInstaller.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Ecs/Entitas/World/Interfaces/IEntitasWorld.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Ecs/Entitas/World/Interfaces/IEntitasWorldContext.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Ecs/Entitas/World/Modules/AutoSystemInstaller.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Ecs/Entitas/World/Modules/TickCounter/TickCounterSystem.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Ecs/Entitas/World/Modules/TickCounter/TickCounterWorldModule.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Ecs/Entitas/World/Modules/TickCounter/WorldTickCounter.cs"/>
+  </ItemGroup>
+
+  <!-- 项目引用 -->
+  <ItemGroup>
+    <ProjectReference Include="../../src/AbilityKit.Core/AbilityKit.Core.csproj"/>
+    <ProjectReference Include="../../src/AbilityKit.World.DI/AbilityKit.World.DI.csproj"/>
+  </ItemGroup>
+
+  <!-- NuGet 包引用 -->
+  <ItemGroup>
+    <PackageReference Include="Entitas" Version="1.5.0"/>
+  </ItemGroup>
+
+</Project>

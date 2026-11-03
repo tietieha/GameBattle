@@ -1,0 +1,37 @@
+{
+  "reason": "Package loose legacy tests/samples were not in the previous active Unity assemblies; Assets would compile them into Assembly-CSharp.",
+  "moves": [
+    {
+      "from": "Unity/Assets/Scripts/GameBattle/Examples/Modules/triggering",
+      "to": "Unity/Assets/Scripts/GameBattle/Examples/Optional~/Legacy/triggering"
+    },
+    {
+      "from": "Unity/Assets/Scripts/GameBattle/Examples/Modules/pipeline",
+      "to": "Unity/Assets/Scripts/GameBattle/Examples/Optional~/Legacy/pipeline"
+    },
+    {
+      "from": "Unity/Assets/Scripts/GameBattle/Tests/Unity/triggering/TriggerConfigTests.cs",
+      "to": "Unity/Assets/Scripts/GameBattle/Tests/Unity/triggering/Legacy~/TriggerConfigTests.cs"
+    },
+    {
+      "from": "Unity/Assets/Scripts/GameBattle/Tests/Unity/triggering/TriggerConfigTests.cs.meta",
+      "to": "Unity/Assets/Scripts/GameBattle/Tests/Unity/triggering/Legacy~/TriggerConfigTests.cs.meta"
+    },
+    {
+      "from": "Unity/Assets/Scripts/GameBattle/Tests/Unity/triggering/TriggerInstanceTests.cs",
+      "to": "Unity/Assets/Scripts/GameBattle/Tests/Unity/triggering/Legacy~/TriggerInstanceTests.cs"
+    },
+    {
+      "from": "Unity/Assets/Scripts/GameBattle/Tests/Unity/triggering/TriggerInstanceTests.cs.meta",
+      "to": "Unity/Assets/Scripts/GameBattle/Tests/Unity/triggering/Legacy~/TriggerInstanceTests.cs.meta"
+    },
+    {
+      "from": "Unity/Assets/Scripts/GameBattle/Tests/Unity/triggering/TriggerRegistryTests.cs",
+      "to": "Unity/Assets/Scripts/GameBattle/Tests/Unity/triggering/Legacy~/TriggerRegistryTests.cs"
+    },
+    {
+      "from": "Unity/Assets/Scripts/GameBattle/Tests/Unity/triggering/TriggerRegistryTests.cs.meta",
+      "to": "Unity/Assets/Scripts/GameBattle/Tests/Unity/triggering/Legacy~/TriggerRegistryTests.cs.meta"
+    }
+  ]
+}

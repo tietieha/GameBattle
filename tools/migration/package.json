@@ -1,0 +1,16 @@
+{
+  "name": "abilitykit-gamebattle-migration-tools",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "verify": "node consolidate-assemblies.cjs verify",
+    "verify:editor": "node mirror-editor.cjs verify",
+    "verify:reorganization-history": "node verify-gamebattle.cjs",
+    "build:assemblies": "node consolidate-assemblies.cjs build",
+    "build:editor-mirror": "node mirror-editor.cjs build"
+  },
+  "dependencies": {
+    "@xmldom/xmldom": "^0.8.11",
+    "yaml": "^2.9.1"
+  }
+}

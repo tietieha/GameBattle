@@ -1,0 +1,24 @@
+{
+  "name": "AbilityKit.HFSM.Tests",
+  "rootNamespace": "AbilityKit.Tests",
+  "references": [
+    "GameBattle.Runtime",
+    "GameBattle.Unity",
+    "GameBattle.Editor",
+    "UnityEngine.TestRunner",
+    "UnityEditor.TestRunner"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": true,
+  "precompiledReferences": [],
+  "autoReferenced": false,
+  "defineConstraints": [
+    "UNITY_INCLUDE_TESTS"
+  ],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

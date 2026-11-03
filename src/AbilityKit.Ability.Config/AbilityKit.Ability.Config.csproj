@@ -12,17 +12,16 @@
 
   <!-- 只保留配置数据类 -->
   <ItemGroup>
-    <Compile Include="../../Unity/Packages/com.abilitykit.ability/Runtime/Config/**/*.cs" 
-             Exclude="../../Unity/Packages/com.abilitykit.ability/Runtime/**/*.asmdef" />
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Runtime/Content/Definitions/Triggering/TriggerAuthoringModels.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Content/Definitions/Triggering/Source/TriggerSourceConfig.cs"/>
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="../../src/AbilityKit.Core/AbilityKit.Core.csproj" />
-    <ProjectReference Include="../../src/AbilityKit.GameplayTags/AbilityKit.GameplayTags.csproj" />
+    <ProjectReference Include="../../src/AbilityKit.Core/AbilityKit.Core.csproj"/>
+    <ProjectReference Include="../../src/AbilityKit.GameplayTags/AbilityKit.GameplayTags.csproj"/>
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3"/>
   </ItemGroup>
 
 </Project>

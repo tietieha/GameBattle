@@ -26,8 +26,8 @@ $repositoryRoot = Split-Path -Parent $PSScriptRoot
 $compilerProject = Join-Path $repositoryRoot 'tools/AbilityKit.Protocol.CatalogCompiler/AbilityKit.Protocol.CatalogCompiler.csproj'
 $catalogInput = Join-Path $repositoryRoot 'Protocols/Catalogs'
 $manifestOutput = Join-Path $repositoryRoot 'Protocols/Generated/protocol-manifest.json'
-$csharpOutput = Join-Path $repositoryRoot 'Unity/Packages/com.abilitykit.protocol/Runtime/Generated/BuiltInProtocolCatalogs.g.cs'
-$metadataOutput = Join-Path $repositoryRoot 'Unity/Packages/com.abilitykit.protocol/Runtime/Generated/BuiltInProtocolMetadata.g.cs'
+$csharpOutput = Join-Path $repositoryRoot 'Unity/Assets/Scripts/GameBattle/Runtime/Battle/Serialization/Protocol/Generated/BuiltInProtocolCatalogs.g.cs'
+$metadataOutput = Join-Path $repositoryRoot 'Unity/Assets/Scripts/GameBattle/Runtime/Battle/Serialization/Protocol/Generated/BuiltInProtocolMetadata.g.cs'
 
 $compilerArguments = @(
     'run',

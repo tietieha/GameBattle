@@ -11,11 +11,11 @@
 
   <!-- 引用 Packages 目录下的源码 -->
   <ItemGroup>
-    <Compile Include="../../Unity/Packages/com.abilitykit.attributes/Runtime/**/*.cs" />
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Runtime/Attribute/AttributeEffect.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Attribute/Attributes.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Attribute/Constraint/IAttributeConstraint.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Attribute/Constraint/RangeAttributeConstraint.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Attribute/Core/AttributeContext.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Attribute/Core/AttributeDef.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Attribute/Core/AttributeGroup.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Attribute/Core/AttributeId.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Attribute/Core/AttributeIdMapper.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Attribute/Core/AttributeInstance.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Attribute/Core/AttributeRegistry.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Attribute/Core/IAttributeRegistry.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Attribute/Formula/AttributeExpressionFormula.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Attribute/Formula/DefaultAttributeFormula.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Attribute/Formula/IAttributeDependencyProvider.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Attribute/Formula/IAttributeFormula.cs"/>
   </ItemGroup>
 
   <!-- Reference Modifiers -->
   <ItemGroup>
-    <ProjectReference Include="..\AbilityKit.Modifiers\AbilityKit.Modifiers.csproj" />
+    <ProjectReference Include="..\AbilityKit.Modifiers\AbilityKit.Modifiers.csproj"/>
   </ItemGroup>
 </Project>

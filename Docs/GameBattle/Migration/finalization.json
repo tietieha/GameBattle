@@ -1,0 +1,29 @@
+{
+  "generatedIdeProjectsUpdated": 0,
+  "cacheMoves": [
+    {
+      "from": "Unity/Packages/com.abilitykit.gameframework/Runtime/GameFramework/bin",
+      "to": "tools/migration/bin/LegacyPackageCaches/com.abilitykit.gameframework/Runtime/GameFramework/bin"
+    },
+    {
+      "from": "Unity/Packages/com.abilitykit.gameframework/Runtime/GameFramework/obj",
+      "to": "tools/migration/bin/LegacyPackageCaches/com.abilitykit.gameframework/Runtime/GameFramework/obj"
+    },
+    {
+      "from": "Unity/Packages/com.abilitykit.thirdparty.svelto/Runtime/common/bin",
+      "to": "tools/migration/bin/LegacyPackageCaches/com.abilitykit.thirdparty.svelto/Runtime/common/bin"
+    },
+    {
+      "from": "Unity/Packages/com.abilitykit.thirdparty.svelto/Runtime/common/obj",
+      "to": "tools/migration/bin/LegacyPackageCaches/com.abilitykit.thirdparty.svelto/Runtime/common/obj"
+    },
+    {
+      "from": "Unity/Packages/com.abilitykit.thirdparty.svelto/Runtime/ecs/bin",
+      "to": "tools/migration/bin/LegacyPackageCaches/com.abilitykit.thirdparty.svelto/Runtime/ecs/bin"
+    },
+    {
+      "from": "Unity/Packages/com.abilitykit.thirdparty.svelto/Runtime/ecs/obj",
+      "to": "tools/migration/bin/LegacyPackageCaches/com.abilitykit.thirdparty.svelto/Runtime/ecs/obj"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>AbilityKit</RootNamespace>
+    <AssemblyName>AbilityKit.Host.Network</AssemblyName>
+    <LangVersion>latest</LangVersion>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Integration/Networking/HostingAdapter/HostNetworkConnectionManager.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Networking/HostingAdapter/HostNetworkServerConnection.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Networking/HostingAdapter/InProcessHostNetwork.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Networking/HostingAdapter/TcpHostNetwork.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Networking/HostingAdapter/Abstractions/IAsyncHostNetworkRequestHandler.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Networking/HostingAdapter/Abstractions/IHostClientIdResolver.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Networking/HostingAdapter/Abstractions/IHostMessageCodec.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Networking/HostingAdapter/Abstractions/IHostNetworkRequestHandler.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Networking/HostingAdapter/Abstractions/UnsupportedHostMessageCodec.cs"/>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="../AbilityKit.Host/AbilityKit.Host.csproj"/>
+    <ProjectReference Include="../AbilityKit.Network.Host/AbilityKit.Network.Host.csproj"/>
+  </ItemGroup>
+</Project>

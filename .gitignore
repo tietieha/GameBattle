@@ -1,13 +1,20 @@
 
 **/obj/
 **/Bin/
+**/bin/
 **/.idea
 **/Temp
 **/.nuget
 **/*.log
+**/*.log.err
+**/*.log.out
 **/node_modules
 **/.vscode
 **/__pycache__
+**/*.pyc
+**/*.userproperties
+**/*.userprefs
+**/*.DotSettings.user
 
 # Test artifact roots (gate runner output, headless snapshots, dotnet TRX,
 # Unity Library, per-project build artifacts). The historical archive under
@@ -33,4 +40,10 @@ sample-output/
 /Unity/*-batch.xml
 /Unity/*-next-batch.xml
 /Logs/
+
+# Ad-hoc Unity diagnostics, not project configuration or regression fixtures.
+/Unity/build_errors*.log
+/Unity/unit_test_build_errors*.log
+/Unity/msbuild_errors.txt
+/Unity/error_json.json
 

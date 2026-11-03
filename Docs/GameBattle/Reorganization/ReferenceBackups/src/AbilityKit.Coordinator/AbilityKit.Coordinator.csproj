@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AbilityKitStable>true</AbilityKitStable>
+    <RootNamespace>AbilityKit.Coordinator</RootNamespace>
+    <AssemblyName>AbilityKit.Coordinator</AssemblyName>
+    <LangVersion>latest</LangVersion>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Reference Unity/Packages source -->
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Integration/Hosting/Sessions/Core/ILogicWorldDriveGate.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Hosting/Sessions/Core/ILogicWorldDriverBridge.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Hosting/Sessions/Core/ISessionCoordinatorHost.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Hosting/Sessions/Core/ISpawnService.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Hosting/Sessions/Core/SessionConfig.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Hosting/Sessions/Core/SessionEnums.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Hosting/Sessions/Core/SessionId.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Hosting/Sessions/Data/CoordinatorPayloadCodec.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Hosting/Sessions/Data/EntityState.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Hosting/Sessions/Data/FrameSnapshotData.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Hosting/Sessions/Data/NetworkEndpoint.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Hosting/Sessions/Data/PlayerInput.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Hosting/Sessions/Data/PlayerSpawnData.cs"/>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AbilityKit.Core\AbilityKit.Core.csproj"/>
+    <ProjectReference Include="..\AbilityKit.World.DI\AbilityKit.World.DI.csproj"/>
+    <ProjectReference Include="..\AbilityKit.Host\AbilityKit.Host.csproj"/>
+    <ProjectReference Include="..\AbilityKit.Protocol\AbilityKit.Protocol.csproj"/>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MemoryPack" Version="1.21.0"/>
+  </ItemGroup>
+
+</Project>

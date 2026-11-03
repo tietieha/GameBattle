@@ -1,0 +1,23 @@
+{
+  "name": "AbilityKit.Combat.Projectile",
+  "rootNamespace": "AbilityKit",
+  "references": [
+    "AbilityKit.Core",
+    "AbilityKit.World.DI",
+    "AbilityKit.World.Entitas",
+    "AbilityKit.World.FrameSync",
+    "AbilityKit.World.ECS",
+    "AbilityKit.Combat.Collision.Abstractions",
+    "AbilityKit.Deterministic",
+    "MemoryPack"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": true
+}

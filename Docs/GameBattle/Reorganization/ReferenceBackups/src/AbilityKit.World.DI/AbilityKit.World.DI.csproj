@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AbilityKitStable>true</AbilityKitStable>
+    <RootNamespace>AbilityKit</RootNamespace>
+    <AssemblyName>AbilityKit.World.DI</AssemblyName>
+    <LangVersion>latest</LangVersion>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <!-- 引用 Packages 目录下的源码 -->
+  <ItemGroup>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Battle/Core/World/World/Abstractions/IWorld.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Core/World/World/Abstractions/IWorldContext.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Core/World/World/Abstractions/IWorldFactory.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Core/World/World/Abstractions/WorldCreateOptions.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Core/World/World/Abstractions/WorldId.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Core/World/World/DI/IWorldModule.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Core/World/World/DI/IWorldModuleInfo.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Core/World/World/DI/IWorldResolver.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Core/World/World/DI/IWorldScope.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Core/World/World/DI/IWorldScopeSeeder.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Core/World/World/DI/IWorldServiceContainer.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Core/World/World/DI/WorldActivator.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Core/World/World/DI/WorldContainer.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Core/World/World/DI/WorldContainerBuilder.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Core/World/World/DI/WorldLifetime.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Core/World/World/DI/WorldModulePlan.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Core/World/World/DI/WorldScope.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Core/World/World/DI/WorldServiceDescriptor.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Core/World/World/DI/WorldServiceProviderAdapter.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Core/World/World/DI/WorldServiceRegistration.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Core/World/World/DI/WorldServicesExtensions.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Core/World/World/DI/WorldTestInjector.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Core/World/World/Diagnostics/WorldCompositionReport.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Core/World/World/Diagnostics/WorldCompositionReportBuilder.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Core/World/World/Diagnostics/WorldDebugRegistry.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Core/World/World/Management/IWorldManager.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Core/World/World/Management/RegistryWorldFactory.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Core/World/World/Management/WorldManager.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Core/World/World/Management/WorldTypeRegistry.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Core/World/World/Services/DefaultWorldRandom.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Core/World/World/Services/IService.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Core/World/World/Services/IWorldClock.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Core/World/World/Services/IWorldDeinitializable.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Core/World/World/Services/IWorldInitializable.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Core/World/World/Services/IWorldLogger.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Core/World/World/Services/IWorldRandom.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Core/World/World/Services/NullWorldLogger.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Core/World/World/Services/WorldClock.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Core/World/World/Services/WorldServiceContainerFactory.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Core/World/World/Services/Attributes/AttributeWorldServicesModule.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Core/World/World/Services/Attributes/WorldInjectAttribute.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Core/World/World/Services/Attributes/WorldServiceAttribute.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Core/World/World/Services/Attributes/WorldServiceProfile.cs"/>
+  </ItemGroup>
+
+  <!-- 项目引用 -->
+  <ItemGroup>
+    <ProjectReference Include="../../src/AbilityKit.Core/AbilityKit.Core.csproj"/>
+    <ProjectReference Include="../../src/AbilityKit.Attributes/AbilityKit.Attributes.csproj"/>
+  </ItemGroup>
+
+  <!-- NuGet 依赖 -->
+  <ItemGroup>
+    <PackageReference Include="MemoryPack" Version="1.21.0"/>
+  </ItemGroup>
+
+</Project>

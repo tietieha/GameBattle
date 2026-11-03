@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="GameBattle.Runtime">
+      <HintPath>../../../Unity/Temp/Bin/Debug/GameBattle.Runtime/GameBattle.Runtime.dll</HintPath>
+    </Reference>
+    <Compile Include="../../../Unity/Assets/Scripts/GameBattle/Unity/Presentation/Cues/PresentationCueViewRegistry.cs" Link="PresentationCueViewRegistry.cs" />
+    <Compile Include="../../../Unity/Assets/Scripts/GameBattle/Unity/Foundation/Driving/SessionTickLoopController.cs" Link="SessionTickLoopController.cs" />
+    <Compile Include="../../../Unity/Assets/Scripts/GameBattle/Unity/Foundation/Driving/BattleSessionTickProjection.cs" Link="BattleSessionTickProjection.cs" />
+    <Compile Include="../../../src/AbilityKit.Demo.Moba.Tests/CombatNumberValueTests.cs" Link="CombatNumberValueTests.cs" />
+    <Compile Include="../../../src/AbilityKit.Demo.Moba.Presentation.Core.Tests/PresentationCueReconciliationControllerTests.cs" Link="PresentationCueReconciliationControllerTests.cs" />
+    <Compile Include="../../../src/AbilityKit.Demo.Moba.Presentation.Core.Tests/PresentationCueViewRegistryTests.cs" Link="PresentationCueViewRegistryTests.cs" />
+    <Compile Include="../../../src/AbilityKit.Demo.Moba.Presentation.Core.Tests/SessionTickLoopControllerTests.cs" Link="SessionTickLoopControllerTests.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.12.0" />
+    <PackageReference Include="xunit" Version="2.9.2" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.8.2">
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
+</Project>

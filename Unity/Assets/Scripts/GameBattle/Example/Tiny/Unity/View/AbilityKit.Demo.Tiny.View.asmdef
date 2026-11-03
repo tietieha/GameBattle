@@ -1,0 +1,20 @@
+{
+  "name": "AbilityKit.Demo.Tiny.View",
+  "rootNamespace": "AbilityKit.Demo.Tiny.View",
+  "references": [
+    "AbilityKit.Demo.Tiny.Logic",
+    "AbilityKit.Demo.Tiny.FrameSync",
+    "AbilityKit.Demo.Common",
+    "GameBattle.Unity",
+    "GameBattle.Runtime"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

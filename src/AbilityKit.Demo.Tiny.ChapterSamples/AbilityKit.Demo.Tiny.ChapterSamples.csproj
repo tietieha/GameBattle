@@ -6,10 +6,10 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="../../Unity/Packages/com.abilitykit.demo.tiny/Samples~/04-Frame/TinyFrameExample.cs" />
-    <Compile Include="../../Unity/Packages/com.abilitykit.demo.tiny/Samples~/05-Hybrid/TinyHybridExample.cs" />
-    <Compile Include="../../Unity/Packages/com.abilitykit.demo.tiny/Samples~/06-Recovery/TinyRecoveryExample.cs" />
-    <ProjectReference Include="../AbilityKit.Demo.Tiny.Core/AbilityKit.Demo.Tiny.Core.csproj" />
-    <ProjectReference Include="../AbilityKit.Demo.Tiny.FrameSync/AbilityKit.Demo.Tiny.FrameSync.csproj" />
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Example/Optional~/demo.tiny/04-Frame/TinyFrameExample.cs"/>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Example/Optional~/demo.tiny/05-Hybrid/TinyHybridExample.cs"/>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Example/Optional~/demo.tiny/06-Recovery/TinyRecoveryExample.cs"/>
+    <ProjectReference Include="../AbilityKit.Demo.Tiny.Core/AbilityKit.Demo.Tiny.Core.csproj"/>
+    <ProjectReference Include="../AbilityKit.Demo.Tiny.FrameSync/AbilityKit.Demo.Tiny.FrameSync.csproj"/>
   </ItemGroup>
 </Project>

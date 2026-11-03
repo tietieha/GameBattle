@@ -1,0 +1,19 @@
+{
+  "name": "AbilityKit.Game.Flow.Core",
+  "rootNamespace": "AbilityKit",
+  "references": [
+    "GameBattle.Runtime",
+    "GameBattle.Unity",
+    "AbilityKit.Demo.Moba.Presentation.Contracts",
+    "AbilityKit.Protocol.Moba"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": true
+}

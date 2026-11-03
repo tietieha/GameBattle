@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>AbilityKit.World.Svelto</RootNamespace>
+    <AssemblyName>AbilityKit.World.Svelto</AssemblyName>
+    <LangVersion>latest</LangVersion>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Integration/Ecs/Svelto/Svelto/ISveltoWorldContext.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Ecs/Svelto/Svelto/SveltoWorldContext.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Ecs/Svelto/Svelto/SveltoWorldModule.cs"/>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../../src/AbilityKit.World.DI/AbilityKit.World.DI.csproj"/>
+    <ProjectReference Include="../../src/AbilityKit.ThirdParty.Svelto/AbilityKit.ThirdParty.Svelto.csproj"/>
+  </ItemGroup>
+
+</Project>

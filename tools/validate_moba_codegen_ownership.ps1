@@ -29,7 +29,7 @@ function Test-Contract {
 # NOTE: com.abilitykit.codegen (framework source generator) was removed in a9e5e0b2.
 # Only the analyzer remains on the framework side; collect existing roots dynamically.
 $frameworkSourceRoots = @(
-    'Unity/Packages/com.abilitykit.analyzer/DotNet~/AbilityKit.Analyzer'
+    'Unity/Assets/Scripts/GameBattle/Runtime/Battle/Diagnostics/Analysis/DotNet~/AbilityKit.Analyzer'
 ) | Where-Object { Test-Path (Resolve-RepoPath $_) }
 $frameworkSources = @($frameworkSourceRoots | ForEach-Object {
     Get-ChildItem -LiteralPath (Resolve-RepoPath $_) -Recurse -File -Filter '*.cs' |
@@ -45,11 +45,11 @@ Test-Contract -Name 'Framework packages contain no MOBA namespace or diagnostic 
     -Condition ($frameworkLeaks.Count -eq 0) `
     -Failure (($frameworkLeaks | ForEach-Object { "$($_.Path):$($_.LineNumber)" }) -join ', ')
 
-$mobaProject = Resolve-RepoPath 'Unity/Packages/com.abilitykit.demo.moba.codegen/DotNet~/AbilityKit.Demo.Moba.CodeGen/AbilityKit.Demo.Moba.CodeGen.csproj'
-$mobaDll = Resolve-RepoPath 'Unity/Packages/com.abilitykit.demo.moba.codegen/AbilityKit.Demo.Moba.CodeGen.dll'
-$mobaDllMeta = Resolve-RepoPath 'Unity/Packages/com.abilitykit.demo.moba.codegen/AbilityKit.Demo.Moba.CodeGen.dll.meta'
-$mobaPackage = Resolve-RepoPath 'Unity/Packages/com.abilitykit.demo.moba.codegen/package.json'
-$runtimePackage = Resolve-RepoPath 'Unity/Packages/com.abilitykit.demo.moba.runtime/package.json'
+$mobaProject = Resolve-RepoPath 'Unity/Assets/Scripts/GameBattle/Example/Moba/Editor/CodeGen/DotNet~/AbilityKit.Demo.Moba.CodeGen/AbilityKit.Demo.Moba.CodeGen.csproj'
+$mobaDll = Resolve-RepoPath 'Unity/Assets/Scripts/GameBattle/Example/Moba/Editor/CodeGen/AbilityKit.Demo.Moba.CodeGen.dll'
+$mobaDllMeta = Resolve-RepoPath 'Unity/Assets/Scripts/GameBattle/Example/Moba/Editor/CodeGen/AbilityKit.Demo.Moba.CodeGen.dll.meta'
+$mobaPackage = Resolve-RepoPath 'Docs/GameBattle/Reorganization/Archive/LegacyPackages/PackageManifests/demo.moba.codegen/package.json'
+$runtimePackage = Resolve-RepoPath 'Docs/GameBattle/Reorganization/Archive/LegacyPackages/PackageManifests/demo.moba.runtime/package.json'
 
 Test-Contract -Name 'Dedicated MOBA CodeGen project exists' `
     -Condition (Test-Path -LiteralPath $mobaProject -PathType Leaf) `

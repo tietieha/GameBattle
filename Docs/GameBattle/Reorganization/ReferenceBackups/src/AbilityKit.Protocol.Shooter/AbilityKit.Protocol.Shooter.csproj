@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>AbilityKit.Protocol.Shooter</RootNamespace>
+    <AssemblyName>AbilityKit.Protocol.Shooter</AssemblyName>
+    <LangVersion>latest</LangVersion>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Gameplay/Shooter/Protocol/ShooterOpCodes.cs;../../Unity/Assets/Scripts/GameBattle/Gameplay/Shooter/Protocol/ShooterProtocolDecoderModule.cs;../../Unity/Assets/Scripts/GameBattle/Gameplay/Shooter/Protocol/Generated/ProjectMemoryPackCodecs.g.cs;../../Unity/Assets/Scripts/GameBattle/Gameplay/Shooter/Protocol/Generated/ProtocolCatalogs.g.cs;../../Unity/Assets/Scripts/GameBattle/Gameplay/Shooter/Protocol/Generated/ShooterBulletSnapshot.MemoryPack.g.cs;../../Unity/Assets/Scripts/GameBattle/Gameplay/Shooter/Protocol/Generated/ShooterCommandAcknowledgement.MemoryPack.g.cs;../../Unity/Assets/Scripts/GameBattle/Gameplay/Shooter/Protocol/Generated/ShooterEnemySnapshot.MemoryPack.g.cs;../../Unity/Assets/Scripts/GameBattle/Gameplay/Shooter/Protocol/Generated/ShooterEventSnapshot.MemoryPack.g.cs;../../Unity/Assets/Scripts/GameBattle/Gameplay/Shooter/Protocol/Generated/ShooterInputPayload.MemoryPack.g.cs;../../Unity/Assets/Scripts/GameBattle/Gameplay/Shooter/Protocol/Generated/ShooterPackedComponentChunk.MemoryPack.g.cs;../../Unity/Assets/Scripts/GameBattle/Gameplay/Shooter/Protocol/Generated/ShooterPackedSnapshotPayload.MemoryPack.g.cs;../../Unity/Assets/Scripts/GameBattle/Gameplay/Shooter/Protocol/Generated/ShooterPlayerCommand.MemoryPack.g.cs;../../Unity/Assets/Scripts/GameBattle/Gameplay/Shooter/Protocol/Generated/ShooterPlayerSnapshot.MemoryPack.g.cs;../../Unity/Assets/Scripts/GameBattle/Gameplay/Shooter/Protocol/Generated/ShooterStartGamePayload.MemoryPack.g.cs;../../Unity/Assets/Scripts/GameBattle/Gameplay/Shooter/Protocol/Generated/ShooterStartPlayer.MemoryPack.g.cs;../../Unity/Assets/Scripts/GameBattle/Gameplay/Shooter/Protocol/Generated/ShooterStateSnapshotPayload.MemoryPack.g.cs;../../Unity/Assets/Scripts/GameBattle/Gameplay/Shooter/Protocol/Host/ShooterHostInputCodec.cs;../../Unity/Assets/Scripts/GameBattle/Gameplay/Shooter/Protocol/Input/ShooterInputCodec.cs;../../Unity/Assets/Scripts/GameBattle/Gameplay/Shooter/Protocol/PureStateSync/ShooterPureStateSyncCodec.cs;../../Unity/Assets/Scripts/GameBattle/Gameplay/Shooter/Protocol/StartGame/ShooterStartGameCodec.cs;../../Unity/Assets/Scripts/GameBattle/Gameplay/Shooter/Protocol/StateSync/ShooterPackedSnapshotCodec.cs;../../Unity/Assets/Scripts/GameBattle/Gameplay/Shooter/Protocol/StateSync/ShooterStateSnapshotCodec.cs;../../Unity/Assets/Scripts/GameBattle/Gameplay/Shooter/Protocol/StateSync/ShooterStateSyncCompatibilityPolicy.cs"/>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MemoryPack" Version="1.21.0"/>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../../src/AbilityKit.Core/AbilityKit.Core.csproj"/>
+    <ProjectReference Include="../../src/AbilityKit.Protocol/AbilityKit.Protocol.csproj"/>
+    <ProjectReference Include="../../src/AbilityKit.Protocol.Room/AbilityKit.Protocol.Room.csproj"/>
+  </ItemGroup>
+
+</Project>

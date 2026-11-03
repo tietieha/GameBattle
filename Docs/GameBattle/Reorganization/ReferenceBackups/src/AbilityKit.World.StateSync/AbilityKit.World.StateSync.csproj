@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <RootNamespace>AbilityKit.Ability.StateSync</RootNamespace>
+    <AssemblyName>AbilityKit.World.StateSync</AssemblyName>
+    <LangVersion>11.0</LangVersion>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Integration/Synchronization/StateSync/StateSync/Aoi/AoiInterestSet.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Synchronization/StateSync/StateSync/Buffer/InputBuffer.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Synchronization/StateSync/StateSync/Buffer/SnapshotBuffer.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Synchronization/StateSync/StateSync/Client/ClientPredictionModule.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Synchronization/StateSync/StateSync/Client/ClientPredictionModuleBufferOptions.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Synchronization/StateSync/StateSync/Client/EntityPredictionState.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Synchronization/StateSync/StateSync/Client/IClientPredictionModule.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Synchronization/StateSync/StateSync/Client/IEntityPredictionState.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Synchronization/StateSync/StateSync/Client/IPredictableEntity.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Synchronization/StateSync/StateSync/Compression/DeltaCompressor.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Synchronization/StateSync/StateSync/Core/IRollbackable.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Synchronization/StateSync/StateSync/Core/IRollbackState.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Synchronization/StateSync/StateSync/Core/IStateDiff.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Synchronization/StateSync/StateSync/Core/IStateDiffProvider.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Synchronization/StateSync/StateSync/Core/IStateManager.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Synchronization/StateSync/StateSync/Core/RollbackState.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Synchronization/StateSync/StateSync/Core/ServerGameState.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Synchronization/StateSync/StateSync/Core/StateManager.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Synchronization/StateSync/StateSync/Diff/StateDiff.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Synchronization/StateSync/StateSync/Diff/StateDiffProvider.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Synchronization/StateSync/StateSync/Events/ClientEvents.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Synchronization/StateSync/StateSync/Hash/StateHash.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Synchronization/StateSync/StateSync/Hash/StateHashValidator.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Synchronization/StateSync/StateSync/Network/ISnapshotPacker.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Synchronization/StateSync/StateSync/Network/SnapshotMessage.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Synchronization/StateSync/StateSync/Prediction/IPredictionCoordinator.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Synchronization/StateSync/StateSync/Prediction/KeyFrameStrategy.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Synchronization/StateSync/StateSync/Snapshot/IHashableState.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Synchronization/StateSync/StateSync/Snapshot/StateHashComputer.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Synchronization/StateSync/StateSync/Snapshot/WorldStateSnapshot.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Synchronization/StateSync/StateSync/Prediction/Core/PredictionCoordinator.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Synchronization/StateSync/StateSync/Prediction/Core/PredictionCoordinatorBufferOptions.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Synchronization/StateSync/StateSync/Prediction/Core/PredictionCore.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Synchronization/StateSync/StateSync/Prediction/Core/StateSlots.cs"/>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MemoryPack" Version="1.21.0"/>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../../src/AbilityKit.Core/AbilityKit.Core.csproj"/>
+    <ProjectReference Include="../../src/AbilityKit.World.Snapshot/AbilityKit.World.Snapshot.csproj"/>
+  </ItemGroup>
+
+</Project>

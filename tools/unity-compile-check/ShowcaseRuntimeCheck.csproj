@@ -11,9 +11,9 @@
     <RepoRoot>C:\Workspace\gitProject\AbilityKit</RepoRoot>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="$(RepoRoot)\Unity\Packages\com.abilitykit.behaviortree\Samples~\CompleteRuntimeObservation\Runtime\*.cs" />
-    <ProjectReference Include="RuntimeCheck.csproj" />
-    <ProjectReference Include="DeterministicCheck.csproj" />
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Example/Optional~/behaviortree/CompleteRuntimeObservation/Runtime/AgentDecisionInputs.cs;../../Unity/Assets/Scripts/GameBattle/Example/Optional~/behaviortree/CompleteRuntimeObservation/Runtime/AgentDecisionOutputs.cs;../../Unity/Assets/Scripts/GameBattle/Example/Optional~/behaviortree/CompleteRuntimeObservation/Runtime/ObservationBlackboardKeys.cs;../../Unity/Assets/Scripts/GameBattle/Example/Optional~/behaviortree/CompleteRuntimeObservation/Runtime/ObservationRuntimeFactory.cs;../../Unity/Assets/Scripts/GameBattle/Example/Optional~/behaviortree/CompleteRuntimeObservation/Runtime/ObservationRuntimeSettings.cs;../../Unity/Assets/Scripts/GameBattle/Example/Optional~/behaviortree/CompleteRuntimeObservation/Runtime/RuntimeObservationSample.cs"/>
+    <ProjectReference Include="RuntimeCheck.csproj"/>
+    <ProjectReference Include="DeterministicCheck.csproj"/>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine.CoreModule">

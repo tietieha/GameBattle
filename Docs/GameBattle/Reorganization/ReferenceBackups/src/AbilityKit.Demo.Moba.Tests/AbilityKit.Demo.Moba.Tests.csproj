@@ -1,0 +1,60 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>AbilityKit.Demo.Moba.Tests</RootNamespace>
+    <AssemblyName>AbilityKit.Demo.Moba.Tests</AssemblyName>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AbilityKit.Environment\AbilityKit.Environment.csproj"/>
+    <ProjectReference Include="..\AbilityKit.Demo.Moba.Environment\AbilityKit.Demo.Moba.Environment.csproj"/>
+    <ProjectReference Include="..\AbilityKit.Scenario\AbilityKit.Scenario.csproj"/>
+    <ProjectReference Include="..\AbilityKit.BattleScenario\AbilityKit.BattleScenario.csproj"/>
+    <ProjectReference Include="..\AbilityKit.Demo.Moba.BattleScenario.Runner\AbilityKit.Demo.Moba.BattleScenario.Runner.csproj"/>
+    <ProjectReference Include="..\AbilityKit.AI.Abstractions\AbilityKit.AI.Abstractions.csproj"/>
+    <ProjectReference Include="..\AbilityKit.AI.Inference\AbilityKit.AI.Inference.csproj"/>
+    <ProjectReference Include="..\AbilityKit.AI.Training.Runner\AbilityKit.AI.Training.Runner.csproj"/>
+    <ProjectReference Include="..\AbilityKit.Demo.Moba.AI\AbilityKit.Demo.Moba.AI.csproj"/>
+    <ProjectReference Include="..\AbilityKit.Demo.Moba.Core\AbilityKit.Demo.Moba.Core.csproj"/>
+    <ProjectReference Include="..\AbilityKit.Demo.Moba.Trace.Adapter\AbilityKit.Demo.Moba.Trace.Adapter.csproj"/>
+    <ProjectReference Include="..\AbilityKit.Continuous\AbilityKit.Continuous.csproj"/>
+    <ProjectReference Include="..\AbilityKit.Demo.Moba.Host\AbilityKit.Demo.Moba.Host.csproj"/>
+    <ProjectReference Include="..\AbilityKit.Demo.Moba.Presentation.Contracts\AbilityKit.Demo.Moba.Presentation.Contracts.csproj"/>
+    <ProjectReference Include="..\AbilityKit.Demo.Moba.Presentation.ProtocolAdapter\AbilityKit.Demo.Moba.Presentation.ProtocolAdapter.csproj"/>
+    <ProjectReference Include="..\AbilityKit.Demo.Moba.Share\AbilityKit.Demo.Moba.Share.csproj"/>
+    <ProjectReference Include="..\AbilityKit.Demo.Moba.Infrastructure\AbilityKit.Demo.Moba.Infrastructure.csproj"/>
+    <ProjectReference Include="..\AbilityKit.Demo.Moba.Console\AbilityKit.Demo.Moba.Console.csproj"/>
+    <ProjectReference Include="..\AbilityKit.Demo.ET.Logic\AbilityKit.Demo.ET.Logic.csproj"/>
+    <ProjectReference Include="..\AbilityKit.Context\AbilityKit.Context.csproj"/>
+    <ProjectReference Include="..\AbilityKit.Combat.Navigation\AbilityKit.Combat.Navigation.csproj"/>
+    <ProjectReference Include="..\AbilityKit.Demo.Moba.Acceptance\AbilityKit.Demo.Moba.Acceptance.csproj"/>
+    <ProjectReference Include="..\AbilityKit.Demo.Moba.Acceptance.LiveSim\AbilityKit.Demo.Moba.Acceptance.LiveSim.csproj"/>
+    <ProjectReference Include="..\AbilityKit.Trace\AbilityKit.Trace.csproj"/>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Presentation/Moba/Timeline/MobaSkillPresentationTimelineRuntime.cs"/>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Presentation/Moba/Timeline/MobaSkillPresentationCastDriver.cs"/>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Presentation/Moba/Entities/Components/BattleCharacterHfsmComponent.cs"/>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Presentation/Moba/Entities/Components/CharacterPresentationActions.cs"/>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Tests/Unity/demo.moba.editor/MobaModifierNumericGoldenCases.cs"/>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\AbilityKit.Demo.Moba.Console\Configs\**\*" Link="Configs\%(RecursiveDir)%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest"/>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.12.0"/>
+    <PackageReference Include="xunit" Version="2.9.2"/>
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.8.2">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+</Project>

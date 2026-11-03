@@ -11,16 +11,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="../../Unity/Packages/com.abilitykit.world.networkfragments/Runtime/**/*.cs" 
-             Exclude="../../Unity/Packages/com.abilitykit.world.networkfragments/Runtime/**/*.asmdef" />
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Synchronization/Frames/Frames/FramePacket.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Synchronization/Frames/Frames/ISnapshotEnvelope.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Synchronization/Frames/Frames/RemoteFrameAggregator.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Synchronization/Frames/Frames/RemoteFrameBuffer.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Synchronization/Frames/Frames/RemoteInputFrame.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Battle/Synchronization/Frames/Frames/RemoteSnapshotFrame.cs"/>
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="../../src/AbilityKit.Core/AbilityKit.Core.csproj" />
-    <ProjectReference Include="../../src/AbilityKit.Host/AbilityKit.Host.csproj" />
-    <ProjectReference Include="../../src/AbilityKit.World.DI/AbilityKit.World.DI.csproj" />
-    <ProjectReference Include="../../src/AbilityKit.World.FrameSync/AbilityKit.World.FrameSync.csproj" />
-    <ProjectReference Include="../../src/AbilityKit.Network.Runtime/AbilityKit.Network.Runtime.csproj" />
+    <ProjectReference Include="../../src/AbilityKit.Core/AbilityKit.Core.csproj"/>
+    <ProjectReference Include="../../src/AbilityKit.Host/AbilityKit.Host.csproj"/>
+    <ProjectReference Include="../../src/AbilityKit.World.DI/AbilityKit.World.DI.csproj"/>
+    <ProjectReference Include="../../src/AbilityKit.World.FrameSync/AbilityKit.World.FrameSync.csproj"/>
+    <ProjectReference Include="../../src/AbilityKit.Network.Runtime/AbilityKit.Network.Runtime.csproj"/>
   </ItemGroup>
 
 </Project>

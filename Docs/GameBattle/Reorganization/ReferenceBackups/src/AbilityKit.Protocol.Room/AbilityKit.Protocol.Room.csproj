@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>AbilityKit.Protocol.Room</RootNamespace>
+    <AssemblyName>AbilityKit.Protocol.Room</AssemblyName>
+    <LangVersion>latest</LangVersion>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Integration/Networking/Room/Protocol/IsExternalInitPolyfill.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Networking/Room/Protocol/GatewayTimeSync/OpCodes.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Networking/Room/Protocol/GatewayTimeSync/WireTimeSyncBinary.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Networking/Room/Protocol/GatewayTimeSync/WireTimeSyncTypes.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Networking/Room/Protocol/Room/RoomGatewayIds.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Networking/Room/Protocol/Room/RoomGatewayOpCodes.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Networking/Room/Protocol/Room/RoomGatewaySyncTagKeys.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Networking/Room/Protocol/Room/RoomLaunchManifestHash.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Networking/Room/Protocol/Room/RoomProtocolDecoderModule.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Networking/Room/Protocol/Room/RoomTagKeys.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Networking/Room/Protocol/Room/WireReliableBattleEventTypes.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Networking/Room/Protocol/Room/WireRoomGatewayBinary.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Networking/Room/Protocol/Room/WireRoomGatewayTypes.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Networking/Room/Protocol/Generated/MemoryPack/ProjectMemoryPackCodecs.g.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Networking/Room/Protocol/Generated/MemoryPack/ProtocolCatalogs.g.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Networking/Room/Protocol/Generated/MemoryPack/WireRoomFrameInput.MemoryPack.g.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Networking/Room/Protocol/Generated/MemoryPack/WireRoomFramePush.MemoryPack.g.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Networking/Room/Protocol/Generated/MemoryPack/WireRoomGuestLoginReq.MemoryPack.g.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Networking/Room/Protocol/Generated/MemoryPack/WireRoomSubmitFrameInputReq.MemoryPack.g.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Networking/Room/Protocol/Generated/MemoryPack/WireRoomSubmitFrameInputRes.MemoryPack.g.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Networking/Room/Protocol/Generated/MemoryPack/WireRoomSubscribeFrameSyncReq.MemoryPack.g.cs;../../Unity/Assets/Scripts/GameBattle/Integration/Networking/Room/Protocol/Generated/MemoryPack/WireRoomSubscribeFrameSyncRes.MemoryPack.g.cs"/>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MemoryPack" Version="1.21.0"/>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../../src/AbilityKit.Core/AbilityKit.Core.csproj"/>
+    <ProjectReference Include="../../src/AbilityKit.Protocol/AbilityKit.Protocol.csproj"/>
+  </ItemGroup>
+
+</Project>

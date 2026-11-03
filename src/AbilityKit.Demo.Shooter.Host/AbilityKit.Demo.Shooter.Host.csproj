@@ -10,16 +10,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="../../Unity/Packages/com.abilitykit.demo.shooter.host/Runtime/**/*.cs"
-             Exclude="../../Unity/Packages/com.abilitykit.demo.shooter.host/Runtime/**/*.asmdef" />
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Example/Shooter/Runtime/Hosting/IShooterHostRequestContextResolver.cs;../../Unity/Assets/Scripts/GameBattle/Example/Shooter/Runtime/Hosting/ShooterHostNetworkRequestHandler.cs;../../Unity/Assets/Scripts/GameBattle/Example/Shooter/Runtime/Hosting/ShooterHostSessionBinding.cs"/>
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="../AbilityKit.Host/AbilityKit.Host.csproj" />
-    <ProjectReference Include="../AbilityKit.Host.Network/AbilityKit.Host.Network.csproj" />
-    <ProjectReference Include="../AbilityKit.Network.Host/AbilityKit.Network.Host.csproj" />
-    <ProjectReference Include="../AbilityKit.Network.Runtime/AbilityKit.Network.Runtime.csproj" />
-    <ProjectReference Include="../AbilityKit.Demo.Shooter.Runtime/AbilityKit.Demo.Shooter.Runtime.csproj" />
-    <ProjectReference Include="../AbilityKit.Protocol.Shooter/AbilityKit.Protocol.Shooter.csproj" />
+    <ProjectReference Include="../AbilityKit.Host/AbilityKit.Host.csproj"/>
+    <ProjectReference Include="../AbilityKit.Host.Network/AbilityKit.Host.Network.csproj"/>
+    <ProjectReference Include="../AbilityKit.Network.Host/AbilityKit.Network.Host.csproj"/>
+    <ProjectReference Include="../AbilityKit.Network.Runtime/AbilityKit.Network.Runtime.csproj"/>
+    <ProjectReference Include="../AbilityKit.Demo.Shooter.Runtime/AbilityKit.Demo.Shooter.Runtime.csproj"/>
+    <ProjectReference Include="../AbilityKit.Protocol.Shooter/AbilityKit.Protocol.Shooter.csproj"/>
   </ItemGroup>
 </Project>

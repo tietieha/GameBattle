@@ -1,0 +1,32 @@
+{
+  "jsonrpc": "2.0",
+  "id": 4,
+  "result": {
+    "_meta": {
+      "fastmcp": {
+        "wrap_result": true
+      }
+    },
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"success\":true,\"message\":\"Refresh requested.\",\"error\":null,\"data\":{\"refresh_triggered\":true,\"compile_requested\":true,\"resulting_state\":\"compiling\",\"hint\":\"Unity refresh completed; editor should be ready.\"},\"hint\":null}"
+      }
+    ],
+    "structuredContent": {
+      "result": {
+        "success": true,
+        "message": "Refresh requested.",
+        "error": null,
+        "data": {
+          "refresh_triggered": true,
+          "compile_requested": true,
+          "resulting_state": "compiling",
+          "hint": "Unity refresh completed; editor should be ready."
+        },
+        "hint": null
+      }
+    },
+    "isError": false
+  }
+}

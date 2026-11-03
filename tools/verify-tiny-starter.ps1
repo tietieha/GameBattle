@@ -442,12 +442,12 @@ function Invoke-TinyCrossProcessUnityWithRetry([string]$Mode) {
 
 function Assert-TinyPackageDistribution([string]$Project) {
     $unsafePackage = Join-Path $Project `
-        'Packages/com.abilitykit.thirdparty.unsafe/Runtime/System.Runtime.CompilerServices.Unsafe.dll'
+        'Assets/Scripts/GameBattle/Runtime/Foundation/Dependencies/Unsafe/System.Runtime.CompilerServices.Unsafe.dll'
     if (-not (Test-Path -LiteralPath $unsafePackage)) {
         throw "Tiny project is missing its packaged Unsafe dependency: $Project"
     }
     $guide = Join-Path $Project `
-        'Packages/com.abilitykit.demo.tiny/Documentation~/IntegrationGuide.md'
+        'Assets/Scripts/GameBattle/Documentation~/Modules/demo.tiny/IntegrationGuide.md'
     if (-not (Test-Path -LiteralPath $guide)) {
         throw "Tiny project is missing its package integration guide: $Project"
     }

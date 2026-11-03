@@ -8,7 +8,7 @@ namespace AbilityKit.Testing.IrSpike;
 internal static class Program
 {
     private const string ExpectationRelPath =
-        "Unity/Packages/com.abilitykit.demo.moba.view.runtime/Runtime/Game/Test/Expectations/skill_10010101_scenario.expected.json";
+        "Unity/Assets/Scripts/GameBattle/Example/Moba/Tests/LegacyClient/Expectations/skill_10010101_scenario.expected.json";
 
     private static int Main()
     {

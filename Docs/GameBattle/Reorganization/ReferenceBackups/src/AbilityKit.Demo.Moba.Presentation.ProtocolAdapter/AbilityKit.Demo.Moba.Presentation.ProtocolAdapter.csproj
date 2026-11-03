@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);CS1591</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Presentation/Moba/Contracts/ProtocolAdapter/ActorDespawnSnapshotDecoder.cs;../../Unity/Assets/Scripts/GameBattle/Presentation/Moba/Contracts/ProtocolAdapter/ActorDespawnSnapshotMapper.cs;../../Unity/Assets/Scripts/GameBattle/Presentation/Moba/Contracts/ProtocolAdapter/ActorSpawnSnapshotDecoder.cs;../../Unity/Assets/Scripts/GameBattle/Presentation/Moba/Contracts/ProtocolAdapter/ActorSpawnSnapshotMapper.cs;../../Unity/Assets/Scripts/GameBattle/Presentation/Moba/Contracts/ProtocolAdapter/ActorTransformSnapshotDecoder.cs;../../Unity/Assets/Scripts/GameBattle/Presentation/Moba/Contracts/ProtocolAdapter/ActorTransformSnapshotMapper.cs;../../Unity/Assets/Scripts/GameBattle/Presentation/Moba/Contracts/ProtocolAdapter/AreaEventSnapshotDecoder.cs;../../Unity/Assets/Scripts/GameBattle/Presentation/Moba/Contracts/ProtocolAdapter/AreaEventSnapshotMapper.cs;../../Unity/Assets/Scripts/GameBattle/Presentation/Moba/Contracts/ProtocolAdapter/BattleEnterGameSnapshotDecoder.cs;../../Unity/Assets/Scripts/GameBattle/Presentation/Moba/Contracts/ProtocolAdapter/BattleEnterGameSnapshotMapper.cs;../../Unity/Assets/Scripts/GameBattle/Presentation/Moba/Contracts/ProtocolAdapter/CharacterActionSnapshotCodec.cs;../../Unity/Assets/Scripts/GameBattle/Presentation/Moba/Contracts/ProtocolAdapter/DamageEventSnapshotDecoder.cs;../../Unity/Assets/Scripts/GameBattle/Presentation/Moba/Contracts/ProtocolAdapter/DamageEventSnapshotMapper.cs;../../Unity/Assets/Scripts/GameBattle/Presentation/Moba/Contracts/ProtocolAdapter/GameplayClockSnapshotCodec.cs;../../Unity/Assets/Scripts/GameBattle/Presentation/Moba/Contracts/ProtocolAdapter/GameplayMatchSnapshotCodec.cs;../../Unity/Assets/Scripts/GameBattle/Presentation/Moba/Contracts/ProtocolAdapter/GameplayRespawnSnapshotCodec.cs;../../Unity/Assets/Scripts/GameBattle/Presentation/Moba/Contracts/ProtocolAdapter/GatewayStateSyncSnapshotDecoder.cs;../../Unity/Assets/Scripts/GameBattle/Presentation/Moba/Contracts/ProtocolAdapter/GatewayStateSyncSnapshotMapper.cs;../../Unity/Assets/Scripts/GameBattle/Presentation/Moba/Contracts/ProtocolAdapter/PresentationCueSnapshotDecoder.cs;../../Unity/Assets/Scripts/GameBattle/Presentation/Moba/Contracts/ProtocolAdapter/PresentationCueSnapshotMapper.cs;../../Unity/Assets/Scripts/GameBattle/Presentation/Moba/Contracts/ProtocolAdapter/ProjectileEventSnapshotDecoder.cs;../../Unity/Assets/Scripts/GameBattle/Presentation/Moba/Contracts/ProtocolAdapter/ProjectileEventSnapshotMapper.cs;../../Unity/Assets/Scripts/GameBattle/Presentation/Moba/Contracts/ProtocolAdapter/SkillStateSnapshotDecoder.cs;../../Unity/Assets/Scripts/GameBattle/Presentation/Moba/Contracts/ProtocolAdapter/SkillStateSnapshotMapper.cs;../../Unity/Assets/Scripts/GameBattle/Presentation/Moba/Contracts/ProtocolAdapter/StateHashSnapshotDecoder.cs;../../Unity/Assets/Scripts/GameBattle/Presentation/Moba/Contracts/ProtocolAdapter/StateHashSnapshotMapper.cs"/>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../AbilityKit.Core/AbilityKit.Core.csproj"/>
+    <ProjectReference Include="../AbilityKit.Demo.Moba.Presentation.Contracts/AbilityKit.Demo.Moba.Presentation.Contracts.csproj"/>
+    <ProjectReference Include="../AbilityKit.Protocol.Moba/AbilityKit.Protocol.Moba.csproj"/>
+    <ProjectReference Include="../AbilityKit.Protocol.Room/AbilityKit.Protocol.Room.csproj"/>
+    <ProjectReference Include="../AbilityKit.World.DI/AbilityKit.World.DI.csproj"/>
+    <ProjectReference Include="../AbilityKit.World.FrameSync/AbilityKit.World.FrameSync.csproj"/>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AbilityKitStable>true</AbilityKitStable>
+    <Nullable>enable</Nullable>
+    <RootNamespace>AbilityKit.Attributes</RootNamespace>
+    <AssemblyName>AbilityKit.Attributes</AssemblyName>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <!-- 引用 Packages 目录下的源码 -->
+  <ItemGroup>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Battle/Actor/Attributes/Attributes/AttributeEffect.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Actor/Attributes/Attributes/Attributes.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Actor/Attributes/Attributes/Constraint/IAttributeConstraint.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Actor/Attributes/Attributes/Constraint/RangeAttributeConstraint.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Actor/Attributes/Attributes/Core/AttributeContext.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Actor/Attributes/Attributes/Core/AttributeDef.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Actor/Attributes/Attributes/Core/AttributeGroup.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Actor/Attributes/Attributes/Core/AttributeId.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Actor/Attributes/Attributes/Core/AttributeIdMapper.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Actor/Attributes/Attributes/Core/AttributeInstance.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Actor/Attributes/Attributes/Core/AttributeRegistry.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Actor/Attributes/Attributes/Core/IAttributeRegistry.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Actor/Attributes/Attributes/Formula/AttributeExpressionFormula.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Actor/Attributes/Attributes/Formula/DefaultAttributeFormula.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Actor/Attributes/Attributes/Formula/IAttributeDependencyProvider.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Actor/Attributes/Attributes/Formula/IAttributeFormula.cs"/>
+  </ItemGroup>
+
+  <!-- Reference Modifiers -->
+  <ItemGroup>
+    <ProjectReference Include="..\AbilityKit.Modifiers\AbilityKit.Modifiers.csproj"/>
+  </ItemGroup>
+</Project>

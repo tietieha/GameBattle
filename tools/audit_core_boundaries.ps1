@@ -3,7 +3,7 @@ param()
 $ErrorActionPreference = 'Stop'
 
 $repoRoot = [System.IO.Path]::GetFullPath((Join-Path $PSScriptRoot '..'))
-$runtimeRoot = Join-Path $repoRoot 'Unity\Packages\com.abilitykit.core\Runtime'
+$runtimeRoot = Join-Path $repoRoot 'Unity\Assets\Scripts\GameBattle\Runtime\Foundation'
 $foundationAsmdefPath = Join-Path $runtimeRoot 'com.abilitykit.core.asmdef'
 $unityAsmdefPath = Join-Path $runtimeRoot 'Unity\AbilityKit.Core.Unity.asmdef'
 $coreProjectPath = Join-Path $repoRoot 'src\AbilityKit.Core\AbilityKit.Core.csproj'

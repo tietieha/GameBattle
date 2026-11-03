@@ -12,22 +12,21 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="../../Unity/Packages/com.abilitykit.combat.projectile/Runtime/**/*.cs"
-             Exclude="../../Unity/Packages/com.abilitykit.combat.projectile/Runtime/**/*.asmdef" />
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Runtime/Projectile/ProjectileWorldModule.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Projectile/Area/AreaEvents.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Projectile/Area/AreaId.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Projectile/Area/AreaSpawnParams.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Projectile/Area/AreaWorld.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Projectile/Emitters/BasicProjectileEmitter.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Projectile/Emitters/IProjectileEmitter.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Projectile/Filters/DefaultProjectileHitFilter.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Projectile/Filters/IProjectileHitFilter.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Projectile/Patterns/BurstPattern.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Projectile/Patterns/FanPattern.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Projectile/Patterns/IProjectileSpawnPattern.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Projectile/Patterns/ScatterPattern.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Projectile/Patterns/SingleShotPattern.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Projectile/Policies/ExitOnHitPolicy.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Projectile/Policies/IProjectileHitPolicy.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Projectile/Policies/PierceHitPolicy.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Projectile/Policies/ProjectileHitPolicyFactory.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Projectile/Rollback/ProjectileRollbackProvider.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Projectile/Runtime/IProjectileReturnTargetProvider.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Projectile/Runtime/Projectile.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Projectile/Runtime/ProjectileEvents.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Projectile/Runtime/ProjectileExitReason.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Projectile/Runtime/ProjectileFixedConvert.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Projectile/Runtime/ProjectileId.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Projectile/Runtime/ProjectileRuntimeState.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Projectile/Runtime/ProjectileSpawnParams.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Projectile/Runtime/ProjectileWorld.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Projectile/Schedules/ProjectileScheduleId.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Projectile/Schedules/ProjectileScheduleParams.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Projectile/Services/IProjectileReturnTargetProvider.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Projectile/Services/IProjectileService.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Projectile/Services/ProjectileService.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Projectile/Systems/ProjectileTickSystem.cs"/>
   </ItemGroup>
 
   <ItemGroup>
-    <InternalsVisibleTo Include="AbilityKit.Combat.Projectile.Tests" />
+    <InternalsVisibleTo Include="AbilityKit.Combat.Projectile.Tests"/>
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="../../src/AbilityKit.Core/AbilityKit.Core.csproj" />
-    <ProjectReference Include="../../src/AbilityKit.World.DI/AbilityKit.World.DI.csproj" />
-    <ProjectReference Include="../../src/AbilityKit.World.Entitas/AbilityKit.World.Entitas.csproj" />
-    <ProjectReference Include="../../src/AbilityKit.World.FrameSync/AbilityKit.World.FrameSync.csproj" />
-    <ProjectReference Include="../../src/AbilityKit.World.ECS/AbilityKit.World.ECS.csproj" />
-    <ProjectReference Include="../../src/AbilityKit.Combat.Collision.Abstractions/AbilityKit.Combat.Collision.Abstractions.csproj" />
-    <ProjectReference Include="../../src/AbilityKit.Deterministic/AbilityKit.Deterministic.csproj" />
+    <ProjectReference Include="../../src/AbilityKit.Core/AbilityKit.Core.csproj"/>
+    <ProjectReference Include="../../src/AbilityKit.World.DI/AbilityKit.World.DI.csproj"/>
+    <ProjectReference Include="../../src/AbilityKit.World.Entitas/AbilityKit.World.Entitas.csproj"/>
+    <ProjectReference Include="../../src/AbilityKit.World.FrameSync/AbilityKit.World.FrameSync.csproj"/>
+    <ProjectReference Include="../../src/AbilityKit.World.ECS/AbilityKit.World.ECS.csproj"/>
+    <ProjectReference Include="../../src/AbilityKit.Combat.Collision.Abstractions/AbilityKit.Combat.Collision.Abstractions.csproj"/>
+    <ProjectReference Include="../../src/AbilityKit.Deterministic/AbilityKit.Deterministic.csproj"/>
   </ItemGroup>
 
 </Project>

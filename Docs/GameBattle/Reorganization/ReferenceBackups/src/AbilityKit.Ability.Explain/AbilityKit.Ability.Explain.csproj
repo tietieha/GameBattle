@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>AbilityKit</RootNamespace>
+    <AssemblyName>AbilityKit.Ability.Explain</AssemblyName>
+    <LangVersion>latest</LangVersion>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Editor/Debugging/AbilityExplain/Actions/ExplainAction.cs;../../Unity/Assets/Scripts/GameBattle/Editor/Debugging/AbilityExplain/Ids/ExplainNodeId.cs;../../Unity/Assets/Scripts/GameBattle/Editor/Debugging/AbilityExplain/Keys/PipelineItemKey.cs;../../Unity/Assets/Scripts/GameBattle/Editor/Debugging/AbilityExplain/Model/ExplainForest.cs;../../Unity/Assets/Scripts/GameBattle/Editor/Debugging/AbilityExplain/Model/ExplainIssue.cs;../../Unity/Assets/Scripts/GameBattle/Editor/Debugging/AbilityExplain/Model/ExplainNode.cs;../../Unity/Assets/Scripts/GameBattle/Editor/Debugging/AbilityExplain/Model/ExplainResolveResult.cs;../../Unity/Assets/Scripts/GameBattle/Editor/Debugging/AbilityExplain/Model/ExplainSeverity.cs;../../Unity/Assets/Scripts/GameBattle/Editor/Debugging/AbilityExplain/Model/ExplainTimeline.cs;../../Unity/Assets/Scripts/GameBattle/Editor/Debugging/AbilityExplain/Navigation/NavigationTarget.cs;../../Unity/Assets/Scripts/GameBattle/Editor/Debugging/AbilityExplain/Services/ExplainExpandRequest.cs;../../Unity/Assets/Scripts/GameBattle/Editor/Debugging/AbilityExplain/Services/ExplainResolveContext.cs;../../Unity/Assets/Scripts/GameBattle/Editor/Debugging/AbilityExplain/Services/ExplainResolveOptions.cs;../../Unity/Assets/Scripts/GameBattle/Editor/Debugging/AbilityExplain/Services/ExplainResolveRequest.cs;../../Unity/Assets/Scripts/GameBattle/Editor/Debugging/AbilityExplain/Services/IDiscoveryPolicy.cs;../../Unity/Assets/Scripts/GameBattle/Editor/Debugging/AbilityExplain/Services/IEntityProvider.cs;../../Unity/Assets/Scripts/GameBattle/Editor/Debugging/AbilityExplain/Services/IEntityProviderEx.cs;../../Unity/Assets/Scripts/GameBattle/Editor/Debugging/AbilityExplain/Services/IExplainResolver.cs;../../Unity/Assets/Scripts/GameBattle/Editor/Debugging/AbilityExplain/Services/IExplainResolverEx.cs;../../Unity/Assets/Scripts/GameBattle/Editor/Debugging/AbilityExplain/Services/INavigator.cs;../../Unity/Assets/Scripts/GameBattle/Editor/Debugging/AbilityExplain/Services/INavigatorEx.cs;../../Unity/Assets/Scripts/GameBattle/Editor/Debugging/AbilityExplain/Services/IRegistryPriority.cs;../../Unity/Assets/Scripts/GameBattle/Editor/Debugging/AbilityExplain/Services/ModifierPreviewInput.cs;../../Unity/Assets/Scripts/GameBattle/Editor/Debugging/AbilityExplain/Source/ExplainSourceRef.cs"/>
+  </ItemGroup>
+
+</Project>

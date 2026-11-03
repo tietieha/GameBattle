@@ -1,6 +1,6 @@
 param(
     [Parameter(Mandatory = $false)]
-    [string]$AuthoritativeResourcesRoot = "Unity\Packages\com.abilitykit.demo.moba.view.runtime\Resources",
+    [string]$AuthoritativeResourcesRoot = "Unity\Assets\Scripts\GameBattle\Example\Moba\Resources",
 
     [Parameter(Mandatory = $false)]
     [string]$ConsoleReplicaRoot = "src\AbilityKit.Demo.Moba.Console\Configs",
@@ -33,14 +33,14 @@ if ($selectedModes.Count -gt 1) {
 $isCheckMode = $Check -or (!$DryRun -and !$Apply)
 
 $repoRoot = Split-Path -Parent $PSScriptRoot
-$packageResourcesRoot = [System.IO.Path]::GetFullPath((Join-Path $repoRoot "Unity\Packages\com.abilitykit.demo.moba.view.runtime\Resources"))
+$packageResourcesRoot = [System.IO.Path]::GetFullPath((Join-Path $repoRoot "Unity\Assets\Scripts\GameBattle\Example\Moba\Resources"))
 $absSourceRoot = [System.IO.Path]::GetFullPath((Join-Path $repoRoot $AuthoritativeResourcesRoot))
 $absTargetRoot = [System.IO.Path]::GetFullPath((Join-Path $repoRoot $ConsoleReplicaRoot))
 $unityRoot = [System.IO.Path]::GetFullPath((Join-Path $repoRoot "Unity"))
 $unityPrefix = $unityRoot.TrimEnd([System.IO.Path]::DirectorySeparatorChar, [System.IO.Path]::AltDirectorySeparatorChar) + [System.IO.Path]::DirectorySeparatorChar
 
 if (!$absSourceRoot.Equals($packageResourcesRoot, [System.StringComparison]::OrdinalIgnoreCase)) {
-    throw "AuthoritativeResourcesRoot must be Unity\Packages\com.abilitykit.demo.moba.view.runtime\Resources. Production MOBA JSON has one authoritative source."
+    throw "AuthoritativeResourcesRoot must be Unity\Assets\Scripts\GameBattle\Example\Moba\Resources. Production MOBA JSON has one authoritative source."
 }
 
 if ($absTargetRoot.Equals($unityRoot, [System.StringComparison]::OrdinalIgnoreCase) -or

@@ -1,0 +1,20 @@
+{
+  "name": "AbilityKit.Ability.Behavior",
+  "rootNamespace": "AbilityKit.Ability.Behavior",
+  "references": [
+    "AbilityKit.Core",
+    "AbilityKit.Deterministic",
+    "AbilityKit.Continuous",
+    "AbilityKit.Ability",
+    "AbilityKit.Pipeline"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": true
+}

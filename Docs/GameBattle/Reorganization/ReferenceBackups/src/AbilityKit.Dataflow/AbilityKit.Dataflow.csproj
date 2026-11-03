@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>AbilityKit.Dataflow</RootNamespace>
+    <AssemblyName>AbilityKit.Dataflow</AssemblyName>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <!-- 引用 Packages 目录下的源码 -->
+  <ItemGroup>
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Battle/Effect/Calculation/Core/Context/DataflowContext.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Effect/Calculation/Core/Context/DataflowSlots.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Effect/Calculation/Core/Context/IDataflowContext.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Effect/Calculation/Core/Pipeline/DataflowPipeline.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Effect/Calculation/Core/Pipeline/DataflowResult.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Effect/Calculation/Core/Processor/CommonProcessors.cs;../../Unity/Assets/Scripts/GameBattle/Battle/Effect/Calculation/Core/Processor/IDataflowProcessor.cs"/>
+  </ItemGroup>
+</Project>

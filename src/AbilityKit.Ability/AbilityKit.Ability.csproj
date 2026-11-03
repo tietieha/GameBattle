@@ -13,30 +13,26 @@
 
   <!-- 引用 Unity/Packages 目录下的源码，排除 Unity 特定文件 -->
   <ItemGroup>
-    <Compile Include="../../Unity/Packages/com.abilitykit.ability/Runtime/**/*.cs"
-             Exclude="
-                      ../../Unity/Packages/com.abilitykit.ability/Runtime/**/*.asmdef;
-                      ../../Unity/Packages/com.abilitykit.ability/Runtime/**/Builtins/*Factory.cs;
-                      ../../Unity/Packages/com.abilitykit.ability/Runtime/**/Effect/*EventSinkExtensions.cs" />
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Runtime/Content/Definitions/Triggering/TriggerAuthoringModels.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Content/Definitions/Ability/ArgValueKind.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Entity/Contracts/IEcsWorld.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Entity/Contracts/IUnitFacade.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Entity/Contracts/IUnitResolver.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Effect/AreaTriggering.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Effect/EffectContainer.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Effect/EffectDurationPolicy.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Effect/EffectExecutionContext.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Effect/EffectInstance.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Effect/EffectTriggering.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Effect/GameplayEffectSpec.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Effect/IEffectComponent.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Effect/IEffectTriggeringSwitch.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Effect/IGameplayEffectCue.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Effect/NullGameplayEffectCue.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Effect/ProjectileTriggering.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Content/HotReload/ConfigReloadBus.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Content/HotReload/ConfigReloadResult.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Entity/Tags/Ability/DurableRegistry.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Entity/Tags/Ability/GameplayTagService.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Entity/Tags/Ability/TagEffectRouter.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Content/Definitions/Triggering/Source/TriggerSourceConfig.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Content/Contracts/ConfigGroup.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Content/Contracts/ConfigTextSinkAdapter.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Content/Contracts/IConfigBytesSource.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Content/Contracts/IConfigDatabase.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Content/Contracts/IConfigDeserializer.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Content/Contracts/IConfigGroup.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Content/Contracts/IConfigSource.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Content/Contracts/IConfigTableRegistry.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Content/Contracts/IConfigTextSink.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Content/Contracts/ITextAssetLoader.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Content/Contracts/NullTextAssetLoader.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Content/Contracts/TypeNameComparer.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Content/Catalog/Database/ConfigDatabase.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Content/Catalog/Database/IntKeyConfigTable.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Content/Serialization/Json/JsonNetConfigDeserializer.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Content/Sources/DictionaryConfigSource.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Effect/Components/AttributeEffectComponent.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Ability/Shared/Pipeline/AbilityPipelineSharedKeys.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Ability/WorldServices/Services/DefaultEffectTriggeringSwitch.cs;../../Unity/Assets/Scripts/GameBattle/Runtime/Ability/WorldServices/Services/DefaultWorldServicesModule.cs"/>
   </ItemGroup>
 
   <!-- 项目引用 -->
   <ItemGroup>
-    <ProjectReference Include="..\AbilityKit.Core\AbilityKit.Core.csproj" />
-    <ProjectReference Include="..\AbilityKit.Deterministic\AbilityKit.Deterministic.csproj" />
-    <ProjectReference Include="..\AbilityKit.GameplayTags\AbilityKit.GameplayTags.csproj" />
-    <ProjectReference Include="..\AbilityKit.Triggering\AbilityKit.Triggering.csproj" />
-    <ProjectReference Include="..\AbilityKit.Pipeline\AbilityKit.Pipeline.csproj" />
-    <ProjectReference Include="..\AbilityKit.Host\AbilityKit.Host.csproj" />
-    <ProjectReference Include="..\AbilityKit.World.ECS\AbilityKit.World.ECS.csproj" />
-    <ProjectReference Include="..\AbilityKit.HFSM.Core\AbilityKit.HFSM.Core.csproj" />
-    <ProjectReference Include="..\AbilityKit.Modifiers\AbilityKit.Modifiers.csproj" />
-    <ProjectReference Include="..\AbilityKit.Combat.Projectile\AbilityKit.Combat.Projectile.csproj" />
+    <ProjectReference Include="..\AbilityKit.Core\AbilityKit.Core.csproj"/>
+    <ProjectReference Include="..\AbilityKit.Deterministic\AbilityKit.Deterministic.csproj"/>
+    <ProjectReference Include="..\AbilityKit.GameplayTags\AbilityKit.GameplayTags.csproj"/>
+    <ProjectReference Include="..\AbilityKit.Triggering\AbilityKit.Triggering.csproj"/>
+    <ProjectReference Include="..\AbilityKit.Pipeline\AbilityKit.Pipeline.csproj"/>
+    <ProjectReference Include="..\AbilityKit.Host\AbilityKit.Host.csproj"/>
+    <ProjectReference Include="..\AbilityKit.World.ECS\AbilityKit.World.ECS.csproj"/>
+    <ProjectReference Include="..\AbilityKit.HFSM.Core\AbilityKit.HFSM.Core.csproj"/>
+    <ProjectReference Include="..\AbilityKit.Modifiers\AbilityKit.Modifiers.csproj"/>
+    <ProjectReference Include="..\AbilityKit.Combat.Projectile\AbilityKit.Combat.Projectile.csproj"/>
   </ItemGroup>
 
   <!-- NuGet Dependencies -->
   <ItemGroup>
-    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3"/>
   </ItemGroup>
 
 </Project>

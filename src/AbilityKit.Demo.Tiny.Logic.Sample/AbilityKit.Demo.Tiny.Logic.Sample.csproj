@@ -6,7 +6,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="../../Unity/Packages/com.abilitykit.demo.tiny.logic/Samples~/01-Logic/TinyLogicExample.cs" />
-    <ProjectReference Include="../AbilityKit.Demo.Tiny.Core/AbilityKit.Demo.Tiny.Core.csproj" />
+    <Compile Include="../../Unity/Assets/Scripts/GameBattle/Example/Optional~/demo.tiny.logic/01-Logic/TinyLogicExample.cs"/>
+    <ProjectReference Include="../AbilityKit.Demo.Tiny.Core/AbilityKit.Demo.Tiny.Core.csproj"/>
   </ItemGroup>
 </Project>

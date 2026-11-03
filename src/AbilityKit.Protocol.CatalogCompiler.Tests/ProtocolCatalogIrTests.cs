@@ -11,7 +11,7 @@ public sealed class ProtocolCatalogIrTests
 {
     private const string CatalogInputRoot = "Protocols/Catalogs";
     private const string ManifestOutput = "Protocols/Generated/protocol-manifest.json";
-    private const string CSharpOutput = "Unity/Packages/com.abilitykit.protocol/Runtime/Generated/BuiltInProtocolCatalogs.g.cs";
+    private const string CSharpOutput = "Unity/Assets/Scripts/GameBattle/Runtime/Battle/Serialization/Protocol/Generated/BuiltInProtocolCatalogs.g.cs";
 
     [Fact]
     public void Golden_EmittedManifestAndCSharp_AreByteStable()

@@ -1,0 +1,88 @@
+{
+    "schemaVersion": 0,
+    "runtimeType": null,
+    "length": 2.49,
+    "groups": [
+        {
+            "name": "Group",
+            "actorId": 0,
+            "active": true,
+            "locked": false,
+            "collapsed": false,
+            "tracks": [
+                {
+                    "type": "AbilityKit.ActionEditorImpl.AnimationTrack",
+                    "name": "AnimationTrack",
+                    "active": true,
+                    "locked": false,
+                    "clips": [
+                        {
+                            "type": "AbilityKit.ActionEditorImpl.PlayAnimation",
+                            "runtimeType": "presentation",
+                            "start": 0.0,
+                            "length": 1.0,
+                            "blendIn": 0.25,
+                            "blendOut": 0.25,
+                            "args": {
+                                "clipKey": "",
+                                "clipLength": "0",
+                                "playbackSpeed": "1",
+                                "clipOffset": "0"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "AbilityKit.ActionEditorImpl.ActionTrack",
+                    "name": "ActionTrack",
+                    "active": true,
+                    "locked": false,
+                    "clips": [
+                        {
+                            "type": "AbilityKit.ActionEditorImpl.MoveBy",
+                            "runtimeType": null,
+                            "start": 0.41,
+                            "length": 0.43,
+                            "blendIn": 0.0,
+                            "blendOut": 0.0,
+                            "args": {
+
+                            }
+                        },
+                        {
+                            "type": "AbilityKit.ActionEditorImpl.RotateTo",
+                            "runtimeType": null,
+                            "start": 1.19,
+                            "length": 0.3000001,
+                            "blendIn": 0.0,
+                            "blendOut": 0.0,
+                            "args": {
+
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "AbilityKit.ActionEditorImpl.EffectTrack",
+                    "name": "EffectTrack",
+                    "active": true,
+                    "locked": false,
+                    "clips": [
+                        {
+                            "type": "AbilityKit.ActionEditorImpl.PlayParticle",
+                            "runtimeType": "presentation",
+                            "start": 1.49,
+                            "length": 1.0,
+                            "blendIn": 0.0,
+                            "blendOut": 0.0,
+                            "args": {
+                                "resourceKey": ""
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "$type": "AbilityKit.ActionSchema.SkillAssetDto"
+}

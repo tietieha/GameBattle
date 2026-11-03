@@ -18,7 +18,7 @@ public sealed class MobaCharacterHfsmTests
     public void AuthoredDefinitionMatchesDefaultRuntimeGraph()
     {
         var path = Path.GetFullPath(Path.Combine(Path.GetDirectoryName(SourcePath())!,
-            "../../../Unity/Packages/com.abilitykit.demo.moba.view.runtime/Resources/moba/character_hfsm.json"));
+            "../../../Unity/Assets/Scripts/GameBattle/Example/Moba/Resources/moba/character_hfsm.json"));
         var definition = DefinitionJson.Load(File.ReadAllText(path));
         Assert.Equal(MobaCharacterHfsmProfile.Id, definition.DefinitionId);
         Assert.Equal(MobaCharacterHfsmProfile.CreateDefinition().ComputeDefinitionHash(),
@@ -163,7 +163,7 @@ public sealed class MobaCharacterHfsmTests
     public void HeadlessSequenceWaitAndLiveReplacementSeekFromLocalFrame()
     {
         var path = Path.GetFullPath(Path.Combine(Path.GetDirectoryName(SourcePath())!,
-            "../../../Unity/Packages/com.abilitykit.demo.moba.view.runtime/Resources/moba/character_view_actions.json"));
+            "../../../Unity/Assets/Scripts/GameBattle/Example/Moba/Resources/moba/character_view_actions.json"));
         var catalog = CharacterPresentationActionCatalog.LoadJson(File.ReadAllText(path));
         var definition = MobaCharacterHfsmProfile.CreateDefinition();
         using var logic = new MobaCharacterHfsmRuntime(17, definition, 0, Fixed64.Zero);
@@ -235,7 +235,7 @@ public sealed class MobaCharacterHfsmTests
     public void AuthoredHeroOverrideAndLiveActorReplacementAreIsolated()
     {
         var path = Path.GetFullPath(Path.Combine(Path.GetDirectoryName(SourcePath())!,
-            "../../../Unity/Packages/com.abilitykit.demo.moba.view.runtime/Resources/moba/character_view_actions.json"));
+            "../../../Unity/Assets/Scripts/GameBattle/Example/Moba/Resources/moba/character_view_actions.json"));
         var catalog = CharacterPresentationActionCatalog.LoadJson(File.ReadAllText(path));
         var definition = MobaCharacterHfsmProfile.CreateDefinition();
         using var logic = new MobaCharacterHfsmRuntime(17, definition, 0, Fixed64.Zero);
